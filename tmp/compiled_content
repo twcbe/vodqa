@@ -7160,7 +7160,7 @@ section {
     height: 100%;
     padding: 1rem; }
 ;T;
-@Ú;{ I"/favicon.ico/;T{;{ ;{ I"/fonts/fontello.eot/;T{;{ ;{ I"/fonts/fontello.ttf/;T{;{ ;{ I"/fonts/fontello.woff/;T{;{ ;{ I"/humans.txt/;T{;{ ;{ I"/img/banner.png/;T{;{ ;{ I"/img/dark-bg.jpg/;T{;{ ;{ I"/img/map.png/;T{;{ ;{ I" /img/speaker/bharathan.png/;T{;{ ;{ I"/img/speaker/sriram.png/;T{;{ ;{ I"/img/tw-logo-black.png/;T{;{ ;{ I"/img/tw-logo.png/;T{;{ ;{ I"/img/Vodqa-white.png/;T{;{ ;{ I"/img/white-bg.png/;T{;{ ;{ I"/js/custom.modernizr.js/;T{;{ ;{ I"/js/skrollr.min.js/;T{;{ ;{ I"/js/ticker.js/;T{;{ ;{ I"/LICENSE.md/;T{;{ ;{ I"/README.md/;T{;{ ;{ I"/robots.txt/;T{;{ ;{ I"'/img/speaker/BharathanKumaran.png/;T{;{ ;{ I"/img/speaker/jaya.png/;T{;{ ;{ I"'/img/speaker/NazneenRupawalla.png/;T{;{ ;{ I""/img/speaker/PritiBiyani.jpg/;T{;{ ;{ I"/img/speaker/Sandhya.JPG/;T{;{ ;{ I"/img/speaker/Thivya.png/;T{;{ ;{ I"$/img/speaker/Vijayaragavan.jpg/;T{;{ ;{ I"/2016-12/;T{;{	;I"ËK<!DOCTYPE html>
+@Ú;{ I"/favicon.ico/;T{;{ ;{ I"/fonts/fontello.eot/;T{;{ ;{ I"/fonts/fontello.ttf/;T{;{ ;{ I"/fonts/fontello.woff/;T{;{ ;{ I"/humans.txt/;T{;{ ;{ I"/img/banner.png/;T{;{ ;{ I"/img/dark-bg.jpg/;T{;{ ;{ I"/img/map.png/;T{;{ ;{ I" /img/speaker/bharathan.png/;T{;{ ;{ I"/img/speaker/sriram.png/;T{;{ ;{ I"/img/tw-logo-black.png/;T{;{ ;{ I"/img/tw-logo.png/;T{;{ ;{ I"/img/Vodqa-white.png/;T{;{ ;{ I"/img/white-bg.png/;T{;{ ;{ I"/js/custom.modernizr.js/;T{;{ ;{ I"/js/skrollr.min.js/;T{;{ ;{ I"/js/ticker.js/;T{;{ ;{ I"/LICENSE.md/;T{;{ ;{ I"/README.md/;T{;{ ;{ I"/robots.txt/;T{;{ ;{ I"'/img/speaker/BharathanKumaran.png/;T{;{ ;{ I"/img/speaker/jaya.png/;T{;{ ;{ I"'/img/speaker/NazneenRupawalla.png/;T{;{ ;{ I""/img/speaker/PritiBiyani.jpg/;T{;{ ;{ I"/img/speaker/Sandhya.JPG/;T{;{ ;{ I"/img/speaker/Thivya.png/;T{;{ ;{ I"$/img/speaker/Vijayaragavan.jpg/;T{;{ ;{ I"/2016-12/;T{;{	;I"ñJ<!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -7240,7 +7240,7 @@ section {
         <div class="row actions">
             <div class="large-5 columns participate">
                 
-                    <a href="participate.html" target="_blank" rel="nofollow"
+                    <a href="https://www.meetup.com/VodQA-Coimbatore/events/235458537/" target="_blank" rel="nofollow"
                        onclick="ga('send', 'event', 'participate', 'participate')">
                         <h4>Participate</h4>
                     </a>
@@ -7256,7 +7256,7 @@ section {
             </div>
             <div class="large-5 columns talk">
                 
-                    <a href="http://goo.gl/forms/or0ubaU5AL" target="_blank" rel="nofollow"
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfDft1fIMbuftL6cRQ1qsh4ouZ458zJfFhFR2gZy8f16lqiIg/viewform?usp=send_form" target="_blank" rel="nofollow"
                        onclick="ga('send', 'event', 'talk', 'talk')">
                         <h4>Present
                         </h4>
@@ -7452,14 +7452,6 @@ section {
                     </a>
                 </li>
                 
-                <li>
-                    <a href="./sep2016.html" data-bottom="transform:rotateZ(180deg) rotateY(90deg) scale(0);opacity:0;transform-origin:50% 0" data--150-bottom="transform:rotateZ(0deg) rotateY(0) scale(1);opacity:1" class="">
-                        <div class="month">Sep</div>
-                        <div class="day">03</div>
-                        <div class="year">2016</div>
-                    </a>
-                </li>
-                
             </ul>
         </div>
     </div>
@@ -7482,7 +7474,7 @@ section {
                 <ul class="right">
                     <li>
                     
-                        <a href="participate.html" target="_blank" rel="nofollow"
+                        <a href="https://www.meetup.com/VodQA-Coimbatore/events/235458537/" target="_blank" rel="nofollow"
                            onclick="ga('send', 'event', 'participate', 'participate')">
                             Participate
                         </a>
@@ -7490,7 +7482,7 @@ section {
                     </li>
                     <li>
                     
-                        <a href="http://goo.gl/forms/or0ubaU5AL" target="_blank" rel="nofollow"
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfDft1fIMbuftL6cRQ1qsh4ouZ458zJfFhFR2gZy8f16lqiIg/viewform?usp=send_form" target="_blank" rel="nofollow"
                            onclick="ga('send', 'event', 'talk', 'talk')">
                             Talk
                         </a>
