@@ -7160,7 +7160,7 @@ section {
     height: 100%;
     padding: 1rem; }
 ;T;
-@Ú;{ I"/favicon.ico/;T{;{ ;{ I"/fonts/fontello.eot/;T{;{ ;{ I"/fonts/fontello.ttf/;T{;{ ;{ I"/fonts/fontello.woff/;T{;{ ;{ I"/humans.txt/;T{;{ ;{ I"/img/banner.png/;T{;{ ;{ I"/img/dark-bg.jpg/;T{;{ ;{ I"/img/map.png/;T{;{ ;{ I" /img/speaker/bharathan.png/;T{;{ ;{ I"/img/speaker/sriram.png/;T{;{ ;{ I"/img/tw-logo-black.png/;T{;{ ;{ I"/img/tw-logo.png/;T{;{ ;{ I"/img/Vodqa-white.png/;T{;{ ;{ I"/img/white-bg.png/;T{;{ ;{ I"/js/custom.modernizr.js/;T{;{ ;{ I"/js/skrollr.min.js/;T{;{ ;{ I"/js/ticker.js/;T{;{ ;{ I"/LICENSE.md/;T{;{ ;{ I"/README.md/;T{;{ ;{ I"/robots.txt/;T{;{ ;{ I"'/img/speaker/BharathanKumaran.png/;T{;{ ;{ I"/img/speaker/jaya.png/;T{;{ ;{ I"'/img/speaker/NazneenRupawalla.png/;T{;{ ;{ I""/img/speaker/PritiBiyani.jpg/;T{;{ ;{ I"/img/speaker/Sandhya.JPG/;T{;{ ;{ I"/img/speaker/Thivya.png/;T{;{ ;{ I"$/img/speaker/Vijayaragavan.jpg/;T{;{ ;{ I"/2016-12/;T{;{	;I"ÙM<!DOCTYPE html>
+@Ú;{ I"/favicon.ico/;T{;{ ;{ I"/fonts/fontello.eot/;T{;{ ;{ I"/fonts/fontello.ttf/;T{;{ ;{ I"/fonts/fontello.woff/;T{;{ ;{ I"/humans.txt/;T{;{ ;{ I"/img/banner.png/;T{;{ ;{ I"/img/dark-bg.jpg/;T{;{ ;{ I"/img/map.png/;T{;{ ;{ I" /img/speaker/bharathan.png/;T{;{ ;{ I"/img/speaker/sriram.png/;T{;{ ;{ I"/img/tw-logo-black.png/;T{;{ ;{ I"/img/tw-logo.png/;T{;{ ;{ I"/img/Vodqa-white.png/;T{;{ ;{ I"/img/white-bg.png/;T{;{ ;{ I"/js/custom.modernizr.js/;T{;{ ;{ I"/js/skrollr.min.js/;T{;{ ;{ I"/js/ticker.js/;T{;{ ;{ I"/LICENSE.md/;T{;{ ;{ I"/README.md/;T{;{ ;{ I"/robots.txt/;T{;{ ;{ I"'/img/speaker/BharathanKumaran.png/;T{;{ ;{ I"/img/speaker/jaya.png/;T{;{ ;{ I"'/img/speaker/NazneenRupawalla.png/;T{;{ ;{ I""/img/speaker/PritiBiyani.jpg/;T{;{ ;{ I"/img/speaker/Sandhya.JPG/;T{;{ ;{ I"/img/speaker/Thivya.png/;T{;{ ;{ I"$/img/speaker/Vijayaragavan.jpg/;T{;{ ;{ I"/2016-12/;T{;{	;I"¤S<!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -7286,7 +7286,7 @@ section {
             <blockquote>
                 <p data--100-bottom-top="transform:perspective(400px) rotateX(90deg) scale(.5);transform-origin:50% 0" data--100-bottom="transform:perspective(400px) rotateX(0deg) scale(1)">VodQA, also called Value Oriented Discussion on Quality Analysis is a forum that sports the moto -  'Come Learn Something New'. The forum offers a unique platform within the software testing industry to strengthen the QA community through knowledge sharing.</p>
 
-                <p data--100-bottom-top="transform:perspective(400px) rotateX(90deg) scale(.5);transform-origin:50% 0" data--100-bottom="transform:perspective(400px) rotateX(0deg) scale(1)"><small>"Hang around with Selenium" is this edition's theme</small></p>
+                <p data--100-bottom-top="transform:perspective(400px) rotateX(90deg) scale(.5);transform-origin:50% 0" data--100-bottom="transform:perspective(400px) rotateX(0deg) scale(1)"><small>"Hang out with Selenium" is this edition's theme</small></p>
 
                 <p id="_about" data--100-bottom-top="transform:perspective(400px) rotateX(90deg) scale(.5);transform-origin:50% 0" data--100-bottom="transform:perspective(400px) rotateX(0deg) scale(1)"><small>We love feedback! If you have any suggestions or cribs, feel free to fill out our <a rel="nofollow" href="https://vodqa-chennai.typeform.com/to/SLjLWo" target="_blank">feedback form</a>. Don't worry, its completely anonymous.</small></p>
 
@@ -7335,9 +7335,15 @@ section {
             <div class="large-8 columns summary" data-anchor-target="#agenda-1"
                  data-bottom="transform:rotateX(90deg) scale(0);opacity:0"
                  data--200-bottom="transform:rotateX(0) scale(1);opacity:1">
-                <p>Session 1</p>
+                <p>History of test automation</p>
                 
                 
+                
+                    <p><small>By:
+                    
+                        Nanthakumar Arumugam
+                    
+                    </small></p>
                 
                 
                 
@@ -7349,15 +7355,21 @@ section {
                  data-bottom="transform:rotateX(90deg) scale(0);opacity:0"
                  data--200-bottom="transform:rotateX(0) scale(1);opacity:1">
                 <p>
-                    11:15 AM 
+                    11:00 AM 
                 </p>
             </div>
             <div class="large-8 columns summary" data-anchor-target="#agenda-2"
                  data-bottom="transform:rotateX(90deg) scale(0);opacity:0"
                  data--200-bottom="transform:rotateX(0) scale(1);opacity:1">
-                <p>Break</p>
+                <p>Selenium & Page object model</p>
                 
                 
+                
+                    <p><small>By:
+                    
+                        Arvind Srinivasan V
+                    
+                    </small></p>
                 
                 
                 
@@ -7375,7 +7387,7 @@ section {
             <div class="large-8 columns summary" data-anchor-target="#agenda-3"
                  data-bottom="transform:rotateX(90deg) scale(0);opacity:0"
                  data--200-bottom="transform:rotateX(0) scale(1);opacity:1">
-                <p>Session 2</p>
+                <p>Break</p>
                 
                 
                 
@@ -7389,15 +7401,21 @@ section {
                  data-bottom="transform:rotateX(90deg) scale(0);opacity:0"
                  data--200-bottom="transform:rotateX(0) scale(1);opacity:1">
                 <p>
-                    12:15 PM 
+                    11:45 PM 
                 </p>
             </div>
             <div class="large-8 columns summary" data-anchor-target="#agenda-4"
                  data-bottom="transform:rotateX(90deg) scale(0);opacity:0"
                  data--200-bottom="transform:rotateX(0) scale(1);opacity:1">
-                <p>Session 3</p>
+                <p>Techniques and tricks in using locators</p>
                 
                 
+                
+                    <p><small>By:
+                    
+                        Sriram Subramanian
+                    
+                    </small></p>
                 
                 
                 
@@ -7409,13 +7427,39 @@ section {
                  data-bottom="transform:rotateX(90deg) scale(0);opacity:0"
                  data--200-bottom="transform:rotateX(0) scale(1);opacity:1">
                 <p>
-                    01:00 PM 
+                    12:15 PM 
                 </p>
             </div>
             <div class="large-8 columns summary" data-anchor-target="#agenda-5"
                  data-bottom="transform:rotateX(90deg) scale(0);opacity:0"
                  data--200-bottom="transform:rotateX(0) scale(1);opacity:1">
-                <p>Networking and Lunch</p>
+                <p>Behavior Driven Tests with Selenium Webdriver</p>
+                
+                
+                
+                    <p><small>By:
+                    
+                        Sandhya S
+                    
+                    </small></p>
+                
+                
+                
+            </div>
+          </div>
+        
+          <div class="row">
+            <div class="large-4 columns time" id="agenda-6"
+                 data-bottom="transform:rotateX(90deg) scale(0);opacity:0"
+                 data--200-bottom="transform:rotateX(0) scale(1);opacity:1">
+                <p>
+                    1:00 PM 
+                </p>
+            </div>
+            <div class="large-8 columns summary" data-anchor-target="#agenda-6"
+                 data-bottom="transform:rotateX(90deg) scale(0);opacity:0"
+                 data--200-bottom="transform:rotateX(0) scale(1);opacity:1">
+                <p>Networking</p>
                 
                 
                 
