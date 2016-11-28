@@ -1,4 +1,4 @@
-{:	data{ZI"/2015-10/:ET{:default{	:	lastI"uj<!DOCTYPE html>
+{:	data{[I"/2015-10/:ET{:default{	:	lastI"uj<!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -7160,7 +7160,7 @@ section {
     height: 100%;
     padding: 1rem; }
 ;T;
-@Ú;{ I"/favicon.ico/;T{;{ ;{ I"/fonts/fontello.eot/;T{;{ ;{ I"/fonts/fontello.ttf/;T{;{ ;{ I"/fonts/fontello.woff/;T{;{ ;{ I"/humans.txt/;T{;{ ;{ I"/img/banner.png/;T{;{ ;{ I"/img/dark-bg.jpg/;T{;{ ;{ I"/img/map.png/;T{;{ ;{ I" /img/speaker/bharathan.png/;T{;{ ;{ I"/img/speaker/sriram.png/;T{;{ ;{ I"/img/tw-logo-black.png/;T{;{ ;{ I"/img/tw-logo.png/;T{;{ ;{ I"/img/Vodqa-white.png/;T{;{ ;{ I"/img/white-bg.png/;T{;{ ;{ I"/js/custom.modernizr.js/;T{;{ ;{ I"/js/skrollr.min.js/;T{;{ ;{ I"/js/ticker.js/;T{;{ ;{ I"/LICENSE.md/;T{;{ ;{ I"/README.md/;T{;{ ;{ I"/robots.txt/;T{;{ ;{ I"'/img/speaker/BharathanKumaran.png/;T{;{ ;{ I"/img/speaker/jaya.png/;T{;{ ;{ I"'/img/speaker/NazneenRupawalla.png/;T{;{ ;{ I""/img/speaker/PritiBiyani.jpg/;T{;{ ;{ I"/img/speaker/Sandhya.JPG/;T{;{ ;{ I"/img/speaker/Thivya.png/;T{;{ ;{ I"$/img/speaker/Vijayaragavan.jpg/;T{;{ ;{ I"/2016-12/;T{;{	;I"ÒX<!DOCTYPE html>
+@Ú;{ I"/favicon.ico/;T{;{ ;{ I"/fonts/fontello.eot/;T{;{ ;{ I"/fonts/fontello.ttf/;T{;{ ;{ I"/fonts/fontello.woff/;T{;{ ;{ I"/humans.txt/;T{;{ ;{ I"/img/banner.png/;T{;{ ;{ I"/img/dark-bg.jpg/;T{;{ ;{ I"/img/map.png/;T{;{ ;{ I" /img/speaker/bharathan.png/;T{;{ ;{ I"/img/speaker/sriram.png/;T{;{ ;{ I"/img/tw-logo-black.png/;T{;{ ;{ I"/img/tw-logo.png/;T{;{ ;{ I"/img/Vodqa-white.png/;T{;{ ;{ I"/img/white-bg.png/;T{;{ ;{ I"/js/custom.modernizr.js/;T{;{ ;{ I"/js/skrollr.min.js/;T{;{ ;{ I"/js/ticker.js/;T{;{ ;{ I"/LICENSE.md/;T{;{ ;{ I"/README.md/;T{;{ ;{ I"/robots.txt/;T{;{ ;{ I"'/img/speaker/BharathanKumaran.png/;T{;{ ;{ I"/img/speaker/jaya.png/;T{;{ ;{ I"'/img/speaker/NazneenRupawalla.png/;T{;{ ;{ I""/img/speaker/PritiBiyani.jpg/;T{;{ ;{ I"/img/speaker/Sandhya.JPG/;T{;{ ;{ I"/img/speaker/Thivya.png/;T{;{ ;{ I"$/img/speaker/Vijayaragavan.jpg/;T{;{ ;{ I"/2016-12/;T{;{	;I"ýX<!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -7203,8 +7203,8 @@ section {
                 </div>
                 <meta property="og:description" />        
                 <h9>VodQA is an opportunity for testing enthusiasts to get together, network and collaborate on the latest developments in software testing world.</h9>
-
-                
+                <meta property="og:image" content="./img/vodqa-og-image.png" />
+              
                 
             </div>
         </div>
@@ -7371,7 +7371,7 @@ section {
                 
                     <p><small>By:
                     
-                        Arvind Srinivasan V - Senior Consultant, ThoughtWorks and                                   Sravanthi Singaraju - Consultant, ThoughtWorks.
+                        Arvind Srinivasan V - Senior Consultant, ThoughtWorks and Sravanthi Singaraju - Consultant, ThoughtWorks.
                     
                     </small></p>
                 
@@ -8720,4 +8720,4 @@ I" ;F;@kI"/2016-9/;T{;{	;I"/3<!DOCTYPE html>
 
 ;T;	I" ;F;
 I" ;F;@p;{;@q;	@q;
-@q:versioni
+@qI"/img/vodqa-og-image.jpg/;T{;{ ;{ :versioni
