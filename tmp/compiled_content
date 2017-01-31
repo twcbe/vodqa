@@ -8593,7 +8593,7 @@ I" ;F;@iI"/2016-9/;T{;{	;I"/3<!DOCTYPE html>
 
 ;T;	I" ;F;
 I" ;F;@n;{;@o;	@o;
-@oI"/img/vodqa-og-image.jpg/;T{;{ ;{ I"/2017-02/;T{;{	;I"ŽP<!DOCTYPE html>
+@oI"/img/vodqa-og-image.jpg/;T{;{ ;{ I"/2017-02/;T{;{	;I"ûR<!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -8768,9 +8768,15 @@ I" ;F;@n;{;@o;	@o;
             <div class="large-8 columns summary" data-anchor-target="#agenda-1"
                  data-bottom="transform:rotateX(90deg) scale(0);opacity:0"
                  data--200-bottom="transform:rotateX(0) scale(1);opacity:1">
-                <p>Session 1 - TBD </p>
+                <p> Deliver - Anything, Anywhere, Anytime </p>
                 
                 
+                
+                    <p><small>By:
+                    
+                        Poornima S, ThoughtWorks.
+                    
+                    </small></p>
                 
                 
                 
@@ -8788,9 +8794,15 @@ I" ;F;@n;{;@o;	@o;
             <div class="large-8 columns summary" data-anchor-target="#agenda-2"
                  data-bottom="transform:rotateX(90deg) scale(0);opacity:0"
                  data--200-bottom="transform:rotateX(0) scale(1);opacity:1">
-                <p>Session 2 - TBD </p>
+                <p> Dockerize your tests </p>
                 
                 
+                
+                    <p><small>By:
+                    
+                        Abinaya Veluswamy & Agalya Dhandapani, ThoughtWorks.
+                    
+                    </small></p>
                 
                 
                 
@@ -8802,7 +8814,7 @@ I" ;F;@n;{;@o;	@o;
                  data-bottom="transform:rotateX(90deg) scale(0);opacity:0"
                  data--200-bottom="transform:rotateX(0) scale(1);opacity:1">
                 <p>
-                    12:00 AM 
+                    12:00 PM 
                 </p>
             </div>
             <div class="large-8 columns summary" data-anchor-target="#agenda-3"
@@ -8828,9 +8840,15 @@ I" ;F;@n;{;@o;	@o;
             <div class="large-8 columns summary" data-anchor-target="#agenda-4"
                  data-bottom="transform:rotateX(90deg) scale(0);opacity:0"
                  data--200-bottom="transform:rotateX(0) scale(1);opacity:1">
-                <p>Session 3 - TBD </p>
+                <p> A glimpse into mobile app testing using appium </p>
                 
                 
+                
+                    <p><small>By:
+                    
+                        Thivya Lakshimi, ThoughtWorks.
+                    
+                    </small></p>
                 
                 
                 
