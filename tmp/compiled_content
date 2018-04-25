@@ -1,4 +1,4 @@
-{:	data{\I"/2015-10/:ET{:default{	:	lastI"uj<!DOCTYPE html>
+{:	data{_I"/2015-10/:ET{:default{	:	lastI"uj<!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -7164,7 +7164,7 @@ section {
     height: 100%;
     padding: 1rem; }
 ;T;
-@⁄;{ I"/favicon.ico/;T{;{ ;{ I"/fonts/fontello.eot/;T{;{ ;{ I"/fonts/fontello.ttf/;T{;{ ;{ I"/fonts/fontello.woff/;T{;{ ;{ I"/humans.txt/;T{;{ ;{ I"/img/banner.png/;T{;{ ;{ I"/img/dark-bg.jpg/;T{;{ ;{ I"/img/map.png/;T{;{ ;{ I" /img/speaker/bharathan.png/;T{;{ ;{ I"/img/speaker/sriram.png/;T{;{ ;{ I"/img/tw-logo-black.png/;T{;{ ;{ I"/img/tw-logo.png/;T{;{ ;{ I"/img/Vodqa-white.png/;T{;{ ;{ I"/img/white-bg.png/;T{;{ ;{ I"/js/custom.modernizr.js/;T{;{ ;{ I"/js/skrollr.min.js/;T{;{ ;{ I"/js/ticker.js/;T{;{ ;{ I"/LICENSE.md/;T{;{ ;{ I"/README.md/;T{;{ ;{ I"/robots.txt/;T{;{ ;{ I"'/img/speaker/BharathanKumaran.png/;T{;{ ;{ I"/img/speaker/jaya.png/;T{;{ ;{ I"'/img/speaker/NazneenRupawalla.png/;T{;{ ;{ I""/img/speaker/PritiBiyani.jpg/;T{;{ ;{ I"/img/speaker/Sandhya.JPG/;T{;{ ;{ I"/img/speaker/Thivya.png/;T{;{ ;{ I"$/img/speaker/Vijayaragavan.jpg/;T{;{ ;{ I"/2016-12/;T{;{	;I"(C<!DOCTYPE html>
+@⁄;{ I"/favicon.ico/;T{;{ ;{ I"/fonts/fontello.eot/;T{;{ ;{ I"/fonts/fontello.ttf/;T{;{ ;{ I"/fonts/fontello.woff/;T{;{ ;{ I"/humans.txt/;T{;{ ;{ I"/img/banner.png/;T{;{ ;{ I"/img/dark-bg.jpg/;T{;{ ;{ I"/img/map.png/;T{;{ ;{ I" /img/speaker/bharathan.png/;T{;{ ;{ I"/img/speaker/sriram.png/;T{;{ ;{ I"/img/tw-logo-black.png/;T{;{ ;{ I"/img/tw-logo.png/;T{;{ ;{ I"/img/Vodqa-white.png/;T{;{ ;{ I"/img/white-bg.png/;T{;{ ;{ I"/js/custom.modernizr.js/;T{;{ ;{ I"/js/skrollr.min.js/;T{;{ ;{ I"/js/ticker.js/;T{;{ ;{ I"/LICENSE.md/;T{;{ ;{ I"/README.md/;T{;{ ;{ I"/robots.txt/;T{;{ ;{ I"'/img/speaker/BharathanKumaran.png/;T{;{ ;{ I"/img/speaker/jaya.png/;T{;{ ;{ I"'/img/speaker/NazneenRupawalla.png/;T{;{ ;{ I""/img/speaker/PritiBiyani.jpg/;T{;{ ;{ I"/img/speaker/Sandhya.JPG/;T{;{ ;{ I"/img/speaker/Thivya.png/;T{;{ ;{ I"$/img/speaker/Vijayaragavan.jpg/;T{;{ ;{ I"/2016-12/;T{;{	;I"ôH<!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -7421,7 +7421,7 @@ section {
             <blockquote>
                 <p data--100-bottom-top="transform:perspective(400px) rotateX(90deg) scale(.5);transform-origin:50% 0" data--100-bottom="transform:perspective(400px) rotateX(0deg) scale(1)">VodQA, also called Value Oriented Discussion on Quality Analysis is a forum that sports the moto -  'Come Learn Something New'. The forum offers a unique platform within the software testing industry to strengthen the QA community through knowledge sharing.</p>
 
-                <p data--100-bottom-top="transform:perspective(400px) rotateX(90deg) scale(.5);transform-origin:50% 0" data--100-bottom="transform:perspective(400px) rotateX(0deg) scale(1)"><small>This time around its a mix of all "Cocktail" theme. You will have the experience of learning some new ways of approaching the problem in hand.</small></p>
+                <p data--100-bottom-top="transform:perspective(400px) rotateX(90deg) scale(.5);transform-origin:50% 0" data--100-bottom="transform:perspective(400px) rotateX(0deg) scale(1)"><small>This time around its a workshop on API testing. You will have the experience of learning some new ways of approaching the problem in hand.</small></p>
 
                 <p id="_about" data--100-bottom-top="transform:perspective(400px) rotateX(90deg) scale(.5);transform-origin:50% 0" data--100-bottom="transform:perspective(400px) rotateX(0deg) scale(1)"><small>We love feedback! If you have any suggestions or cribs, feel free to fill out our <a rel="nofollow" href="https://vodqa-chennai.typeform.com/to/SLjLWo" target="_blank">feedback form</a>. Don't worry, its completely anonymous.</small></p>
 
@@ -7443,6 +7443,30 @@ section {
                 
                 <li>
                     <a href="./" data-bottom="transform:rotateZ(180deg) rotateY(90deg) scale(0);opacity:0;transform-origin:50% 0" data--150-bottom="transform:rotateZ(0deg) rotateY(0) scale(1);opacity:1" class="">
+                        <div class="month">May</div>
+                        <div class="day">05</div>
+                        <div class="year">2018</div>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="./nov2017.html" data-bottom="transform:rotateZ(180deg) rotateY(90deg) scale(0);opacity:0;transform-origin:50% 0" data--150-bottom="transform:rotateZ(0deg) rotateY(0) scale(1);opacity:1" class="">
+                        <div class="month">Nov</div>
+                        <div class="day">18</div>
+                        <div class="year">2017</div>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="./may2017.html" data-bottom="transform:rotateZ(180deg) rotateY(90deg) scale(0);opacity:0;transform-origin:50% 0" data--150-bottom="transform:rotateZ(0deg) rotateY(0) scale(1);opacity:1" class="">
+                        <div class="month">May</div>
+                        <div class="day">18</div>
+                        <div class="year">2017</div>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="./feb2017.html" data-bottom="transform:rotateZ(180deg) rotateY(90deg) scale(0);opacity:0;transform-origin:50% 0" data--150-bottom="transform:rotateZ(0deg) rotateY(0) scale(1);opacity:1" class="">
                         <div class="month">Feb</div>
                         <div class="day">18</div>
                         <div class="year">2017</div>
@@ -7467,7 +7491,7 @@ section {
     <div class="fixed">
         <nav class="top-bar">
             <ul class="title-area">
-                <li class="name"><h1><a href="./">VodQA Coimbatore &raquo; <span>Feb 18</span></a></h1></li>
+                <li class="name"><h1><a href="./">VodQA Coimbatore &raquo; <span>May 5</span></a></h1></li>
                 <li class="toggle-topbar menu-icon"><a href="#"></a></li>
             </ul>
             <section class="top-bar-section">
@@ -7479,7 +7503,7 @@ section {
                 <ul class="right">
                     <li>
                     
-                        <a href="https://www.meetup.com/VodQA-Coimbatore/events/237039015/" target="_blank" rel="nofollow"
+                        <a href="https://www.meetup.com/VodQA-Coimbatore/events/249937260/" target="_blank" rel="nofollow"
                            onclick="ga('send', 'event', 'participate', 'participate')">
                             Participate
                         </a>
@@ -8593,7 +8617,7 @@ I" ;F;@iI"/2016-9/;T{;{	;I"/3<!DOCTYPE html>
 
 ;T;	I" ;F;
 I" ;F;@n;{;@o;	@o;
-@oI"/img/vodqa-og-image.jpg/;T{;{ ;{ I"/2017-02/;T{;{	;I"GS<!DOCTYPE html>
+@oI"/img/vodqa-og-image.jpg/;T{;{ ;{ I"/2017-02/;T{;{	;I"Ñ@<!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -8629,106 +8653,23 @@ I" ;F;@n;{;@o;	@o;
         <div class="row logo">
             <div class="large-12 columns">
                 <a href="http://www.thoughtworks.com" target="_blank"
-                   onclick="ga('send', 'event', 'tw', 'tw')" class="tw-logo">
+                   onclick="ga('send', 'event', 'tw', 'tw')">
                     <img src="./img/tw-logo.png" alt="ThoughtWorks" align="center" />
                 </a>
-
                 <div class = "vodqa-logo">
                     <img class="small-8" src="./img/Vodqa-white.png" alt="VodQA" align="center" />
                 </div>
-
-              
-                
+                <h5>Flashback</h5>
             </div>
         </div>
 
         <div class="row countdown">
-            <div class="small-8 small-offset-2 large-4 large-offset-0 columns date">
+            <div class="small-8 small-offset-2 large-8 large-offset-2 columns date">
                 <p>2<sup>nd</sup> edition</p>
-                <h4>feb 18</h4>
-            </div>
-            <div class="small-6 large-2 columns counter">
-                <h4><span id="days">&nbsp;</span></h4>
-                <p>days</p>
-            </div>
-            <div class="small-6 large-2 columns counter">
-                <h4><span id="hours">&nbsp;</span></h4>
-                <p>hours</p>
-            </div>
-            <div class="small-6 large-2 columns counter">
-                <h4><span id="minutes">&nbsp;</span></h4>
-                <p>minutes</p>
-            </div>
-            <div class="small-6 large-2 columns counter">
-                <h4 id="seconds">
-                    &nbsp; <!-- the nbsp is required -->
-                    <span id="tick">&nbsp;</span>
-                    <span id="tock">&nbsp;</span>
-                    <span id="tack">&nbsp;</span>
-                </h4>
-                <p>seconds</p>
-            </div>
-        </div>
-
-        <div class="row actions">
-            <div class="large-5 columns participate">
-                
-                    <a href="https://www.meetup.com/VodQA-Coimbatore/events/237039015/" target="_blank" rel="nofollow"
-                       onclick="ga('send', 'event', 'participate', 'participate')">
-                        <h4>Participate</h4>
-                    </a>
-                    <p>
-                        to learn exciting new stuff <br />
-                        <small>(and to connect with fellow geeks)</small>
-                    </p>
-                
-            </div>
-            <div class="large-2 columns participate-or-talk">
-                <hr class="show-for-small" />
-                <h6 class="hide-for-small delimiter">&laquo; or &raquo;</h6>
-            </div>
-            <div class="large-5 columns talk">
-                
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfDft1fIMbuftL6cRQ1qsh4ouZ458zJfFhFR2gZy8f16lqiIg/viewform?usp=send_form" target="_blank" rel="nofollow"
-                       onclick="ga('send', 'event', 'talk', 'talk')">
-                        <h4>Present
-                        </h4>
-                    </a>
-                    <p>to share exciting new stuff <br />
-                    <small>(accepted for this and subsequent editions)</small>
-                    </p>
-                
+                <h4>Feb 18 2017</h4>
             </div>
         </div>
     </section>
-
-    <section id="about" class="feature">
-    <div class="row"
-         data-bottom="transform:translateY(-5em)" data--100-bottom="transform:translateY(0)">
-        <div class="large-12 columns social">
-            <a rel="nofollow" href="https://www.facebook.com/groups/vodqa/?ref=ts&fref=ts" target="_blank" title="Like us on FaceBook" onclick="ga('send', 'event', 'social', 'like')"><i class="icon-like"></i></a>
-            <a rel="nofollow" href="https://www.facebook.com/groups/vodqa/?ref=ts&fref=ts" target="_blank"><i class="icon-facebook-2" title="FaceBook group" onclick="ga('send', 'event', 'social', 'facebook')"></i></a>
-            <a rel="nofollow" href="https://twitter.com/intent/tweet?url=twcbe.github.io/vodqa&text=Whats+up&hashtags=ThoughtWorks" target="_blank" title="Tweet hashtag #ThoughtWorks" onclick="ga('send', 'event', 'social', 'twitter')"><i class="icon-twitter-2"></i></a>
-            <a rel="nofollow" href="mailto:vodqa-coimbatore@thoughtworks.com " title="Email us" onclick="ga('send', 'event', 'social', 'email')"><i class="icon-mail"></i></a>
-            <!-- NOTE: Last video link is line-wrapping in small screens like iOS a rel="nofollow" href="#" title="Videos (coming soon)"><i class="icon-youtube"></i></a -->
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="large-12 columns" data-anchor-target="#_about">
-            <blockquote>
-                <p data--100-bottom-top="transform:perspective(400px) rotateX(90deg) scale(.5);transform-origin:50% 0" data--100-bottom="transform:perspective(400px) rotateX(0deg) scale(1)">VodQA, also called Value Oriented Discussion on Quality Analysis is a forum that sports the moto -  'Come Learn Something New'. The forum offers a unique platform within the software testing industry to strengthen the QA community through knowledge sharing.</p>
-
-                <p data--100-bottom-top="transform:perspective(400px) rotateX(90deg) scale(.5);transform-origin:50% 0" data--100-bottom="transform:perspective(400px) rotateX(0deg) scale(1)"><small>This time around its a mix of all "Cocktail" theme. You will have the experience of learning some new ways of approaching the problem in hand.</small></p>
-
-                <p id="_about" data--100-bottom-top="transform:perspective(400px) rotateX(90deg) scale(.5);transform-origin:50% 0" data--100-bottom="transform:perspective(400px) rotateX(0deg) scale(1)"><small>We love feedback! If you have any suggestions or cribs, feel free to fill out our <a rel="nofollow" href="https://vodqa-chennai.typeform.com/to/SLjLWo" target="_blank">feedback form</a>. Don't worry, its completely anonymous.</small></p>
-
-                <cite data--100-bottom-top="transform:translateX(100%)" data--100-bottom="transform:translateX(0)">Vodqa Volunteers</cite>
-            </blockquote>
-        </div>
-    </div>
-</section>
-
 
     <section id="agenda" class="feature">
     <div class="row" data-bottom="transform:translateY(-10em)" data--100-bottom="transform:translateY(0em)">
@@ -8879,6 +8820,499 @@ I" ;F;@n;{;@o;	@o;
     </div>
 </section>
 
+
+     
+
+    <section id="about" class="feature">
+    <div class="row"
+         data-bottom="transform:translateY(-5em)" data--100-bottom="transform:translateY(0)">
+        <div class="large-12 columns social">
+            <a rel="nofollow" href="https://www.facebook.com/groups/vodqa/?ref=ts&fref=ts" target="_blank" title="Like us on FaceBook" onclick="ga('send', 'event', 'social', 'like')"><i class="icon-like"></i></a>
+            <a rel="nofollow" href="https://www.facebook.com/groups/vodqa/?ref=ts&fref=ts" target="_blank"><i class="icon-facebook-2" title="FaceBook group" onclick="ga('send', 'event', 'social', 'facebook')"></i></a>
+            <a rel="nofollow" href="https://twitter.com/intent/tweet?url=twcbe.github.io/vodqa&text=Whats+up&hashtags=ThoughtWorks" target="_blank" title="Tweet hashtag #ThoughtWorks" onclick="ga('send', 'event', 'social', 'twitter')"><i class="icon-twitter-2"></i></a>
+            <a rel="nofollow" href="mailto:vodqa-coimbatore@thoughtworks.com " title="Email us" onclick="ga('send', 'event', 'social', 'email')"><i class="icon-mail"></i></a>
+            <!-- NOTE: Last video link is line-wrapping in small screens like iOS a rel="nofollow" href="#" title="Videos (coming soon)"><i class="icon-youtube"></i></a -->
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="large-12 columns" data-anchor-target="#_about">
+            <blockquote>
+                <p data--100-bottom-top="transform:perspective(400px) rotateX(90deg) scale(.5);transform-origin:50% 0" data--100-bottom="transform:perspective(400px) rotateX(0deg) scale(1)">VodQA, also called Value Oriented Discussion on Quality Analysis is a forum that sports the moto -  'Come Learn Something New'. The forum offers a unique platform within the software testing industry to strengthen the QA community through knowledge sharing.</p>
+
+                <p data--100-bottom-top="transform:perspective(400px) rotateX(90deg) scale(.5);transform-origin:50% 0" data--100-bottom="transform:perspective(400px) rotateX(0deg) scale(1)"><small>This time around its a workshop on API testing. You will have the experience of learning some new ways of approaching the problem in hand.</small></p>
+
+                <p id="_about" data--100-bottom-top="transform:perspective(400px) rotateX(90deg) scale(.5);transform-origin:50% 0" data--100-bottom="transform:perspective(400px) rotateX(0deg) scale(1)"><small>We love feedback! If you have any suggestions or cribs, feel free to fill out our <a rel="nofollow" href="https://vodqa-chennai.typeform.com/to/SLjLWo" target="_blank">feedback form</a>. Don't worry, its completely anonymous.</small></p>
+
+                <cite data--100-bottom-top="transform:translateX(100%)" data--100-bottom="transform:translateX(0)">Vodqa Volunteers</cite>
+            </blockquote>
+        </div>
+    </div>
+</section>
+
+
+    <section id="archive" class="feature">
+    <div class="row" data-bottom="transform:translateY(-10em)" data--100-bottom="transform:translateY(0em)">
+        <h2>Editions</h2>
+    </div>
+
+    <div class="row">
+        <div class="large-12 columns">
+            <ul class="grid">
+                
+                <li>
+                    <a href="./" data-bottom="transform:rotateZ(180deg) rotateY(90deg) scale(0);opacity:0;transform-origin:50% 0" data--150-bottom="transform:rotateZ(0deg) rotateY(0) scale(1);opacity:1" class="">
+                        <div class="month">May</div>
+                        <div class="day">05</div>
+                        <div class="year">2018</div>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="./nov2017.html" data-bottom="transform:rotateZ(180deg) rotateY(90deg) scale(0);opacity:0;transform-origin:50% 0" data--150-bottom="transform:rotateZ(0deg) rotateY(0) scale(1);opacity:1" class="">
+                        <div class="month">Nov</div>
+                        <div class="day">18</div>
+                        <div class="year">2017</div>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="./may2017.html" data-bottom="transform:rotateZ(180deg) rotateY(90deg) scale(0);opacity:0;transform-origin:50% 0" data--150-bottom="transform:rotateZ(0deg) rotateY(0) scale(1);opacity:1" class="">
+                        <div class="month">May</div>
+                        <div class="day">18</div>
+                        <div class="year">2017</div>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="./feb2017.html" data-bottom="transform:rotateZ(180deg) rotateY(90deg) scale(0);opacity:0;transform-origin:50% 0" data--150-bottom="transform:rotateZ(0deg) rotateY(0) scale(1);opacity:1" class="active">
+                        <div class="month">Feb</div>
+                        <div class="day">18</div>
+                        <div class="year">2017</div>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="./dec2016.html" data-bottom="transform:rotateZ(180deg) rotateY(90deg) scale(0);opacity:0;transform-origin:50% 0" data--150-bottom="transform:rotateZ(0deg) rotateY(0) scale(1);opacity:1" class="">
+                        <div class="month">Dec</div>
+                        <div class="day">03</div>
+                        <div class="year">2016</div>
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+    <header id="header" class="feature">
+    <div class="fixed">
+        <nav class="top-bar">
+            <ul class="title-area">
+                <li class="name"><h1><a href="./">VodQA Coimbatore &raquo; <span>May 5</span></a></h1></li>
+                <li class="toggle-topbar menu-icon"><a href="#"></a></li>
+            </ul>
+            <section class="top-bar-section">
+                <ul class="left">
+                    <li><a href="http://www.thoughtworks.com" target="_blank"
+                           onclick="ga('send', 'event', 'tw', 'tw')">ThoughtWorks</a>
+                    </li>
+                </ul>
+                <ul class="right">
+                    <li>
+                    
+                        <a href="https://www.meetup.com/VodQA-Coimbatore/events/249937260/" target="_blank" rel="nofollow"
+                           onclick="ga('send', 'event', 'participate', 'participate')">
+                            Participate
+                        </a>
+                    
+                    </li>
+                    <li>
+                    
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfDft1fIMbuftL6cRQ1qsh4ouZ458zJfFhFR2gZy8f16lqiIg/viewform?usp=send_form" target="_blank" rel="nofollow"
+                           onclick="ga('send', 'event', 'talk', 'talk')">
+                            Talk
+                        </a>
+                    
+                    </li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#agenda">Agenda</a></li>
+                    
+                    <li><a href="#archive">All Editions</a></li>
+                </ul>
+            </section>
+        </nav>
+    </div>
+</header>
+
+
+    <footer id="footer" class="feature">
+    <div class="row">
+        <div class="large-12 columns">
+            <p><small>
+                <a href=".">VodQA Coimbatore</a> sponsored by
+                <a rel="nofollow" target="_blank" href="//thoughtworks.com">ThoughtWorks</a><br />
+                Built with
+                <a rel="nofollow" target="_blank" href="//html5boilerplate.com">HTML5 Boilerplate</a>,
+                <a rel="nofollow" target="_blank" href="//foundation.zurb.com">Zurb Foundation</a>,
+                <a rel="nofollow" target="_blank" href="//github.com/Prinzhorn/skrollr">Skrollr</a>,
+                <a rel="nofollow" target="_blank" href="//daneden.me/animate/">Animate</a>,
+                <a rel="nofollow" target="_blank" href="//nanoc.ws">Nanoc</a> &amp;
+                <a rel="nofollow" target="_blank" href="//fontello.com">Fontello</a>
+            </small></p>
+        </div>
+    </div>
+</footer>
+
+
+
+    <!-- Google Analytics -->
+    <script>
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-63362668-3']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; 
+
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </body>
+</html>
+
+;T;	I" ;F;
+I" ;F;@y;{;@z;	@z;
+@zI"/2018-05/;T{;{	;I"0_<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>VodQA Coimbatore - May 2018</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:description" content="VodQA is an opportunity for testing enthusiasts to get together, network and collaborate on the latest developments in software testing world." />
+    <meta property="og:image" content="https://twcbe.github.io/vodqa/img/vodqa-og-image.jpg" />
+    <meta property="og:image:type" content="image/jpg" />
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/icons/fontello.css" />
+    <!--[if IE 7]>
+        <link rel="stylesheet" href="css/icons/fontello-ie7.css" />
+    <![endif] -->
+
+    <script src="js/custom.modernizr.js"></script>
+  </head>
+  <body>
+    <!--[if lte IE 8]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" rel="nofollow">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    
+    <section id="intro" class="feature">
+        <div class="row logo">
+            <div class="large-12 columns">
+                <a href="http://www.thoughtworks.com" target="_blank"
+                   onclick="ga('send', 'event', 'tw', 'tw')" class="tw-logo">
+                    <img src="./img/tw-logo.png" alt="ThoughtWorks" align="center" />
+                </a>
+
+                <div class = "vodqa-logo">
+                    <img class="small-8" src="./img/Vodqa-white.png" alt="VodQA" align="center" />
+                </div>
+
+              
+                
+            </div>
+        </div>
+
+        <div class="row countdown">
+            <div class="small-8 small-offset-2 large-4 large-offset-0 columns date">
+                <p>5<sup>th</sup> edition</p>
+                <h4>may 5</h4>
+            </div>
+            <div class="small-6 large-2 columns counter">
+                <h4><span id="days">&nbsp;</span></h4>
+                <p>days</p>
+            </div>
+            <div class="small-6 large-2 columns counter">
+                <h4><span id="hours">&nbsp;</span></h4>
+                <p>hours</p>
+            </div>
+            <div class="small-6 large-2 columns counter">
+                <h4><span id="minutes">&nbsp;</span></h4>
+                <p>minutes</p>
+            </div>
+            <div class="small-6 large-2 columns counter">
+                <h4 id="seconds">
+                    &nbsp; <!-- the nbsp is required -->
+                    <span id="tick">&nbsp;</span>
+                    <span id="tock">&nbsp;</span>
+                    <span id="tack">&nbsp;</span>
+                </h4>
+                <p>seconds</p>
+            </div>
+        </div>
+
+        <div class="row actions">
+            <div class="large-5 columns participate">
+                
+                    <a href="https://www.meetup.com/VodQA-Coimbatore/events/249937260/" target="_blank" rel="nofollow"
+                       onclick="ga('send', 'event', 'participate', 'participate')">
+                        <h4>Participate</h4>
+                    </a>
+                    <p>
+                        to learn exciting new stuff <br />
+                        <small>(and to connect with fellow geeks)</small>
+                    </p>
+                
+            </div>
+            <div class="large-2 columns participate-or-talk">
+                <hr class="show-for-small" />
+                <h6 class="hide-for-small delimiter">&laquo; or &raquo;</h6>
+            </div>
+            <div class="large-5 columns talk">
+                
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfDft1fIMbuftL6cRQ1qsh4ouZ458zJfFhFR2gZy8f16lqiIg/viewform?usp=send_form" target="_blank" rel="nofollow"
+                       onclick="ga('send', 'event', 'talk', 'talk')">
+                        <h4>Present
+                        </h4>
+                    </a>
+                    <p>to share exciting new stuff <br />
+                    <small>(accepted for this and subsequent editions)</small>
+                    </p>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="feature">
+    <div class="row"
+         data-bottom="transform:translateY(-5em)" data--100-bottom="transform:translateY(0)">
+        <div class="large-12 columns social">
+            <a rel="nofollow" href="https://www.facebook.com/groups/vodqa/?ref=ts&fref=ts" target="_blank" title="Like us on FaceBook" onclick="ga('send', 'event', 'social', 'like')"><i class="icon-like"></i></a>
+            <a rel="nofollow" href="https://www.facebook.com/groups/vodqa/?ref=ts&fref=ts" target="_blank"><i class="icon-facebook-2" title="FaceBook group" onclick="ga('send', 'event', 'social', 'facebook')"></i></a>
+            <a rel="nofollow" href="https://twitter.com/intent/tweet?url=twcbe.github.io/vodqa&text=Whats+up&hashtags=ThoughtWorks" target="_blank" title="Tweet hashtag #ThoughtWorks" onclick="ga('send', 'event', 'social', 'twitter')"><i class="icon-twitter-2"></i></a>
+            <a rel="nofollow" href="mailto:vodqa-coimbatore@thoughtworks.com " title="Email us" onclick="ga('send', 'event', 'social', 'email')"><i class="icon-mail"></i></a>
+            <!-- NOTE: Last video link is line-wrapping in small screens like iOS a rel="nofollow" href="#" title="Videos (coming soon)"><i class="icon-youtube"></i></a -->
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="large-12 columns" data-anchor-target="#_about">
+            <blockquote>
+                <p data--100-bottom-top="transform:perspective(400px) rotateX(90deg) scale(.5);transform-origin:50% 0" data--100-bottom="transform:perspective(400px) rotateX(0deg) scale(1)">VodQA, also called Value Oriented Discussion on Quality Analysis is a forum that sports the moto -  'Come Learn Something New'. The forum offers a unique platform within the software testing industry to strengthen the QA community through knowledge sharing.</p>
+
+                <p data--100-bottom-top="transform:perspective(400px) rotateX(90deg) scale(.5);transform-origin:50% 0" data--100-bottom="transform:perspective(400px) rotateX(0deg) scale(1)"><small>This time around its a workshop on API testing. You will have the experience of learning some new ways of approaching the problem in hand.</small></p>
+
+                <p id="_about" data--100-bottom-top="transform:perspective(400px) rotateX(90deg) scale(.5);transform-origin:50% 0" data--100-bottom="transform:perspective(400px) rotateX(0deg) scale(1)"><small>We love feedback! If you have any suggestions or cribs, feel free to fill out our <a rel="nofollow" href="https://vodqa-chennai.typeform.com/to/SLjLWo" target="_blank">feedback form</a>. Don't worry, its completely anonymous.</small></p>
+
+                <cite data--100-bottom-top="transform:translateX(100%)" data--100-bottom="transform:translateX(0)">Vodqa Volunteers</cite>
+            </blockquote>
+        </div>
+    </div>
+</section>
+
+
+    <section id="agenda" class="feature">
+    <div class="row" data-bottom="transform:translateY(-10em)" data--100-bottom="transform:translateY(0em)">
+        <h2>Agenda</h2>
+    </div>
+
+    <div class="timings">
+        
+          <div class="row">
+            <div class="large-4 columns time" id="agenda-0"
+                 data-bottom="transform:rotateX(90deg) scale(0);opacity:0"
+                 data--200-bottom="transform:rotateX(0) scale(1);opacity:1">
+                <p>
+                    9:30 AM 
+                </p>
+            </div>
+            <div class="large-8 columns summary" data-anchor-target="#agenda-0"
+                 data-bottom="transform:rotateX(90deg) scale(0);opacity:0"
+                 data--200-bottom="transform:rotateX(0) scale(1);opacity:1">
+                <p>Registrations</p>
+                
+                
+                
+                
+                
+            </div>
+          </div>
+        
+          <div class="row">
+            <div class="large-4 columns time" id="agenda-1"
+                 data-bottom="transform:rotateX(90deg) scale(0);opacity:0"
+                 data--200-bottom="transform:rotateX(0) scale(1);opacity:1">
+                <p>
+                    10:00 AM 
+                </p>
+            </div>
+            <div class="large-8 columns summary" data-anchor-target="#agenda-1"
+                 data-bottom="transform:rotateX(90deg) scale(0);opacity:0"
+                 data--200-bottom="transform:rotateX(0) scale(1);opacity:1">
+                <p>Current business trends that are driving API development</p>
+                
+                
+                
+                
+                
+            </div>
+          </div>
+        
+          <div class="row">
+            <div class="large-4 columns time" id="agenda-2"
+                 data-bottom="transform:rotateX(90deg) scale(0);opacity:0"
+                 data--200-bottom="transform:rotateX(0) scale(1);opacity:1">
+                <p>
+                    10:30 AM 
+                </p>
+            </div>
+            <div class="large-8 columns summary" data-anchor-target="#agenda-2"
+                 data-bottom="transform:rotateX(90deg) scale(0);opacity:0"
+                 data--200-bottom="transform:rotateX(0) scale(1);opacity:1">
+                <p>Components of HTTP requests and responses, including authentication models, and how to inspect HTTP traffic</p>
+                
+                
+                
+                
+                
+            </div>
+          </div>
+        
+          <div class="row">
+            <div class="large-4 columns time" id="agenda-3"
+                 data-bottom="transform:rotateX(90deg) scale(0);opacity:0"
+                 data--200-bottom="transform:rotateX(0) scale(1);opacity:1">
+                <p>
+                    11:30 PM 
+                </p>
+            </div>
+            <div class="large-8 columns summary" data-anchor-target="#agenda-3"
+                 data-bottom="transform:rotateX(90deg) scale(0);opacity:0"
+                 data--200-bottom="transform:rotateX(0) scale(1);opacity:1">
+                <p>Break</p>
+                
+                
+                
+                
+                
+            </div>
+          </div>
+        
+          <div class="row">
+            <div class="large-4 columns time" id="agenda-4"
+                 data-bottom="transform:rotateX(90deg) scale(0);opacity:0"
+                 data--200-bottom="transform:rotateX(0) scale(1);opacity:1">
+                <p>
+                    11:45 PM 
+                </p>
+            </div>
+            <div class="large-8 columns summary" data-anchor-target="#agenda-4"
+                 data-bottom="transform:rotateX(90deg) scale(0);opacity:0"
+                 data--200-bottom="transform:rotateX(0) scale(1);opacity:1">
+                <p>Types of API testing & API testing tools</p>
+                
+                
+                
+                
+                
+            </div>
+          </div>
+        
+          <div class="row">
+            <div class="large-4 columns time" id="agenda-5"
+                 data-bottom="transform:rotateX(90deg) scale(0);opacity:0"
+                 data--200-bottom="transform:rotateX(0) scale(1);opacity:1">
+                <p>
+                    12:45 PM 
+                </p>
+            </div>
+            <div class="large-8 columns summary" data-anchor-target="#agenda-5"
+                 data-bottom="transform:rotateX(90deg) scale(0);opacity:0"
+                 data--200-bottom="transform:rotateX(0) scale(1);opacity:1">
+                <p>Lunch</p>
+                
+                
+                
+                
+                
+            </div>
+          </div>
+        
+          <div class="row">
+            <div class="large-4 columns time" id="agenda-6"
+                 data-bottom="transform:rotateX(90deg) scale(0);opacity:0"
+                 data--200-bottom="transform:rotateX(0) scale(1);opacity:1">
+                <p>
+                    2:00 PM 
+                </p>
+            </div>
+            <div class="large-8 columns summary" data-anchor-target="#agenda-6"
+                 data-bottom="transform:rotateX(90deg) scale(0);opacity:0"
+                 data--200-bottom="transform:rotateX(0) scale(1);opacity:1">
+                <p>API Description Languages</p>
+                
+                
+                
+                
+                
+            </div>
+          </div>
+        
+          <div class="row">
+            <div class="large-4 columns time" id="agenda-7"
+                 data-bottom="transform:rotateX(90deg) scale(0);opacity:0"
+                 data--200-bottom="transform:rotateX(0) scale(1);opacity:1">
+                <p>
+                    2:30 PM 
+                </p>
+            </div>
+            <div class="large-8 columns summary" data-anchor-target="#agenda-7"
+                 data-bottom="transform:rotateX(90deg) scale(0);opacity:0"
+                 data--200-bottom="transform:rotateX(0) scale(1);opacity:1">
+                <p>API test automation</p>
+                
+                
+                
+                
+                
+            </div>
+          </div>
+        
+          <div class="row">
+            <div class="large-4 columns time" id="agenda-8"
+                 data-bottom="transform:rotateX(90deg) scale(0);opacity:0"
+                 data--200-bottom="transform:rotateX(0) scale(1);opacity:1">
+                <p>
+                    4:00 PM 
+                </p>
+            </div>
+            <div class="large-8 columns summary" data-anchor-target="#agenda-8"
+                 data-bottom="transform:rotateX(90deg) scale(0);opacity:0"
+                 data--200-bottom="transform:rotateX(0) scale(1);opacity:1">
+                <p>High Tea and Networking</p>
+                
+                
+                
+                
+                
+            </div>
+          </div>
+        
+      </div>
+    </div>
+</section>
+
     
      
 
@@ -8917,6 +9351,30 @@ I" ;F;@n;{;@o;	@o;
                 
                 <li>
                     <a href="./" data-bottom="transform:rotateZ(180deg) rotateY(90deg) scale(0);opacity:0;transform-origin:50% 0" data--150-bottom="transform:rotateZ(0deg) rotateY(0) scale(1);opacity:1" class="active">
+                        <div class="month">May</div>
+                        <div class="day">05</div>
+                        <div class="year">2018</div>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="./nov2017.html" data-bottom="transform:rotateZ(180deg) rotateY(90deg) scale(0);opacity:0;transform-origin:50% 0" data--150-bottom="transform:rotateZ(0deg) rotateY(0) scale(1);opacity:1" class="">
+                        <div class="month">Nov</div>
+                        <div class="day">18</div>
+                        <div class="year">2017</div>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="./may2017.html" data-bottom="transform:rotateZ(180deg) rotateY(90deg) scale(0);opacity:0;transform-origin:50% 0" data--150-bottom="transform:rotateZ(0deg) rotateY(0) scale(1);opacity:1" class="">
+                        <div class="month">May</div>
+                        <div class="day">18</div>
+                        <div class="year">2017</div>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="./feb2017.html" data-bottom="transform:rotateZ(180deg) rotateY(90deg) scale(0);opacity:0;transform-origin:50% 0" data--150-bottom="transform:rotateZ(0deg) rotateY(0) scale(1);opacity:1" class="">
                         <div class="month">Feb</div>
                         <div class="day">18</div>
                         <div class="year">2017</div>
@@ -8941,7 +9399,7 @@ I" ;F;@n;{;@o;	@o;
     <div class="fixed">
         <nav class="top-bar">
             <ul class="title-area">
-                <li class="name"><h1><a href="./">VodQA Coimbatore &raquo; <span>Feb 18</span></a></h1></li>
+                <li class="name"><h1><a href="./">VodQA Coimbatore &raquo; <span>May 5</span></a></h1></li>
                 <li class="toggle-topbar menu-icon"><a href="#"></a></li>
             </ul>
             <section class="top-bar-section">
@@ -8953,7 +9411,7 @@ I" ;F;@n;{;@o;	@o;
                 <ul class="right">
                     <li>
                     
-                        <a href="https://www.meetup.com/VodQA-Coimbatore/events/237039015/" target="_blank" rel="nofollow"
+                        <a href="https://www.meetup.com/VodQA-Coimbatore/events/249937260/" target="_blank" rel="nofollow"
                            onclick="ga('send', 'event', 'participate', 'participate')">
                             Participate
                         </a>
@@ -8999,7 +9457,7 @@ I" ;F;@n;{;@o;	@o;
 </footer>
 
 
-    <script>window.targetDate = new Date(1487395800 * 1000)</script>
+    <script>window.targetDate = new Date(1525498200 * 1000)</script>
     <script src="js/ticker.js"></script>
 
     <script src="js/skrollr.min.js"></script>
@@ -9028,7 +9486,7 @@ I" ;F;@n;{;@o;	@o;
 </html>
 
 ;T;	I" ;F;
-I" ;F;@y;{	;I"<!DOCTYPE html>
+I" ;F;@Ä;{	;I"<!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -9075,5 +9533,655 @@ I" ;F;@y;{	;I"<!DOCTYPE html>
     </script>
   </body>
 </html>
-;T;	@z;
-I" ;F;@}:versioni
+;T;	@Å;
+I" ;F;@ÑI"/2017-05/;T{;{	;I"?3<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>VodQA Coimbatore - May 2017</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:description" content="VodQA is an opportunity for testing enthusiasts to get together, network and collaborate on the latest developments in software testing world." />
+    <meta property="og:image" content="https://twcbe.github.io/vodqa/img/vodqa-og-image.jpg" />
+    <meta property="og:image:type" content="image/jpg" />
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/icons/fontello.css" />
+    <!--[if IE 7]>
+        <link rel="stylesheet" href="css/icons/fontello-ie7.css" />
+    <![endif] -->
+
+    <script src="js/custom.modernizr.js"></script>
+  </head>
+  <body>
+    <!--[if lte IE 8]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" rel="nofollow">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    
+    <section id="intro" class="feature">
+        <div class="row logo">
+            <div class="large-12 columns">
+                <a href="http://www.thoughtworks.com" target="_blank"
+                   onclick="ga('send', 'event', 'tw', 'tw')">
+                    <img src="./img/tw-logo.png" alt="ThoughtWorks" align="center" />
+                </a>
+                <div class = "vodqa-logo">
+                    <img class="small-8" src="./img/Vodqa-white.png" alt="VodQA" align="center" />
+                </div>
+                <h5>Flashback</h5>
+            </div>
+        </div>
+
+        <div class="row countdown">
+            <div class="small-8 small-offset-2 large-8 large-offset-2 columns date">
+                <p>3<sup>rd</sup> edition</p>
+                <h4>May 18 2017</h4>
+            </div>
+        </div>
+    </section>
+
+    <section id="agenda" class="feature">
+    <div class="row" data-bottom="transform:translateY(-10em)" data--100-bottom="transform:translateY(0em)">
+        <h2>Agenda</h2>
+    </div>
+
+    <div class="timings">
+        
+          <div class="row">
+            <div class="large-4 columns time" id="agenda-0"
+                 data-bottom="transform:rotateX(90deg) scale(0);opacity:0"
+                 data--200-bottom="transform:rotateX(0) scale(1);opacity:1">
+                <p>
+                    6:00 PM 
+                </p>
+            </div>
+            <div class="large-8 columns summary" data-anchor-target="#agenda-0"
+                 data-bottom="transform:rotateX(90deg) scale(0);opacity:0"
+                 data--200-bottom="transform:rotateX(0) scale(1);opacity:1">
+                <p>Welcome Note</p>
+                
+                
+                
+                
+                
+            </div>
+          </div>
+        
+          <div class="row">
+            <div class="large-4 columns time" id="agenda-1"
+                 data-bottom="transform:rotateX(90deg) scale(0);opacity:0"
+                 data--200-bottom="transform:rotateX(0) scale(1);opacity:1">
+                <p>
+                    6:30 PM 
+                </p>
+            </div>
+            <div class="large-8 columns summary" data-anchor-target="#agenda-1"
+                 data-bottom="transform:rotateX(90deg) scale(0);opacity:0"
+                 data--200-bottom="transform:rotateX(0) scale(1);opacity:1">
+                <p>Workshop:An Approach to Application Security</p>
+                
+                
+                
+                    <p><small>By:
+                    
+                        Harinee Muralinath and Jaydeep Chakrabarty
+                    
+                    </small></p>
+                
+                
+                
+            </div>
+          </div>
+        
+      </div>
+    </div>
+</section>
+
+
+     
+
+    <section id="about" class="feature">
+    <div class="row"
+         data-bottom="transform:translateY(-5em)" data--100-bottom="transform:translateY(0)">
+        <div class="large-12 columns social">
+            <a rel="nofollow" href="https://www.facebook.com/groups/vodqa/?ref=ts&fref=ts" target="_blank" title="Like us on FaceBook" onclick="ga('send', 'event', 'social', 'like')"><i class="icon-like"></i></a>
+            <a rel="nofollow" href="https://www.facebook.com/groups/vodqa/?ref=ts&fref=ts" target="_blank"><i class="icon-facebook-2" title="FaceBook group" onclick="ga('send', 'event', 'social', 'facebook')"></i></a>
+            <a rel="nofollow" href="https://twitter.com/intent/tweet?url=twcbe.github.io/vodqa&text=Whats+up&hashtags=ThoughtWorks" target="_blank" title="Tweet hashtag #ThoughtWorks" onclick="ga('send', 'event', 'social', 'twitter')"><i class="icon-twitter-2"></i></a>
+            <a rel="nofollow" href="mailto:vodqa-coimbatore@thoughtworks.com " title="Email us" onclick="ga('send', 'event', 'social', 'email')"><i class="icon-mail"></i></a>
+            <!-- NOTE: Last video link is line-wrapping in small screens like iOS a rel="nofollow" href="#" title="Videos (coming soon)"><i class="icon-youtube"></i></a -->
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="large-12 columns" data-anchor-target="#_about">
+            <blockquote>
+                <p data--100-bottom-top="transform:perspective(400px) rotateX(90deg) scale(.5);transform-origin:50% 0" data--100-bottom="transform:perspective(400px) rotateX(0deg) scale(1)">VodQA, also called Value Oriented Discussion on Quality Analysis is a forum that sports the moto -  'Come Learn Something New'. The forum offers a unique platform within the software testing industry to strengthen the QA community through knowledge sharing.</p>
+
+                <p data--100-bottom-top="transform:perspective(400px) rotateX(90deg) scale(.5);transform-origin:50% 0" data--100-bottom="transform:perspective(400px) rotateX(0deg) scale(1)"><small>This time around its a workshop on API testing. You will have the experience of learning some new ways of approaching the problem in hand.</small></p>
+
+                <p id="_about" data--100-bottom-top="transform:perspective(400px) rotateX(90deg) scale(.5);transform-origin:50% 0" data--100-bottom="transform:perspective(400px) rotateX(0deg) scale(1)"><small>We love feedback! If you have any suggestions or cribs, feel free to fill out our <a rel="nofollow" href="https://vodqa-chennai.typeform.com/to/SLjLWo" target="_blank">feedback form</a>. Don't worry, its completely anonymous.</small></p>
+
+                <cite data--100-bottom-top="transform:translateX(100%)" data--100-bottom="transform:translateX(0)">Vodqa Volunteers</cite>
+            </blockquote>
+        </div>
+    </div>
+</section>
+
+
+    <section id="archive" class="feature">
+    <div class="row" data-bottom="transform:translateY(-10em)" data--100-bottom="transform:translateY(0em)">
+        <h2>Editions</h2>
+    </div>
+
+    <div class="row">
+        <div class="large-12 columns">
+            <ul class="grid">
+                
+                <li>
+                    <a href="./" data-bottom="transform:rotateZ(180deg) rotateY(90deg) scale(0);opacity:0;transform-origin:50% 0" data--150-bottom="transform:rotateZ(0deg) rotateY(0) scale(1);opacity:1" class="">
+                        <div class="month">May</div>
+                        <div class="day">05</div>
+                        <div class="year">2018</div>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="./nov2017.html" data-bottom="transform:rotateZ(180deg) rotateY(90deg) scale(0);opacity:0;transform-origin:50% 0" data--150-bottom="transform:rotateZ(0deg) rotateY(0) scale(1);opacity:1" class="">
+                        <div class="month">Nov</div>
+                        <div class="day">18</div>
+                        <div class="year">2017</div>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="./may2017.html" data-bottom="transform:rotateZ(180deg) rotateY(90deg) scale(0);opacity:0;transform-origin:50% 0" data--150-bottom="transform:rotateZ(0deg) rotateY(0) scale(1);opacity:1" class="active">
+                        <div class="month">May</div>
+                        <div class="day">18</div>
+                        <div class="year">2017</div>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="./feb2017.html" data-bottom="transform:rotateZ(180deg) rotateY(90deg) scale(0);opacity:0;transform-origin:50% 0" data--150-bottom="transform:rotateZ(0deg) rotateY(0) scale(1);opacity:1" class="">
+                        <div class="month">Feb</div>
+                        <div class="day">18</div>
+                        <div class="year">2017</div>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="./dec2016.html" data-bottom="transform:rotateZ(180deg) rotateY(90deg) scale(0);opacity:0;transform-origin:50% 0" data--150-bottom="transform:rotateZ(0deg) rotateY(0) scale(1);opacity:1" class="">
+                        <div class="month">Dec</div>
+                        <div class="day">03</div>
+                        <div class="year">2016</div>
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+    <header id="header" class="feature">
+    <div class="fixed">
+        <nav class="top-bar">
+            <ul class="title-area">
+                <li class="name"><h1><a href="./">VodQA Coimbatore &raquo; <span>May 5</span></a></h1></li>
+                <li class="toggle-topbar menu-icon"><a href="#"></a></li>
+            </ul>
+            <section class="top-bar-section">
+                <ul class="left">
+                    <li><a href="http://www.thoughtworks.com" target="_blank"
+                           onclick="ga('send', 'event', 'tw', 'tw')">ThoughtWorks</a>
+                    </li>
+                </ul>
+                <ul class="right">
+                    <li>
+                    
+                        <a href="https://www.meetup.com/VodQA-Coimbatore/events/249937260/" target="_blank" rel="nofollow"
+                           onclick="ga('send', 'event', 'participate', 'participate')">
+                            Participate
+                        </a>
+                    
+                    </li>
+                    <li>
+                    
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfDft1fIMbuftL6cRQ1qsh4ouZ458zJfFhFR2gZy8f16lqiIg/viewform?usp=send_form" target="_blank" rel="nofollow"
+                           onclick="ga('send', 'event', 'talk', 'talk')">
+                            Talk
+                        </a>
+                    
+                    </li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#agenda">Agenda</a></li>
+                    
+                    <li><a href="#archive">All Editions</a></li>
+                </ul>
+            </section>
+        </nav>
+    </div>
+</header>
+
+
+    <footer id="footer" class="feature">
+    <div class="row">
+        <div class="large-12 columns">
+            <p><small>
+                <a href=".">VodQA Coimbatore</a> sponsored by
+                <a rel="nofollow" target="_blank" href="//thoughtworks.com">ThoughtWorks</a><br />
+                Built with
+                <a rel="nofollow" target="_blank" href="//html5boilerplate.com">HTML5 Boilerplate</a>,
+                <a rel="nofollow" target="_blank" href="//foundation.zurb.com">Zurb Foundation</a>,
+                <a rel="nofollow" target="_blank" href="//github.com/Prinzhorn/skrollr">Skrollr</a>,
+                <a rel="nofollow" target="_blank" href="//daneden.me/animate/">Animate</a>,
+                <a rel="nofollow" target="_blank" href="//nanoc.ws">Nanoc</a> &amp;
+                <a rel="nofollow" target="_blank" href="//fontello.com">Fontello</a>
+            </small></p>
+        </div>
+    </div>
+</footer>
+
+
+
+    <!-- Google Analytics -->
+    <script>
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-63362668-3']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; 
+
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </body>
+</html>
+
+;T;	I" ;F;
+I" ;F;@â;{;@ä;	@ä;
+@äI"/2017-11/;T{;{	;I"rF<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>VodQA Coimbatore - Nov 2017</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:description" content="VodQA is an opportunity for testing enthusiasts to get together, network and collaborate on the latest developments in software testing world." />
+    <meta property="og:image" content="https://twcbe.github.io/vodqa/img/vodqa-og-image.jpg" />
+    <meta property="og:image:type" content="image/jpg" />
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/icons/fontello.css" />
+    <!--[if IE 7]>
+        <link rel="stylesheet" href="css/icons/fontello-ie7.css" />
+    <![endif] -->
+
+    <script src="js/custom.modernizr.js"></script>
+  </head>
+  <body>
+    <!--[if lte IE 8]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" rel="nofollow">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    
+    <section id="intro" class="feature">
+        <div class="row logo">
+            <div class="large-12 columns">
+                <a href="http://www.thoughtworks.com" target="_blank"
+                   onclick="ga('send', 'event', 'tw', 'tw')">
+                    <img src="./img/tw-logo.png" alt="ThoughtWorks" align="center" />
+                </a>
+                <div class = "vodqa-logo">
+                    <img class="small-8" src="./img/Vodqa-white.png" alt="VodQA" align="center" />
+                </div>
+                <h5>Flashback</h5>
+            </div>
+        </div>
+
+        <div class="row countdown">
+            <div class="small-8 small-offset-2 large-8 large-offset-2 columns date">
+                <p>4<sup>th</sup> edition</p>
+                <h4>Nov 18 2017</h4>
+            </div>
+        </div>
+    </section>
+
+    <section id="agenda" class="feature">
+    <div class="row" data-bottom="transform:translateY(-10em)" data--100-bottom="transform:translateY(0em)">
+        <h2>Agenda</h2>
+    </div>
+
+    <div class="timings">
+        
+          <div class="row">
+            <div class="large-4 columns time" id="agenda-0"
+                 data-bottom="transform:rotateX(90deg) scale(0);opacity:0"
+                 data--200-bottom="transform:rotateX(0) scale(1);opacity:1">
+                <p>
+                    10:00 AM 
+                </p>
+            </div>
+            <div class="large-8 columns summary" data-anchor-target="#agenda-0"
+                 data-bottom="transform:rotateX(90deg) scale(0);opacity:0"
+                 data--200-bottom="transform:rotateX(0) scale(1);opacity:1">
+                <p>Registrations</p>
+                
+                
+                
+                
+                
+            </div>
+          </div>
+        
+          <div class="row">
+            <div class="large-4 columns time" id="agenda-1"
+                 data-bottom="transform:rotateX(90deg) scale(0);opacity:0"
+                 data--200-bottom="transform:rotateX(0) scale(1);opacity:1">
+                <p>
+                    10:30 AM 
+                </p>
+            </div>
+            <div class="large-8 columns summary" data-anchor-target="#agenda-1"
+                 data-bottom="transform:rotateX(90deg) scale(0);opacity:0"
+                 data--200-bottom="transform:rotateX(0) scale(1);opacity:1">
+                <p> New hope in Docker Selenium </p>
+                
+                    <p><small>Idea behind this talk is to describe how to create a short lived containers for each test and scale to large Selenium Cluster using Selenoid. Also states issues in maintaining a large Docker Selenium Grid / Selenium Clusters. In this session we will also be talking about the challenges we faced in using official selenium docker images and how we scaled up regression execution time from 3:3 (3 hours to 3 mins)</small></p>
+                
+                
+                
+                    <p><small>By:
+                    
+                        Srinivasan Sekar, Senior Consultant - ThoughtWorks.
+                    
+                    </small></p>
+                
+                
+                
+            </div>
+          </div>
+        
+          <div class="row">
+            <div class="large-4 columns time" id="agenda-2"
+                 data-bottom="transform:rotateX(90deg) scale(0);opacity:0"
+                 data--200-bottom="transform:rotateX(0) scale(1);opacity:1">
+                <p>
+                    11:15 AM 
+                </p>
+            </div>
+            <div class="large-8 columns summary" data-anchor-target="#agenda-2"
+                 data-bottom="transform:rotateX(90deg) scale(0);opacity:0"
+                 data--200-bottom="transform:rotateX(0) scale(1);opacity:1">
+                <p> Divide and Multiply Appium Test on CI </p>
+                
+                    <p><small>Mobile Test Automation is increasingly becoming very important. Almost all web applications are responsive these days and it's very important to test how the application works across devices. The same is true with the native application as well. At the same time, the number of devices and the custom OS versions on devices are also vast. This means that it's harder for a tester to manually run the automated tests over a list of devices to get device coverage and quicker results over every feature development. Hence there is a need to run the tests in parallel, which provides faster feedback about the quality to your team. Keeping this in mind, I build this library called AppiumTestDistribution which would help people to run tests across devices both Android and iOS in ease without much setup.</small></p>
+                
+                
+                
+                    <p><small>By:
+                    
+                        Sai Krishna, Lead Consultant - ThoughtWorks..
+                    
+                    </small></p>
+                
+                
+                
+            </div>
+          </div>
+        
+          <div class="row">
+            <div class="large-4 columns time" id="agenda-3"
+                 data-bottom="transform:rotateX(90deg) scale(0);opacity:0"
+                 data--200-bottom="transform:rotateX(0) scale(1);opacity:1">
+                <p>
+                    12:00 PM 
+                </p>
+            </div>
+            <div class="large-8 columns summary" data-anchor-target="#agenda-3"
+                 data-bottom="transform:rotateX(90deg) scale(0);opacity:0"
+                 data--200-bottom="transform:rotateX(0) scale(1);opacity:1">
+                <p>Break</p>
+                
+                
+                
+                
+                
+            </div>
+          </div>
+        
+          <div class="row">
+            <div class="large-4 columns time" id="agenda-4"
+                 data-bottom="transform:rotateX(90deg) scale(0);opacity:0"
+                 data--200-bottom="transform:rotateX(0) scale(1);opacity:1">
+                <p>
+                    12:15 PM 
+                </p>
+            </div>
+            <div class="large-8 columns summary" data-anchor-target="#agenda-4"
+                 data-bottom="transform:rotateX(90deg) scale(0);opacity:0"
+                 data--200-bottom="transform:rotateX(0) scale(1);opacity:1">
+                <p> How to use Mountebank (Mock Server) in automation</p>
+                
+                    <p><small>Mountebank is mock server which enables test doubles there by allowing independent testing respective of availability of internal/external service dependency.</small></p>
+                
+                
+                
+                    <p><small>By:
+                    
+                        Bharathan Kumaran, Senior Consultant - ThoughtWorks.
+                    
+                    </small></p>
+                
+                
+                
+            </div>
+          </div>
+        
+          <div class="row">
+            <div class="large-4 columns time" id="agenda-5"
+                 data-bottom="transform:rotateX(90deg) scale(0);opacity:0"
+                 data--200-bottom="transform:rotateX(0) scale(1);opacity:1">
+                <p>
+                    1:00 PM 
+                </p>
+            </div>
+            <div class="large-8 columns summary" data-anchor-target="#agenda-5"
+                 data-bottom="transform:rotateX(90deg) scale(0);opacity:0"
+                 data--200-bottom="transform:rotateX(0) scale(1);opacity:1">
+                <p>Networking</p>
+                
+                
+                
+                
+                
+            </div>
+          </div>
+        
+      </div>
+    </div>
+</section>
+
+
+     
+
+    <section id="about" class="feature">
+    <div class="row"
+         data-bottom="transform:translateY(-5em)" data--100-bottom="transform:translateY(0)">
+        <div class="large-12 columns social">
+            <a rel="nofollow" href="https://www.facebook.com/groups/vodqa/?ref=ts&fref=ts" target="_blank" title="Like us on FaceBook" onclick="ga('send', 'event', 'social', 'like')"><i class="icon-like"></i></a>
+            <a rel="nofollow" href="https://www.facebook.com/groups/vodqa/?ref=ts&fref=ts" target="_blank"><i class="icon-facebook-2" title="FaceBook group" onclick="ga('send', 'event', 'social', 'facebook')"></i></a>
+            <a rel="nofollow" href="https://twitter.com/intent/tweet?url=twcbe.github.io/vodqa&text=Whats+up&hashtags=ThoughtWorks" target="_blank" title="Tweet hashtag #ThoughtWorks" onclick="ga('send', 'event', 'social', 'twitter')"><i class="icon-twitter-2"></i></a>
+            <a rel="nofollow" href="mailto:vodqa-coimbatore@thoughtworks.com " title="Email us" onclick="ga('send', 'event', 'social', 'email')"><i class="icon-mail"></i></a>
+            <!-- NOTE: Last video link is line-wrapping in small screens like iOS a rel="nofollow" href="#" title="Videos (coming soon)"><i class="icon-youtube"></i></a -->
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="large-12 columns" data-anchor-target="#_about">
+            <blockquote>
+                <p data--100-bottom-top="transform:perspective(400px) rotateX(90deg) scale(.5);transform-origin:50% 0" data--100-bottom="transform:perspective(400px) rotateX(0deg) scale(1)">VodQA, also called Value Oriented Discussion on Quality Analysis is a forum that sports the moto -  'Come Learn Something New'. The forum offers a unique platform within the software testing industry to strengthen the QA community through knowledge sharing.</p>
+
+                <p data--100-bottom-top="transform:perspective(400px) rotateX(90deg) scale(.5);transform-origin:50% 0" data--100-bottom="transform:perspective(400px) rotateX(0deg) scale(1)"><small>This time around its a workshop on API testing. You will have the experience of learning some new ways of approaching the problem in hand.</small></p>
+
+                <p id="_about" data--100-bottom-top="transform:perspective(400px) rotateX(90deg) scale(.5);transform-origin:50% 0" data--100-bottom="transform:perspective(400px) rotateX(0deg) scale(1)"><small>We love feedback! If you have any suggestions or cribs, feel free to fill out our <a rel="nofollow" href="https://vodqa-chennai.typeform.com/to/SLjLWo" target="_blank">feedback form</a>. Don't worry, its completely anonymous.</small></p>
+
+                <cite data--100-bottom-top="transform:translateX(100%)" data--100-bottom="transform:translateX(0)">Vodqa Volunteers</cite>
+            </blockquote>
+        </div>
+    </div>
+</section>
+
+
+    <section id="archive" class="feature">
+    <div class="row" data-bottom="transform:translateY(-10em)" data--100-bottom="transform:translateY(0em)">
+        <h2>Editions</h2>
+    </div>
+
+    <div class="row">
+        <div class="large-12 columns">
+            <ul class="grid">
+                
+                <li>
+                    <a href="./" data-bottom="transform:rotateZ(180deg) rotateY(90deg) scale(0);opacity:0;transform-origin:50% 0" data--150-bottom="transform:rotateZ(0deg) rotateY(0) scale(1);opacity:1" class="">
+                        <div class="month">May</div>
+                        <div class="day">05</div>
+                        <div class="year">2018</div>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="./nov2017.html" data-bottom="transform:rotateZ(180deg) rotateY(90deg) scale(0);opacity:0;transform-origin:50% 0" data--150-bottom="transform:rotateZ(0deg) rotateY(0) scale(1);opacity:1" class="active">
+                        <div class="month">Nov</div>
+                        <div class="day">18</div>
+                        <div class="year">2017</div>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="./may2017.html" data-bottom="transform:rotateZ(180deg) rotateY(90deg) scale(0);opacity:0;transform-origin:50% 0" data--150-bottom="transform:rotateZ(0deg) rotateY(0) scale(1);opacity:1" class="">
+                        <div class="month">May</div>
+                        <div class="day">18</div>
+                        <div class="year">2017</div>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="./feb2017.html" data-bottom="transform:rotateZ(180deg) rotateY(90deg) scale(0);opacity:0;transform-origin:50% 0" data--150-bottom="transform:rotateZ(0deg) rotateY(0) scale(1);opacity:1" class="">
+                        <div class="month">Feb</div>
+                        <div class="day">18</div>
+                        <div class="year">2017</div>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="./dec2016.html" data-bottom="transform:rotateZ(180deg) rotateY(90deg) scale(0);opacity:0;transform-origin:50% 0" data--150-bottom="transform:rotateZ(0deg) rotateY(0) scale(1);opacity:1" class="">
+                        <div class="month">Dec</div>
+                        <div class="day">03</div>
+                        <div class="year">2016</div>
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+    <header id="header" class="feature">
+    <div class="fixed">
+        <nav class="top-bar">
+            <ul class="title-area">
+                <li class="name"><h1><a href="./">VodQA Coimbatore &raquo; <span>May 5</span></a></h1></li>
+                <li class="toggle-topbar menu-icon"><a href="#"></a></li>
+            </ul>
+            <section class="top-bar-section">
+                <ul class="left">
+                    <li><a href="http://www.thoughtworks.com" target="_blank"
+                           onclick="ga('send', 'event', 'tw', 'tw')">ThoughtWorks</a>
+                    </li>
+                </ul>
+                <ul class="right">
+                    <li>
+                    
+                        <a href="https://www.meetup.com/VodQA-Coimbatore/events/249937260/" target="_blank" rel="nofollow"
+                           onclick="ga('send', 'event', 'participate', 'participate')">
+                            Participate
+                        </a>
+                    
+                    </li>
+                    <li>
+                    
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfDft1fIMbuftL6cRQ1qsh4ouZ458zJfFhFR2gZy8f16lqiIg/viewform?usp=send_form" target="_blank" rel="nofollow"
+                           onclick="ga('send', 'event', 'talk', 'talk')">
+                            Talk
+                        </a>
+                    
+                    </li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#agenda">Agenda</a></li>
+                    
+                    <li><a href="#archive">All Editions</a></li>
+                </ul>
+            </section>
+        </nav>
+    </div>
+</header>
+
+
+    <footer id="footer" class="feature">
+    <div class="row">
+        <div class="large-12 columns">
+            <p><small>
+                <a href=".">VodQA Coimbatore</a> sponsored by
+                <a rel="nofollow" target="_blank" href="//thoughtworks.com">ThoughtWorks</a><br />
+                Built with
+                <a rel="nofollow" target="_blank" href="//html5boilerplate.com">HTML5 Boilerplate</a>,
+                <a rel="nofollow" target="_blank" href="//foundation.zurb.com">Zurb Foundation</a>,
+                <a rel="nofollow" target="_blank" href="//github.com/Prinzhorn/skrollr">Skrollr</a>,
+                <a rel="nofollow" target="_blank" href="//daneden.me/animate/">Animate</a>,
+                <a rel="nofollow" target="_blank" href="//nanoc.ws">Nanoc</a> &amp;
+                <a rel="nofollow" target="_blank" href="//fontello.com">Fontello</a>
+            </small></p>
+        </div>
+    </div>
+</footer>
+
+
+
+    <!-- Google Analytics -->
+    <script>
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-63362668-3']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; 
+
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </body>
+</html>
+
+;T;	I" ;F;
+I" ;F;@ê;{;@ë;	@ë;
+@ë:versioni
