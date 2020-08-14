@@ -3622,6 +3622,10 @@ button, .button {
     margin-bottom: 1em;
     max-width: 1000px;
     text-align: center; }
+    #twlogo a{
+        margin-bottom: 1em;
+        max-width: 50%;
+        align: center; }
 
 #header {
   padding: 0;
@@ -3699,6 +3703,12 @@ button, .button {
   border-radius: 0;
   background: url("../img/Vodqa-Latest2020.png");
   background-size: cover; }
+  #intro1 {
+    color: white;
+    background: #222222 url(../img/white-bg.jpg);
+    border-radius: 0;
+    background: url("../img/dark-bg.jpg");
+    background-size: cover; }
   #intro h1, #intro h2, #intro h3, #intro #archive .grid a .day, #archive .grid a #intro .day, #intro h4, #intro h5, #intro h6, #intro #archive .grid a .month, #archive .grid a #intro .month, #intro .subheader, #intro p, #intro blockquote, #intro small, #intro #archive .grid a .year, #archive .grid a #intro .year {
     color: white; }
   #intro a {
@@ -3711,7 +3721,7 @@ button, .button {
     #intro {
       margin-top: 45px; } }
   #intro .logo {
-    background-color: rgba(34, 34, 34, 0.5); }
+   background-color: rgba(34, 34, 34, 0.5); }
     #intro .logo .tw-logo {
       display: block; }
       #intro .logo .tw-logo:hover {
@@ -3836,6 +3846,13 @@ button, .button {
     -ms-animation: rotateInUpLeft 1s 1.5s ease both;
     -o-animation: rotateInUpLeft 1s 1.5s ease both;
     animation: rotateInUpLeft 1s 1.5s ease both; }
+      #intro1 .actions .participate {
+        background-color: rgba(34, 34, 34, 0.5);
+        -webkit-animation: rotateInUpLeft 1s 1.5s ease both;
+        -moz-animation: rotateInUpLeft 1s 1.5s ease both;
+        -ms-animation: rotateInUpLeft 1s 1.5s ease both;
+        -o-animation: rotateInUpLeft 1s 1.5s ease both;
+        animation: rotateInUpLeft 1s 1.5s ease both; }
   #intro .actions .talk {
     background-color: rgba(34, 34, 34, 0.5);
     -webkit-animation: rotateInUpRight 1s 1.5s ease both;
@@ -3869,8 +3886,21 @@ button, .button {
       color: #222222;
       padding: 0.2em;
       margin-bottom: 0.2em; }
+      #intro1 .actions a h4 {
+            -webkit-transition: background-color 300ms ease-out;
+            -moz-transition: background-color 300ms ease-out;
+            transition: background-color 300ms ease-out;
+            background-color: #00aa5b;
+            border-color: #007740;
+            color: white;
+            -webkit-border-radius: 3px;
+            border-radius: 3px;
+            color: #ffffff;
+            padding: 0.2em;
+            margin-bottom: 0.2em; }
       #intro .actions a h4:hover, #intro .actions a h4:focus {
         background-color: #007740; }
+
       #intro .actions a h4:hover, #intro .actions a h4:focus {
         color: white; }
       #intro .actions a h4 span {
@@ -3884,9 +3914,13 @@ button, .button {
     color: white;
     line-height: 2; }
 
+
 #agenda {
   color: #222222;
   background: #00aa5b url(../img/white-bg.png); }
+  #agenda1 {
+    color: #222222;
+    background: #00aa5b url(../img/white-bg.png); }
   #agenda h1, #agenda h2, #agenda h3, #agenda #archive .grid a .day, #archive .grid a #agenda .day, #agenda h4, #agenda h5, #agenda h6, #agenda #archive .grid a .month, #archive .grid a #agenda .month, #agenda .subheader, #agenda p, #agenda blockquote, #agenda small, #agenda #archive .grid a .year, #archive .grid a #agenda .year {
     color: #222222; }
   #agenda a {
