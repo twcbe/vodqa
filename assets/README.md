@@ -1,4 +1,4 @@
-# VodQA Coimbatore
+# vodQA Coimbatore
 
 an open forum for geeks to connect, discuss &amp; learn latest ideas, technologies and trends in software development
 

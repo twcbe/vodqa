@@ -71,7 +71,7 @@
 //
 
 .speaker-register-wrapper
-  background: url("../img/Vodqa-Latest2020.png") no-repeat 0 0
+  background: url("../img/banner-pattern.jpg") no-repeat 0 0
   background-size: cover
 
   .speaker-register-form
@@ -140,18 +140,19 @@
 #intro
 
   $main-fg: $white
-  $main-bg: $dark
-  $alt-fg: $green
+  $main-bg: $green
+  $alt-fg: $dark
   +override-colors($main-fg,$main-bg,$alt-fg)
   border-radius: 0
-  background: url('../img/Vodqa-Latest2020.png')
-  background-size: cover
+
+  @media (min-width: #{$small-screen})
+    background: url('../img/banner-pattern.jpg')
+    background-size: cover
 
   @media #{$small}
     margin-top: $topbar-height
 
   .logo
-    background-color: rgba($dark,0.5)
     .tw-logo
       display: block
       &:hover
@@ -159,18 +160,16 @@
       img
         display: inline-block
         margin: 0 auto
-        height: 2em
+        height: 1.5em
         +animate(bounceInLeft, 1s, 0s)
 
     .vodqa-logo
       display: block
       &:hover
         +animate(bounce, 1s)
-      img
+      .text
         display: inline-block
-        margin: 0 auto
-        width: 16em
-        height: 6em
+        font-size: 3.5em
         +animate(bounceInRight, 1s, 0s)
     //h1
       //+animate(bounceInRight, 1s, 0s)
@@ -193,7 +192,7 @@
   .countdown
     background-color: rgba($dark,0.5)
     h4
-      color: $alt-fg
+      color: $main-bg
 
     .date
       p
@@ -237,15 +236,23 @@
           +tickerOrder("tock", "tack", "tick")
           +tickerOrder("tack", "tick", "tock")
 
+//
+// ACTION SECTION
+//
+#action
+  $main-fg: $white
+  $main-bg: $green
+  $alt-fg: $dark
+
+  padding-top: 0.5em
+  padding-bottom: 0.4em
   .actions
     //padding-top: 0.5em
 
     .participate
-      background-color: rgba($dark,0.5)
       +animate(rotateInUpLeft, 1s, 1.5s)
 
     .talk
-      background-color: rgba($dark,0.5)
       +animate(rotateInUpRight, 1s, 1.5s)
 
     .participate-or-talk
@@ -259,9 +266,9 @@
 
       h4
         +single-transition(background-color)
-        +button-style($alt-fg)
+        +button-style($main-bg)
         +radius
-        color: $main-bg
+        color: $main-fg
         padding: .20em
         margin-bottom: .20em
         span        
@@ -285,6 +292,9 @@
   $alt-fg: $white
   +override-colors($main-fg,$main-bg,$alt-fg)
 
+  .session
+    h2
+      text-align: center
   .timings
     .row
       border-bottom: 1px dashed lighten($main-bg, 30%)

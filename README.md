@@ -1,4 +1,4 @@
-# VodQA Coimbatore
+# vodQA Coimbatore
 
 ## Quick Start & Auto Deployment
 
