@@ -52,12 +52,16 @@
     </section>
 <% else %>
     <section id="agenda" class="feature">
-        <div class="row" data-bottom="transform:translateY(-10em)" data--100-bottom="transform:translateY(0em)">
+        <div class="row" data--100-bottom-top="transform:perspective(400px) rotateX(90deg) scale(.5);transform-origin:50% 0" data--100-bottom="transform:perspective(400px) rotateX(0deg) scale(1)">
             <h2>Sessions</h2>
         </div>
         <% @item[:sessions] && @item[:sessions].each_with_index do |session, j| %>
         <div id="session-<%= j %>" class="session">
-            <h2><%= session[:title] %></h2>
+            <% unless session[:title].blank? %> 
+                <h2 data--100-bottom-top="transform:perspective(400px) rotateX(90deg) scale(.5);transform-origin:50% 0" data--100-bottom="transform:perspective(400px) rotateX(0deg) scale(1)">
+                    <%= session[:title] %>
+                </h2>
+            <% end %>
             <div class="timings">
                 <% session[:agenda] && session[:agenda].each_with_index do |agenda, i| %>
                 <div class="row">
