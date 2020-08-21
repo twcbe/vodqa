@@ -3622,10 +3622,6 @@ button, .button {
     margin-bottom: 1em;
     max-width: 1000px;
     text-align: center; }
-    #twlogo a{
-        margin-bottom: 1em;
-        max-width: 50%;
-        align: center; }
 
 #header {
   padding: 0;
@@ -3643,7 +3639,7 @@ button, .button {
         color: #00aa5b; }
 
 .speaker-register-wrapper {
-  background: url("../img/Vodqa-Latest2020.png") no-repeat 0 0;
+  background: url("../img/banner-pattern.jpg") no-repeat 0 0;
   background-size: cover; }
   .speaker-register-wrapper .speaker-register-form {
     background: rgba(0, 0, 0, 0.7); }
@@ -3699,81 +3695,74 @@ button, .button {
 
 #intro {
   color: white;
-  background: #222222 url(../img/white-bg.png);
-  border-radius: 0;
-  background: url("../img/Vodqa-Latest2020.png");
-  background-size: cover; }
-  #intro1 {
-    color: white;
-    background: #222222 url(../img/white-bg.jpg);
-    border-radius: 0;
-    background: url("../img/dark-bg.jpg");
-    background-size: cover; }
+  background: #00aa5b url(../img/white-bg.png);
+  border-radius: 0; }
   #intro h1, #intro h2, #intro h3, #intro #archive .grid a .day, #archive .grid a #intro .day, #intro h4, #intro h5, #intro h6, #intro #archive .grid a .month, #archive .grid a #intro .month, #intro .subheader, #intro p, #intro blockquote, #intro small, #intro #archive .grid a .year, #archive .grid a #intro .year {
     color: white; }
   #intro a {
-    color: #00aa5b; }
+    color: #222222; }
     #intro a:hover, #intro a:active {
-      color: #0a8149; }
+      color: #174a33; }
   #intro code, #intro abbr, #intro acronym {
     color: #d9d9d9; }
+  @media (min-width: 768px) {
+    #intro {
+      background-image: url("../img/banner-pattern.jpg");
+      background-size: cover;
+      background-repeat: no-repeat; } }
   @media only screen and (min-width: 768px) {
     #intro {
       margin-top: 45px; } }
-  #intro .logo {
-   background-color: rgba(34, 34, 34, 0.5); }
-    #intro .logo .tw-logo {
-      display: block; }
-      #intro .logo .tw-logo:hover {
-        -webkit-animation: bounce 1s 0s ease both;
-        -moz-animation: bounce 1s 0s ease both;
-        -ms-animation: bounce 1s 0s ease both;
-        -o-animation: bounce 1s 0s ease both;
-        animation: bounce 1s 0s ease both; }
-      #intro .logo .tw-logo img {
-        display: inline-block;
-        margin: 0 auto;
-        height: 2em;
-        -webkit-animation: bounceInLeft 1s 0s ease both;
-        -moz-animation: bounceInLeft 1s 0s ease both;
-        -ms-animation: bounceInLeft 1s 0s ease both;
-        -o-animation: bounceInLeft 1s 0s ease both;
-        animation: bounceInLeft 1s 0s ease both; }
-    #intro .logo .vodqa-logo {
-      display: block; }
-      #intro .logo .vodqa-logo:hover {
-        -webkit-animation: bounce 1s 0s ease both;
-        -moz-animation: bounce 1s 0s ease both;
-        -ms-animation: bounce 1s 0s ease both;
-        -o-animation: bounce 1s 0s ease both;
-        animation: bounce 1s 0s ease both; }
-      #intro .logo .vodqa-logo img {
-        display: inline-block;
-        margin: 0 auto;
-        width: 16em;
-        height: 6em;
-        -webkit-animation: bounceInRight 1s 0s ease both;
-        -moz-animation: bounceInRight 1s 0s ease both;
-        -ms-animation: bounceInRight 1s 0s ease both;
-        -o-animation: bounceInRight 1s 0s ease both;
-        animation: bounceInRight 1s 0s ease both; }
-    #intro .logo .subheader {
-      color: #00aa5b;
-      margin: 0.5em 0 0 0;
-      -webkit-animation: flipInX 1s 0.5s ease both;
-      -moz-animation: flipInX 1s 0.5s ease both;
-      -ms-animation: flipInX 1s 0.5s ease both;
-      -o-animation: flipInX 1s 0.5s ease both;
-      animation: flipInX 1s 0.5s ease both; }
-    #intro .logo .subnote {
-      line-height: 1;
-      display: block;
-      font-size: 0.6em;
-      -webkit-animation: flipInX 1s 0.5s ease both;
-      -moz-animation: flipInX 1s 0.5s ease both;
-      -ms-animation: flipInX 1s 0.5s ease both;
-      -o-animation: flipInX 1s 0.5s ease both;
-      animation: flipInX 1s 0.5s ease both; }
+  #intro .logo .tw-logo {
+    display: block; }
+    #intro .logo .tw-logo:hover {
+      -webkit-animation: bounce 1s 0s ease both;
+      -moz-animation: bounce 1s 0s ease both;
+      -ms-animation: bounce 1s 0s ease both;
+      -o-animation: bounce 1s 0s ease both;
+      animation: bounce 1s 0s ease both; }
+    #intro .logo .tw-logo img {
+      display: inline-block;
+      margin: 0 auto;
+      height: 1.5em;
+      -webkit-animation: bounceInLeft 1s 0s ease both;
+      -moz-animation: bounceInLeft 1s 0s ease both;
+      -ms-animation: bounceInLeft 1s 0s ease both;
+      -o-animation: bounceInLeft 1s 0s ease both;
+      animation: bounceInLeft 1s 0s ease both; }
+  #intro .logo .vodqa-logo {
+    display: block; }
+    #intro .logo .vodqa-logo:hover {
+      -webkit-animation: bounce 1s 0s ease both;
+      -moz-animation: bounce 1s 0s ease both;
+      -ms-animation: bounce 1s 0s ease both;
+      -o-animation: bounce 1s 0s ease both;
+      animation: bounce 1s 0s ease both; }
+    #intro .logo .vodqa-logo .text {
+      display: inline-block;
+      font-size: 3.5em;
+      -webkit-animation: bounceInRight 1s 0s ease both;
+      -moz-animation: bounceInRight 1s 0s ease both;
+      -ms-animation: bounceInRight 1s 0s ease both;
+      -o-animation: bounceInRight 1s 0s ease both;
+      animation: bounceInRight 1s 0s ease both; }
+  #intro .logo .subheader {
+    color: #222222;
+    margin: 0.5em 0 0 0;
+    -webkit-animation: flipInX 1s 0.5s ease both;
+    -moz-animation: flipInX 1s 0.5s ease both;
+    -ms-animation: flipInX 1s 0.5s ease both;
+    -o-animation: flipInX 1s 0.5s ease both;
+    animation: flipInX 1s 0.5s ease both; }
+  #intro .logo .subnote {
+    line-height: 1;
+    display: block;
+    font-size: 0.6em;
+    -webkit-animation: flipInX 1s 0.5s ease both;
+    -moz-animation: flipInX 1s 0.5s ease both;
+    -ms-animation: flipInX 1s 0.5s ease both;
+    -o-animation: flipInX 1s 0.5s ease both;
+    animation: flipInX 1s 0.5s ease both; }
   #intro .countdown {
     background-color: rgba(34, 34, 34, 0.5); }
     #intro .countdown h4 {
@@ -3839,42 +3828,37 @@ button, .button {
         #intro .countdown .counter h4#seconds.tack #tock {
           visibility: hidden;
           top: 100%; }
-  #intro .actions .participate {
-    background-color: rgba(34, 34, 34, 0.5);
+
+#action {
+  padding-top: 0.5em;
+  padding-bottom: 0.4em; }
+  #action .actions .participate {
     -webkit-animation: rotateInUpLeft 1s 1.5s ease both;
     -moz-animation: rotateInUpLeft 1s 1.5s ease both;
     -ms-animation: rotateInUpLeft 1s 1.5s ease both;
     -o-animation: rotateInUpLeft 1s 1.5s ease both;
     animation: rotateInUpLeft 1s 1.5s ease both; }
-      #intro1 .actions .participate {
-        background-color: rgba(34, 34, 34, 0.5);
-        -webkit-animation: rotateInUpLeft 1s 1.5s ease both;
-        -moz-animation: rotateInUpLeft 1s 1.5s ease both;
-        -ms-animation: rotateInUpLeft 1s 1.5s ease both;
-        -o-animation: rotateInUpLeft 1s 1.5s ease both;
-        animation: rotateInUpLeft 1s 1.5s ease both; }
-  #intro .actions .talk {
-    background-color: rgba(34, 34, 34, 0.5);
+  #action .actions .talk {
     -webkit-animation: rotateInUpRight 1s 1.5s ease both;
     -moz-animation: rotateInUpRight 1s 1.5s ease both;
     -ms-animation: rotateInUpRight 1s 1.5s ease both;
     -o-animation: rotateInUpRight 1s 1.5s ease both;
     animation: rotateInUpRight 1s 1.5s ease both; }
-  #intro .actions .participate-or-talk {
+  #action .actions .participate-or-talk {
     -webkit-animation: fadeInUp 1s 2s ease both;
     -moz-animation: fadeInUp 1s 2s ease both;
     -ms-animation: fadeInUp 1s 2s ease both;
     -o-animation: fadeInUp 1s 2s ease both;
     animation: fadeInUp 1s 2s ease both; }
-  #intro .actions a {
+  #action .actions a {
     display: block; }
-    #intro .actions a:hover {
+    #action .actions a:hover {
       -webkit-animation: tada 1s 0s ease both;
       -moz-animation: tada 1s 0s ease both;
       -ms-animation: tada 1s 0s ease both;
       -o-animation: tada 1s 0s ease both;
       animation: tada 1s 0s ease both; }
-    #intro .actions a h4 {
+    #action .actions a h4 {
       -webkit-transition: background-color 300ms ease-out;
       -moz-transition: background-color 300ms ease-out;
       transition: background-color 300ms ease-out;
@@ -3883,44 +3867,27 @@ button, .button {
       color: white;
       -webkit-border-radius: 3px;
       border-radius: 3px;
-      color: #222222;
+      color: white;
       padding: 0.2em;
       margin-bottom: 0.2em; }
-      #intro1 .actions a h4 {
-            -webkit-transition: background-color 300ms ease-out;
-            -moz-transition: background-color 300ms ease-out;
-            transition: background-color 300ms ease-out;
-            background-color: #00aa5b;
-            border-color: #007740;
-            color: white;
-            -webkit-border-radius: 3px;
-            border-radius: 3px;
-            color: #ffffff;
-            padding: 0.2em;
-            margin-bottom: 0.2em; }
-      #intro .actions a h4:hover, #intro .actions a h4:focus {
+      #action .actions a h4:hover, #action .actions a h4:focus {
         background-color: #007740; }
-
-      #intro .actions a h4:hover, #intro .actions a h4:focus {
+      #action .actions a h4:hover, #action .actions a h4:focus {
         color: white; }
-      #intro .actions a h4 span {
+      #action .actions a h4 span {
         font-size: 18px;
         font-weight: 600;
         display: block; }
     @media only screen and (max-width: 768px) {
-      #intro .actions a {
+      #action .actions a {
         padding: 0.25em; } }
-  #intro .actions h6.delimiter, #intro .actions #archive .grid a .delimiter.month, #archive .grid a #intro .actions .delimiter.month {
+  #action .actions h6.delimiter, #action .actions #archive .grid a .delimiter.month, #archive .grid a #action .actions .delimiter.month {
     color: white;
     line-height: 2; }
-
 
 #agenda {
   color: #222222;
   background: #00aa5b url(../img/white-bg.png); }
-  #agenda1 {
-    color: #222222;
-    background: #00aa5b url(../img/white-bg.png); }
   #agenda h1, #agenda h2, #agenda h3, #agenda #archive .grid a .day, #archive .grid a #agenda .day, #agenda h4, #agenda h5, #agenda h6, #agenda #archive .grid a .month, #archive .grid a #agenda .month, #agenda .subheader, #agenda p, #agenda blockquote, #agenda small, #agenda #archive .grid a .year, #archive .grid a #agenda .year {
     color: #222222; }
   #agenda a {
@@ -3929,6 +3896,8 @@ button, .button {
       color: #b2e5cd; }
   #agenda code, #agenda abbr, #agenda acronym {
     color: black; }
+  #agenda .session h2 {
+    text-align: center; }
   #agenda .timings .row {
     border-bottom: 1px dashed #44ffa8;
     margin-bottom: 0;
