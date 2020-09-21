@@ -1,4 +1,9 @@
 <section id="action" class="feature">
+  <div class="tagline">
+    <% if item[:tagline] %>
+      <p><%= @item[:tagline] %></p>
+    <%end %>
+  </div>
     <div class="row actions">
         <div class="large-5 columns participate">
             <% if item[:participate] %>
@@ -9,20 +14,28 @@
                 <p>
                     to learn exciting new stuff <br />
                     <small>(and to connect with fellow geeks)</small>
+                    <small style="color: red;"><br/>Limited slots Available, Will reach out to you if you get one among them...</small>
                 </p>
             <% else %>
                 <a href="javascript:void(0)">
                     <h4><strike>Participate</strike></h4>
                 </a>
                 <% if start_date.future? %>
+                  <%if item[:registrationopen] === "false" %>
                     <p>
-                        registrations not yet open <br />
-                        <small>(please check out in a few days)</small>
+                      Registrations Closed, We had only limited seats for the workshop <br />
+                      <small>(sorry, but check out next vodQA)</small>
                     </p>
+                  <%else %>
+                    <p>
+                      registrations not yet open <br />
+                      <small>(please check out in a few days)</small>
+                    </p>
+                  <%end %>
                 <% else %>
                     <p>
                         registrations closed <br />
-                        <small>(sorry, but check out next geek night)</small>
+                        <small>(sorry, but check out next vodQA)</small>
                     </p>
                 <% end %>
             <% end %>
