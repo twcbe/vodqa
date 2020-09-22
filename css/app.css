@@ -3832,6 +3832,8 @@ button, .button {
 #action {
   padding-top: 0.5em;
   padding-bottom: 0.4em; }
+  #action .tagline {
+    text-align: center; }
   #action .actions .participate {
     -webkit-animation: rotateInUpLeft 1s 1.5s ease both;
     -moz-animation: rotateInUpLeft 1s 1.5s ease both;
