@@ -1,0 +1,61 @@
+{
+  "name": "tw-events",
+  "version": "1.0.0",
+  "description": "Application to list events at ThoughtWorks",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve",
+    "start:dev": "webpack-dev-server",
+    "watch": "webpack --watch",
+    "lint": "eslint \"**/*.{jsx,js}\"",
+    "lint:fix": "eslint --fix \"**/*.{jsx,js}\""
+  },
+  "keywords": [
+    "React",
+    "PWA"
+  ],
+  "license": "MIT",
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "not IE_Mob 11"
+  ],
+  "engines": {
+    "node": ">=15.2.1",
+    "npm": ">=7.0.6"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.5",
+    "babel-loader": "^8.2.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "compression-webpack-plugin": "^6.1.1",
+    "copy-webpack-plugin": "^6.3.2",
+    "css-loader": "^5.0.1",
+    "eslint": "^7.13.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "fileloader": "^2.0.0",
+    "html-webpack-plugin": "^5.0.0-alpha.14",
+    "prettier": "^2.1.2",
+    "sass": "^1.29.0",
+    "sass-loader": "^10.1.0",
+    "style-loader": "^2.0.0",
+    "terser-webpack-plugin": "^5.0.3",
+    "webpack": "^5.6.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0",
+    "workbox-webpack-plugin": "^6.0.0-rc.0"
+  }
+}

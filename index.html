@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Sample PWA</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" type="image/png" sizes="192x192" href="favicon_192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="favicon.png" />
+    <link rel="mask-icon" href="favicon.png" color="#FFFFFF" />
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon_144.png" />
+    <link rel="apple-touch-icon" sizes="512x512" href="favicon.png" />
+    <meta name="description" content="Sample PWA" />
+    <meta name="author" content="sample" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="white" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="Sample PWA" />
+    <meta name="application-name" content="Sample PWA" />
+    <meta name="msapplication-TileImage" content="favicon.png" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker
+            .register("service-worker.js")
+            .then((registration) => {
+              console.log("SW registered: ", registration);
+            })
+            .catch((registrationError) => {
+              console.log("SW registration failed: ", registrationError);
+            });
+        });
+      }
+    </script>
+  </head>
+  <body style="background-color: white">
+    <noscript>Your browser does not support JavaScript!</noscript>
+    <div id="root"></div>
+  </body>
+</html>
