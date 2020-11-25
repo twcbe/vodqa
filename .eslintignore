@@ -1,4 +1,5 @@
 webpack.config.js
 package-lock.json
 public/
+coverage/
 node_modules/

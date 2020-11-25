@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`aa Snapshot of Body 1`] = `
+<DocumentFragment>
+  <div>
+    <h1>
+      Welcome to Hello!
+    </h1>
+    ;
+  </div>
+</DocumentFragment>
+`;
