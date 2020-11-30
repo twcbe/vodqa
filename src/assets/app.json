@@ -1,3 +1,148 @@
 {
-  "name": "vodQA"
+  "name": "vodQA",
+  "location": "Coimbatore",
+  "tagLines": [
+    "Exclusive community for Quality Analysts",
+    "Not just for Quality Analysts, but for all quality enthusiasts"
+  ],
+  "description": "vodQA, also called Value Oriented Discussion on Quality Analysis is a forum that sports the motto - ‘Come Learn Something New’. The forum offers a unique platform within the software testing industry to strengthen the QA community through knowledge sharing. Let us meet more evangelists, to talk and learn about the vast spectrum of testing realms.",
+  "submitTalk": "https://docs.google.com/forms/d/e/1FAIpQLSfDft1fIMbuftL6cRQ1qsh4ouZ458zJfFhFR2gZy8f16lqiIg/viewform?usp=send_form",
+  "feedback": "https://docs.google.com/forms/d/e/1FAIpQLSfDft1fIMbuftL6cRQ1qsh4ouZ458zJfFhFR2gZy8f16lqiIg/viewform?usp=send_form",
+  "members": "1000+",
+  "socialLinks": [
+    { "name": "instagram", "link": "https://www.instagram.com/thoughtworks/" },
+    { "name": "twitter", "link": "http://twitter.com/thoughtworks" },
+    {
+      "name": "linkedin",
+      "link": "http://www.linkedin.com/company/thoughtworks"
+    },
+    { "name": "youtube", "link": "https://www.youtube.com/c/vodQA" }
+  ],
+  "contact": {
+    "email": "vodqacoimbatore@thoughtworks.com",
+    "address": {
+      "name": "ThoughtWorks Technologies (India) Pvt Ltd",
+      "addressLine1": "1st Floor, KCT Tech Park",
+      "addressLine2": "Thudiyalur Rd, Saravanampatti",
+      "City": "Coimbatore",
+      "mapRef": "https://www.google.com/maps/place/ThoughtWorks+Technologies+(India)+Pvt+Ltd./@11.0811803,76.9890512,15z/data=!4m5!3m4!1s0x0:0xce2d3eb9118c52e8!8m2!3d11.0811803!4d76.9890512",
+      "embededMapRef": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15661.634551458805!2d76.9987097!3d11.0828914!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xce2d3eb9118c52e8!2sThoughtWorks+Technologies+(India)+Pvt+Ltd.!5e0!3m2!1sen!2sin!4v1474870503034"
+    }
+  },
+  "editions": [
+    {
+      "id": 11,
+      "title": "Containerising your test suites or application",
+      "type": "workshop",
+      "startTime": 1605932100000,
+      "endTime": 1605942900000,
+      "sessions": [
+        {
+          "talks": [
+            {
+              "title": "Docker : Hands-on Workshop",
+              "speaker": "Sathya Subramani & U Ravi Prasanth - Quality Analyst, ThoughtWorks.",
+              "startTime": 1605932100000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Automate non funttional requirements with Puppeteer",
+      "type": "workshop",
+      "startTime": 1602303300000,
+      "endTime": 1602315000000,
+      "sessions": [
+        {
+          "talks": [
+            {
+              "title": "Puppeteer : Hands-on Workshop",
+              "speaker": "Shoban Manohar and Ramakrishnan Kandasamy - Quality Analyst, ThoughtWorks.",
+              "startTime": 1602304200000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "vodQA Shots - New Trends in Testing",
+      "type": "Talk | Demo",
+      "startTime": 1598674500000,
+      "endTime": 1598680800000,
+      "sessions": [
+        {
+          "talks": [
+            {
+              "title": "What's interesting in Puppeteer",
+              "speaker": "Shoban Manohar and Ramakrishnan Kandasamy - Quality Analyst, ThoughtWorks.",
+              "startTime": 1598675400000
+            },
+            {
+              "title": "Chaos Testing - Identifying System Fault tolerance",
+              "speaker": "Abinandan K - Senior Consultant, ThoughtWorks.",
+              "startTime": 1598679000000
+            },
+            {
+              "title": "The New Realities",
+              "speaker": "Jayachandran S - Senior Consultant, ThoughtWorks.",
+              "startTime": 1598679900000
+            }
+          ]
+        },
+        {
+          "talks": [
+            {
+              "title": "Performance tests as code",
+              "speaker": "Abdul Kamaldeen - Consultant & Ramprasanth Azhagappan - Senior Consultant, ThoughtWorks.",
+              "startTime": 1599280200000
+            },
+            {
+              "title": "Dockerising Performance Test Suite",
+              "speaker": "Sathya Subramani - Consultant & U Ravi Prasanth - Consultant, ThoughtWorks.",
+              "startTime": 1599283800000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "New age frontend automation tools",
+      "type": "Talk | Demo",
+      "startTime": 1575691200000,
+      "endTime": 1575702000000,
+      "sessions": [
+        {
+          "talks": [
+            {
+              "title": "Taiko & Gauge : What & Why every QA should know",
+              "speaker": "Sathya Subramani - Consultant & U Ravi Prasanth - Consultant, ThoughtWorks.",
+              "startTime": 1575691200000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "vodQA shots on Microservices testing",
+      "type": "Talk",
+      "startTime": 1549080000000,
+      "endTime": 1549090800000,
+      "sessions": [
+        {
+          "talks": [
+            {
+              "title": "QA strategy around Microservices",
+              "speaker": "Surender Manoharan, ThoughtWorks.",
+              "startTime": 1549080000000
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

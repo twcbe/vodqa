@@ -1,0 +1,154 @@
+.recentEditions {
+  margin: 1em;
+  .title {
+    font-size: 1.2vmax;
+  }
+
+  .editions {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+#collaborate {
+  background-color: #f4f4f4;
+
+  .item.submit {
+    display: inline-block;
+    margin-left: 12vmax;
+    width: 35%;
+  }
+
+  .title {
+    font-size: 2vmax;
+    font-weight: 600;
+  }
+
+  .submit-talk-button {
+    margin-top: 2vmax;
+    padding: 1vmax;
+    font-size: 1vmax;
+    display: inline-block;
+    color: white;
+    background-color: #11aa58;
+    border-radius: 4px;
+    text-decoration: none;
+    border: none;
+  }
+
+  .item.steps {
+    display: inline-block;
+    margin-left: 2vmax;
+    width: 40%;
+
+    @media only screen and (max-width: 480px) {
+      margin-left: 12vmax;
+      margin-top: 4vmax;
+    }
+  }
+
+  .steps .img.pen {
+    background-image: url("../imgs/pen.png");
+  }
+
+  .steps .img.file {
+    background-image: url("../imgs/file.png");
+  }
+
+  .steps .img.contact-us {
+    background-image: url("../imgs/contact-us.png");
+  }
+
+  .step {
+    padding-bottom: 1vmax;
+    .img {
+      width: 4vmax;
+      height: 4vmax;
+      display: inline-block;
+      background-size: cover;
+    }
+    .text {
+      vertical-align: top;
+      margin-left: 2vmax;
+      display: inline-block;
+      width: 40%;
+
+      @media only screen and (max-width: 480px) {
+        width: 60%;
+      }
+    }
+  }
+}
+
+#aboutus {
+  margin-left: 4vmax;
+
+  .title {
+    font-size: 1.5vmax;
+    font-weight: 600;
+  }
+
+  .item {
+    display: inline-block;
+    width: 40%;
+
+    @media only screen and (max-width: 480px) {
+      font-size: 1.5vmax;
+      width: 90%;
+    }
+  }
+
+  .feedback-link {
+    font-weight: 600;
+    color: #2680eb;
+    text-decoration: none;
+  }
+}
+
+#footer {
+  background-color: #f4f4f4;
+  width: 100%;
+  overflow: hidden;
+
+  .item {
+    margin-top: 2vmax;
+    margin-left: 10vmax;
+    display: inline-block;
+    width: 40%;
+  }
+
+  .bold {
+    font-weight: 600;
+  }
+
+  .social-links a {
+    display: inline-block;
+    width: 3vmax;
+    height: 3vmax;
+    background-size: cover;
+    margin-right: 2px;
+  }
+
+  .instagram {
+    background-image: url("../imgs/instagram.png");
+  }
+  .twitter {
+    background-image: url("../imgs/twitter.png");
+  }
+  .linkedin {
+    background-image: url("../imgs/linkedin.png");
+  }
+  .youtube {
+    margin-left: 2px;
+    background-image: url("../imgs/youtube.png");
+  }
+
+  .copyright {
+    color: black;
+    text-align: center;
+    margin-top: 2vmax;
+    margin-bottom: 1vmax;
+  }
+}

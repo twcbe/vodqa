@@ -22,11 +22,13 @@ const terserPluginConfig = new TerserPlugin({
 
 const workboxPluginConfig = new WorkboxPlugin.GenerateSW({
   clientsClaim: true,
+  maximumFileSizeToCacheInBytes: 5000000,
   skipWaiting: true,
   runtimeCaching: [{ urlPattern: "index.html", handler: "CacheFirst" }],
 });
 
 module.exports = {
+  mode: "development",
   entry: "./src/app.jsx",
   output: {
     filename: "[name].[chunkhash].js",

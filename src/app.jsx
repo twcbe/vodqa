@@ -1,6 +1,6 @@
 import React, { Suspense, useState, useEffect } from "react";
 import ReactDOM from "react-dom";
-import "./app.css";
+import "./app.scss";
 
 import { Home } from "./home/index.jsx";
 
@@ -10,7 +10,7 @@ const renderError = () => <p>Something went wrong</p>;
 function App() {
   const [error, setError] = useState(null);
   const [isLoaded, setIsLoaded] = useState(false);
-  const [config, setConfig] = useState([]);
+  const [config, setConfig] = useState({});
 
   useEffect(() => {
     fetch("./app.json")
@@ -21,25 +21,23 @@ function App() {
           setConfig(result);
         },
         (error) => {
-          setIsLoaded(true);
+          setIsLoaded(false);
           setError(error);
         }
       );
   }, []);
 
-  if (error) {
+  if (error || !isLoaded || !config.name) {
     return renderError();
-  } else if (!isLoaded) {
-    return renderLoader();
-  } else {
-    return (
-      <Suspense fallback={renderLoader()}>
-        <div>
-          <Home name={config.name} />
-        </div>
-      </Suspense>
-    );
   }
+
+  return (
+    <Suspense fallback={renderLoader()}>
+      <div>
+        <Home config={config} />
+      </div>
+    </Suspense>
+  );
 }
 
 ReactDOM.render(<App />, document.getElementById("root"));

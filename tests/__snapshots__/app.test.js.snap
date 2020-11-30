@@ -1,12 +1,621 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`aa Snapshot of Body 1`] = `
+exports[`Home Page Verify home page renders peoperly with mock data 1`] = `
 <DocumentFragment>
-  <div>
-    <h1>
-      Welcome to Hello!
-    </h1>
-    ;
+  <div
+    class="event-home"
+  >
+    <div>
+      <div
+        class="banner inactive"
+        id="banner"
+      >
+        <div
+          class="topnav"
+        >
+          <a
+            class="item link"
+            href="#contactus"
+          >
+            Contact Us
+          </a>
+          <a
+            class="item link"
+            href="#aboutus"
+          >
+            About Us
+          </a>
+          <a
+            class="item link"
+            href="#collaborate"
+          >
+            Collaborate
+          </a>
+          <a
+            class="item link"
+            href="#editions"
+          >
+            Editions
+          </a>
+          <div
+            class="item logo"
+          >
+            sample
+          </div>
+          <div
+            class="item location"
+          >
+            Mars
+          </div>
+        </div>
+        <div
+          class="eventInfo"
+        >
+          <p
+            class="tagLine"
+          >
+            Exclusive community for sample
+          </p>
+          <p
+            class="tagLine"
+          >
+            Not just for sample, but for all samples
+          </p>
+          <div
+            class="stats"
+          >
+            <div
+              class="item"
+            >
+              <div>
+                <p
+                  class="value"
+                >
+                  5
+                </p>
+                <p
+                  class="text"
+                >
+                  EDITIONS
+                </p>
+              </div>
+            </div>
+            <div
+              class="item"
+            >
+              <div>
+                <p
+                  class="value"
+                >
+                  10
+                </p>
+                <p
+                  class="text"
+                >
+                  TALKS
+                </p>
+              </div>
+            </div>
+            <div
+              class="item"
+            >
+              <div>
+                <p
+                  class="value"
+                >
+                  1000+
+                </p>
+                <p
+                  class="text"
+                >
+                  MEMBERS
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="recentEditions"
+      id="editions"
+    >
+      <span
+        class="title"
+      >
+        Recent Editions
+      </span>
+      <div
+        class="editions"
+      >
+        <div
+          class="editionCard event-bg"
+        >
+          <span
+            class="type"
+          >
+            WORKSHOP
+          </span>
+          <div
+            class="details"
+          >
+            <p
+              class="title"
+            >
+              Event titile of 5 - Single workshop
+            </p>
+            <p
+              class="date"
+            >
+              Edition 5 | 21 Nov 2020
+            </p>
+            <div
+              class="info"
+            >
+              <div
+                class="item"
+              >
+                <p
+                  class="value"
+                >
+                  01
+                </p>
+                <p>
+                  Talks
+                </p>
+              </div>
+              <div
+                class="item"
+              >
+                <p
+                  class="separator"
+                />
+                <p
+                  class="value"
+                >
+                  01
+                </p>
+                <p>
+                  Sessions
+                </p>
+              </div>
+              <div
+                class="item"
+              >
+                <p
+                  class="separator"
+                />
+                <p
+                  class="value"
+                >
+                  03 hr
+                </p>
+                <p>
+                  Duration
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="editionCard event-bg"
+        >
+          <span
+            class="type"
+          >
+            TALK
+          </span>
+          <div
+            class="details"
+          >
+            <p
+              class="title"
+            >
+              Event titile of 4 - multiple talks
+            </p>
+            <p
+              class="date"
+            >
+              Edition 4 | 10 Oct 2020
+            </p>
+            <div
+              class="info"
+            >
+              <div
+                class="item"
+              >
+                <p
+                  class="value"
+                >
+                  02
+                </p>
+                <p>
+                  Talks
+                </p>
+              </div>
+              <div
+                class="item"
+              >
+                <p
+                  class="separator"
+                />
+                <p
+                  class="value"
+                >
+                  01
+                </p>
+                <p>
+                  Sessions
+                </p>
+              </div>
+              <div
+                class="item"
+              >
+                <p
+                  class="separator"
+                />
+                <p
+                  class="value"
+                >
+                  3.25 hr
+                </p>
+                <p>
+                  Duration
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="editionCard event-bg"
+        >
+          <span
+            class="type"
+          >
+            TALK | DEMO
+          </span>
+          <div
+            class="details"
+          >
+            <p
+              class="title"
+            >
+              Event titile of 3 - multiple tracks/sessions
+            </p>
+            <p
+              class="date"
+            >
+              Edition 3 | 29 Aug 2020
+            </p>
+            <div
+              class="info"
+            >
+              <div
+                class="item"
+              >
+                <p
+                  class="value"
+                >
+                  05
+                </p>
+                <p>
+                  Talks
+                </p>
+              </div>
+              <div
+                class="item"
+              >
+                <p
+                  class="separator"
+                />
+                <p
+                  class="value"
+                >
+                  02
+                </p>
+                <p>
+                  Sessions
+                </p>
+              </div>
+              <div
+                class="item"
+              >
+                <p
+                  class="separator"
+                />
+                <p
+                  class="value"
+                >
+                  1.75 hr
+                </p>
+                <p>
+                  Duration
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="editionCard event-bg"
+        >
+          <span
+            class="type"
+          >
+            TALK | DEMO
+          </span>
+          <div
+            class="details"
+          >
+            <p
+              class="title"
+            >
+              Event titile of 2
+            </p>
+            <p
+              class="date"
+            >
+              Edition 2 | 7 Dec 2019
+            </p>
+            <div
+              class="info"
+            >
+              <div
+                class="item"
+              >
+                <p
+                  class="value"
+                >
+                  01
+                </p>
+                <p>
+                  Talks
+                </p>
+              </div>
+              <div
+                class="item"
+              >
+                <p
+                  class="separator"
+                />
+                <p
+                  class="value"
+                >
+                  01
+                </p>
+                <p>
+                  Sessions
+                </p>
+              </div>
+              <div
+                class="item"
+              >
+                <p
+                  class="separator"
+                />
+                <p
+                  class="value"
+                >
+                  03 hr
+                </p>
+                <p>
+                  Duration
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      id="collaborate"
+    >
+      <div
+        class="wave-seperator "
+      >
+        <svg
+          data-name="Layer 1"
+          preserveAspectRatio="none"
+          viewBox="0 0 1200 120"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="shape-fill"
+            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+          />
+        </svg>
+      </div>
+      <div
+        class="item submit"
+      >
+        <div
+          class="title"
+        >
+          Collaborate with us and present in the community
+        </div>
+        <div
+          class="button-wrapper"
+        >
+          <a
+            class="submit-talk-button"
+            href="https://random.link/submit"
+            rel="noreferrer"
+            target="_blank"
+          >
+            Submit your talk
+          </a>
+        </div>
+      </div>
+      <div
+        class="item steps"
+      >
+        <div
+          class="step write"
+        >
+          <div
+            class="img pen"
+          />
+          <p
+            class="text"
+          >
+            Build your talk and write an abstract within 200 words
+          </p>
+        </div>
+        <div
+          class="step submit"
+        >
+          <div
+            class="img file"
+          />
+          <p
+            class="text"
+          >
+            Share the abstract with us by filling our form
+          </p>
+        </div>
+        <div
+          class="step contact"
+        >
+          <div
+            class="img contact-us"
+          />
+          <p
+            class="text"
+          >
+            We will reach out you to take this further
+          </p>
+        </div>
+      </div>
+      <div
+        class="wave-seperator invert"
+      >
+        <svg
+          data-name="Layer 1"
+          preserveAspectRatio="none"
+          viewBox="0 0 1200 120"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="shape-fill"
+            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+          />
+        </svg>
+      </div>
+    </div>
+    <div
+      id="aboutus"
+    >
+      <div
+        class="item"
+      >
+        <p
+          class="title"
+        >
+          What’s sample?
+        </p>
+        <br />
+        <p
+          class="description"
+        >
+          some event description goes here
+        </p>
+        <br />
+        <p
+          class="feedback-que"
+        >
+          Have you attended a sample event before?
+        </p>
+        <br />
+        <a
+          class="feedback-link"
+          href="https://random.link/feedback"
+          rel="noreferrer"
+          target="_blank"
+        >
+          Tell us how it was?
+        </a>
+        <br />
+        <br />
+      </div>
+    </div>
+    <div>
+      <div
+        id="footer"
+      >
+        <div
+          class="wave-seperator "
+        >
+          <svg
+            data-name="Layer 1"
+            preserveAspectRatio="none"
+            viewBox="0 0 1200 120"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="shape-fill"
+              d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+            />
+          </svg>
+        </div>
+        <div
+          class="item"
+        >
+          <p
+            class="bold"
+            id="contactus"
+          >
+            Contact us
+          </p>
+          <br />
+          <p>
+            E-Mail us at:
+          </p>
+          <a
+            href="mailto:no-reply@thoughtworks.com"
+          >
+            no-reply@thoughtworks.com
+          </a>
+        </div>
+        <div
+          class="item social-links"
+        >
+          <p
+            class="bold"
+          >
+            Follow us
+          </p>
+          <br />
+          <a
+            class="instagram"
+            href="https://www.instagram.com"
+            rel="noreferrer"
+            target="_blank"
+          />
+          <a
+            class="twitter"
+            href="http://twitter.com"
+            rel="noreferrer"
+            target="_blank"
+          />
+          <a
+            class="linkedin"
+            href="http://www.linkedin.com"
+            rel="noreferrer"
+            target="_blank"
+          />
+          <a
+            class="youtube"
+            href="https://www.youtube.com"
+            rel="noreferrer"
+            target="_blank"
+          />
+        </div>
+        <p
+          class="copyright"
+        >
+          © 2020 ThoughtWorks, Inc.
+        </p>
+      </div>
+    </div>
   </div>
 </DocumentFragment>
 `;
