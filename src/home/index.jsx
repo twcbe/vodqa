@@ -11,6 +11,11 @@ export class Home extends Component {
     super(props);
   }
 
+  componentDidMount() {
+    const event = this.props.config;
+    if (event) document.title = `${event.name} ${event.location}`;
+  }
+
   render() {
     const event = this.props.config;
 

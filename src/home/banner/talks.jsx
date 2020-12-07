@@ -37,33 +37,83 @@ export class Talks extends Component {
 
   render() {
     if (!this.state.talks) return <br />;
-    const talk = this.state.talks[this.state.index];
+
     const { index, talksCount } = this.state;
+    const talk = this.state.talks[index];
+
+    if (!talk) return <br />;
+    const talkId = index + 1;
     const startTime = new Date(talk.startTime);
     const endTime = new Date(talk.endTime);
 
+    const getLocalTime = (date) =>
+      date.toLocaleString("en-US", {
+        hour: "numeric",
+        minute: "numeric",
+        hour12: true,
+      });
+
+    const renderTalkInfo = (talk) => (
+      <div className="talkInfo">
+        <div className="talk-title">{talk.title}</div>
+        <div className="timeSlot">
+          {getLocalTime(startTime)} - {getLocalTime(endTime)}
+        </div>
+        <div className="description">{talk.description}</div>
+      </div>
+    );
+
+    const renderSpeakerInfo = (speakers) => {
+      const renderSpeaker = (speaker) => (
+        <>
+          <img className="pic" src={speaker.profilePicture} loading="lazy" />
+          <div className="info">
+            <div className="name">{speaker.name}</div>
+            <div className="desgination">{speaker.desgination}</div>
+          </div>
+        </>
+      );
+
+      if (speakers.length == 1) {
+        return <div className="speakerInfo">{renderSpeaker(speakers[0])}</div>;
+      }
+
+      return (
+        <div className="speakers">
+          {speakers.map((speaker, index) => (
+            <div key={index} className="speaker">
+              {renderSpeaker(speaker)}
+            </div>
+          ))}
+        </div>
+      );
+    };
+
     return (
       <div className="talks">
-        <div id={`talk-${index}`} className="talkInfo">
-          <div className="title">{talk.title}</div>
-          <div className="timeSlot">
-            {startTime.toLocaleString("en-US", {
-              hour: "numeric",
-              minute: "numeric",
-              hour12: true,
-            })}{" "}
-            -{" "}
-            {endTime.toLocaleString("en-US", {
-              hour: "numeric",
-              minute: "numeric",
-              hour12: true,
-            })}
-          </div>
-          <div className="description">{talk.description}</div>
+        <div id={`talk-${index}`} className="talk">
+          {renderTalkInfo(talk)}
+          {renderSpeakerInfo(talk.speakers)}
           {talksCount > 1 && (
-            <div className="navigation">
-              <button onClick={this.handlePrevious}>Prev</button>
-              <button onClick={this.handleNext}>Next</button>
+            <div className="actions">
+              <span>
+                <span className="bold"> {String(talkId).padStart(2, "0")}</span>{" "}
+                / {String(talksCount).padStart(2, "0")}
+              </span>
+              <button
+                id="prev"
+                disabled={index == 0}
+                onClick={this.handlePrevious}
+              >
+                {"<"}
+              </button>
+              <button
+                id="next"
+                disabled={index == talksCount - 1}
+                onClick={this.handleNext}
+              >
+                {">"}
+              </button>
             </div>
           )}
         </div>
