@@ -169,7 +169,7 @@
 
     .rsvp {
       margin-top: 2vmax;
-      margin-bottom: 2vmax;
+      margin-bottom: 4vmax;
       .link {
         color: #11aa58;
         font-weight: 600;
@@ -181,7 +181,7 @@
     }
 
     .talks {
-      width: 70%;
+      width: 60%;
       background: rgba(17, 170, 88, 0.5) 0% 0% no-repeat padding-box;
       border-radius: 6px;
       padding: 1vmax;
@@ -194,7 +194,7 @@
       .talkInfo {
         display: inline-block;
         vertical-align: top;
-        width: 60%;
+        width: 70%;
 
         @media only screen and (max-width: 1024px) {
           width: 85%;
