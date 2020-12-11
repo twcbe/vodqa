@@ -102,6 +102,7 @@ export class Home extends Component {
             <br />
             <br />
           </div>
+          <div className="background" />
         </div>
       );
     };

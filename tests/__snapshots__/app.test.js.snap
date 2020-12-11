@@ -536,6 +536,9 @@ exports[`Home Page Verify home page renders peoperly with mock data 1`] = `
         <br />
         <br />
       </div>
+      <div
+        class="background"
+      />
     </div>
     <div>
       <div

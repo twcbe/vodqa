@@ -194,7 +194,7 @@
       .talkInfo {
         display: inline-block;
         vertical-align: top;
-        width: 70%;
+        width: 60%;
 
         @media only screen and (max-width: 1024px) {
           width: 85%;
@@ -273,6 +273,10 @@
 
       .bold {
         font-weight: 600;
+      }
+
+      .light {
+        font-weight: 100;
       }
     }
   }

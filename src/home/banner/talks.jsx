@@ -97,8 +97,10 @@ export class Talks extends Component {
           {talksCount > 1 && (
             <div className="actions">
               <span>
-                <span className="bold"> {String(talkId).padStart(2, "0")}</span>{" "}
-                / {String(talksCount).padStart(2, "0")}
+                <span className="bold">{String(talkId).padStart(2, "0")} </span>
+                <span className="light">
+                  / {String(talksCount).padStart(2, "0")}
+                </span>
               </span>
               <button
                 id="prev"
