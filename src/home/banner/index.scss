@@ -220,6 +220,7 @@
       .speakerInfo {
         padding-left: 1vmax;
         display: inline-block;
+        text-align: center;
 
         .pic {
           @media only screen and (max-width: 1024px) {
@@ -230,6 +231,7 @@
         }
 
         .info {
+          text-align: left;
           @media only screen and (max-width: 1024px) {
             padding-left: 1vmax;
             padding-top: 1vmax;
