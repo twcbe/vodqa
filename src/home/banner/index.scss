@@ -222,8 +222,20 @@
         display: inline-block;
 
         .pic {
+          @media only screen and (max-width: 480px) {
+            display: inline-block;
+          }
           height: 6vmax;
           border-radius: 50%;
+        }
+
+        .info {
+          @media only screen and (max-width: 480px) {
+            padding-left: 1vmax;
+            padding-top: 1vmax;
+            vertical-align: top;
+            display: inline-block;
+          }
         }
       }
 
@@ -243,6 +255,7 @@
         }
 
         .info {
+          padding-top: 0.5vmax;
           padding-left: 1vmax;
           vertical-align: top;
           display: inline-block;
