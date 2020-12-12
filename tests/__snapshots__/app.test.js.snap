@@ -176,7 +176,7 @@ exports[`Home Page Verify home page renders peoperly with mock data 1`] = `
                   01
                 </p>
                 <p>
-                  Sessions
+                  Session
                 </p>
               </div>
               <div
@@ -245,7 +245,7 @@ exports[`Home Page Verify home page renders peoperly with mock data 1`] = `
                   01
                 </p>
                 <p>
-                  Sessions
+                  Session
                 </p>
               </div>
               <div
@@ -383,7 +383,7 @@ exports[`Home Page Verify home page renders peoperly with mock data 1`] = `
                   01
                 </p>
                 <p>
-                  Sessions
+                  Session
                 </p>
               </div>
               <div

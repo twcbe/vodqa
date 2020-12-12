@@ -45,7 +45,7 @@ export class EditionCard extends Component {
             <div className="item">
               <p className="separator" />
               <p className="value">{String(sessionCount).padStart(2, "0")}</p>
-              <p>Sessions</p>
+              <p>{sessionCount > 1 ? "Sessions" : "Session"}</p>
             </div>
             <div className="item">
               <p className="separator" />
