@@ -26,6 +26,12 @@
     font-weight: 600;
   }
 
+  .button-wrapper {
+    @media only screen and (max-width: 480px) {
+      display: none;
+    }
+  }
+
   .submit-talk-button {
     margin-top: 2vmax;
     padding: 1vmax;
@@ -79,6 +85,15 @@
         width: 60%;
       }
     }
+  }
+}
+
+#collaborate > .button-wrapper {
+  display: none;
+
+  @media only screen and (max-width: 480px) {
+    display: block;
+    text-align: center;
   }
 }
 
@@ -141,7 +156,7 @@
 
   .item {
     margin-top: 2vmax;
-    margin-left: 10vmax;
+    margin-left: 5vmax;
     display: inline-block;
     width: 40%;
   }

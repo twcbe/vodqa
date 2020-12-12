@@ -222,7 +222,7 @@
         display: inline-block;
 
         .pic {
-          @media only screen and (max-width: 480px) {
+          @media only screen and (max-width: 1024px) {
             display: inline-block;
           }
           height: 6vmax;
@@ -230,7 +230,7 @@
         }
 
         .info {
-          @media only screen and (max-width: 480px) {
+          @media only screen and (max-width: 1024px) {
             padding-left: 1vmax;
             padding-top: 1vmax;
             vertical-align: top;

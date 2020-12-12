@@ -38,6 +38,19 @@ export class Home extends Component {
     };
 
     const renderCollaborate = () => {
+      const renderSubmitButton = () => (
+        <div className="button-wrapper">
+          <a
+            className="submit-talk-button"
+            target="_blank"
+            rel="noreferrer"
+            href={event.submitTalk}
+          >
+            Submit your talk
+          </a>
+        </div>
+      );
+
       return (
         <div id="collaborate">
           {renderWave()}
@@ -45,16 +58,7 @@ export class Home extends Component {
             <div className="title">
               Collaborate with us and present in the community
             </div>
-            <div className="button-wrapper">
-              <a
-                className="submit-talk-button"
-                target="_blank"
-                rel="noreferrer"
-                href={event.submitTalk}
-              >
-                Submit your talk
-              </a>
-            </div>
+            {renderSubmitButton()}
           </div>
           <div className="item steps">
             <div className="step write">
@@ -74,6 +78,7 @@ export class Home extends Component {
               <p className="text">We will reach out you to take this further</p>
             </div>
           </div>
+          {renderSubmitButton()}
           {renderWave(true)}
         </div>
       );
