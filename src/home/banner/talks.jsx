@@ -66,7 +66,12 @@ export class Talks extends Component {
     const renderSpeakerInfo = (speakers) => {
       const renderSpeaker = (speaker) => (
         <>
-          <img className="pic" src={speaker.profilePicture} loading="lazy" />
+          <img
+            className="pic"
+            src={speaker.profilePicture}
+            alt={speaker.name}
+            loading="lazy"
+          />
           <div className="info">
             <div className="name">{speaker.name}</div>
             <div className="desgination">{speaker.desgination}</div>

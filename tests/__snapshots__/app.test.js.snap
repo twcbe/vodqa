@@ -604,24 +604,28 @@ exports[`Home Page Verify home page renders peoperly with mock data 1`] = `
             href="https://www.instagram.com"
             rel="noreferrer"
             target="_blank"
+            title="instagram"
           />
           <a
             class="twitter"
             href="http://twitter.com"
             rel="noreferrer"
             target="_blank"
+            title="twitter"
           />
           <a
             class="linkedin"
             href="http://www.linkedin.com"
             rel="noreferrer"
             target="_blank"
+            title="linkedin"
           />
           <a
             class="youtube"
             href="https://www.youtube.com"
             rel="noreferrer"
             target="_blank"
+            title="youtube"
           />
         </div>
         <p

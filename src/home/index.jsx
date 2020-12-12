@@ -134,6 +134,7 @@ export class Home extends Component {
                 event.socialLinks.map((socialLink) => {
                   return (
                     <a
+                      title={socialLink.name}
                       key={socialLink.name}
                       className={socialLink.name}
                       target="_blank"
