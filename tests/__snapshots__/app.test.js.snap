@@ -121,7 +121,7 @@ exports[`Home Page Verify home page renders peoperly with mock data 1`] = `
       id="editions"
     >
       <span
-        class="title"
+        class="banner"
       >
         Recent Editions
       </span>
@@ -484,6 +484,18 @@ exports[`Home Page Verify home page renders peoperly with mock data 1`] = `
             We will reach out you to take this further
           </p>
         </div>
+      </div>
+      <div
+        class="button-wrapper"
+      >
+        <a
+          class="submit-talk-button"
+          href="https://random.link/submit"
+          rel="noreferrer"
+          target="_blank"
+        >
+          Submit your talk
+        </a>
       </div>
       <div
         class="wave-seperator invert"

@@ -18,7 +18,7 @@ export class RecentEditions extends Component {
 
     return (
       <div id="editions" className="recentEditions">
-        <span className="title">Recent Editions</span>
+        <span className="banner">Recent Editions</span>
         <div className="editions">
           {recentEditions.map((edition) => {
             return <EditionCard key={edition.id} edition={edition} />;
