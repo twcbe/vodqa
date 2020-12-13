@@ -151,7 +151,7 @@ export class Home extends Component {
     };
 
     return (
-      <div className="event-home">
+      <div id="event-home" className="event-home">
         <Banner event={event}></Banner>
         <RecentEditions editions={event.editions} />
         {renderCollaborate()}
