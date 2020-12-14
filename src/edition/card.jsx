@@ -40,7 +40,7 @@ export class EditionCard extends Component {
           <div className="info">
             <div className="item">
               <p className="value">{String(talksCount).padStart(2, "0")}</p>
-              <p>Talks</p>
+              <p>{talksCount > 1 ? "Talks" : "Talk"}</p>
             </div>
             <div className="item">
               <p className="separator" />

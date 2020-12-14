@@ -1,0 +1,354 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Talks Section Display talks - move to next talk 1`] = `
+<DocumentFragment>
+  <div
+    class="talks"
+  >
+    <div
+      class="talk"
+      id="talk-1"
+    >
+      <div
+        class="talkInfo"
+      >
+        <div
+          class="talk-title"
+        >
+          Talk 2 of session 1
+        </div>
+        <div
+          class="timeSlot"
+        >
+          1:00 PM - 2:00 PM
+        </div>
+        <div
+          class="description"
+        >
+          Desc of Talk 2 of session 1
+        </div>
+      </div>
+      <div
+        class="speakerInfo"
+      >
+        <img
+          alt="person 3"
+          class="pic"
+          loading="lazy"
+          src="profile/person3.png"
+        />
+        <div
+          class="info"
+        >
+          <div
+            class="name"
+          >
+            person 3
+          </div>
+          <div
+            class="desgination"
+          >
+            Quality Analyst, ThoughtWorks
+          </div>
+        </div>
+      </div>
+      <div
+        class="actions"
+      >
+        <span>
+          <span
+            class="bold"
+          >
+            02 
+          </span>
+          <span
+            class="light"
+          >
+            / 03
+          </span>
+        </span>
+        <button
+          alt="Previous talk"
+          id="prev"
+        >
+          &lt;
+        </button>
+        <button
+          alt="Next talk"
+          id="next"
+        >
+          &gt;
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Talks Section Display talks - move to prev talk 1`] = `
+<DocumentFragment>
+  <div
+    class="talks"
+  >
+    <div
+      class="talk"
+      id="talk-0"
+    >
+      <div
+        class="talkInfo"
+      >
+        <div
+          class="talk-title"
+        >
+          Talk 1 of session 1
+        </div>
+        <div
+          class="timeSlot"
+        >
+          1:00 PM - 2:00 PM
+        </div>
+        <div
+          class="description"
+        >
+          Desc of Talk 1 of session 1
+        </div>
+      </div>
+      <div
+        class="speakers"
+      >
+        <div
+          class="speaker"
+        >
+          <img
+            alt="Person 1"
+            class="pic"
+            loading="lazy"
+            src="profile/person1.png"
+          />
+          <div
+            class="info"
+          >
+            <div
+              class="name"
+            >
+              Person 1
+            </div>
+            <div
+              class="desgination"
+            >
+              Quality Analyst, ThoughtWorks
+            </div>
+          </div>
+        </div>
+        <div
+          class="speaker"
+        >
+          <img
+            alt="person 2"
+            class="pic"
+            loading="lazy"
+            src="profile/person2.png"
+          />
+          <div
+            class="info"
+          >
+            <div
+              class="name"
+            >
+              person 2
+            </div>
+            <div
+              class="desgination"
+            >
+              Quality Analyst, ThoughtWorks
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="actions"
+      >
+        <span>
+          <span
+            class="bold"
+          >
+            01 
+          </span>
+          <span
+            class="light"
+          >
+            / 03
+          </span>
+        </span>
+        <button
+          alt="Previous talk"
+          disabled=""
+          id="prev"
+        >
+          &lt;
+        </button>
+        <button
+          alt="Next talk"
+          id="next"
+        >
+          &gt;
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Talks Section Display talks from more than one session 1`] = `
+<DocumentFragment>
+  <div
+    class="talks"
+  >
+    <div
+      class="talk"
+      id="talk-0"
+    >
+      <div
+        class="talkInfo"
+      >
+        <div
+          class="talk-title"
+        >
+          Talk 1 of session 1
+        </div>
+        <div
+          class="timeSlot"
+        >
+          1:00 PM - 2:00 PM
+        </div>
+        <div
+          class="description"
+        >
+          Desc of Talk 1 of session 1
+        </div>
+      </div>
+      <div
+        class="speakers"
+      >
+        <div
+          class="speaker"
+        >
+          <img
+            alt="Person 1"
+            class="pic"
+            loading="lazy"
+            src="profile/person1.png"
+          />
+          <div
+            class="info"
+          >
+            <div
+              class="name"
+            >
+              Person 1
+            </div>
+            <div
+              class="desgination"
+            >
+              Quality Analyst, ThoughtWorks
+            </div>
+          </div>
+        </div>
+        <div
+          class="speaker"
+        >
+          <img
+            alt="person 2"
+            class="pic"
+            loading="lazy"
+            src="profile/person2.png"
+          />
+          <div
+            class="info"
+          >
+            <div
+              class="name"
+            >
+              person 2
+            </div>
+            <div
+              class="desgination"
+            >
+              Quality Analyst, ThoughtWorks
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="actions"
+      >
+        <span>
+          <span
+            class="bold"
+          >
+            01 
+          </span>
+          <span
+            class="light"
+          >
+            / 03
+          </span>
+        </span>
+        <button
+          alt="Previous talk"
+          disabled=""
+          id="prev"
+        >
+          &lt;
+        </button>
+        <button
+          alt="Next talk"
+          id="next"
+        >
+          &gt;
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Talks Section Display talks from one session 1`] = `
+<DocumentFragment>
+  <div
+    class="talks"
+  >
+    <div
+      class="talk"
+      id="talk-0"
+    >
+      <div
+        class="talkInfo"
+      >
+        <div
+          class="talk-title"
+        >
+          Talk 1 of event 1
+        </div>
+        <div
+          class="timeSlot"
+        >
+          4:00 AM - Invalid Date
+        </div>
+        <div
+          class="description"
+        />
+      </div>
+      <div
+        class="speakers"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Talks Section Don't show talks section if sessions list is empty 1`] = `
+<DocumentFragment>
+  <br />
+</DocumentFragment>
+`;

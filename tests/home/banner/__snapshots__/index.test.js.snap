@@ -1,0 +1,638 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Banner Section Banner when blank event data 1`] = `
+<DocumentFragment>
+  <br />
+</DocumentFragment>
+`;
+
+exports[`Banner Section Banner with an active editon 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="banner active"
+      id="banner"
+    >
+      <div
+        class="topnav"
+      >
+        <a
+          class="item link"
+          href="#contactus"
+        >
+          Contact Us
+        </a>
+        <a
+          class="item link"
+          href="#aboutus"
+        >
+          About Us
+        </a>
+        <a
+          class="item link"
+          href="#collaborate"
+        >
+          Collaborate
+        </a>
+        <a
+          class="item link"
+          href="#editions"
+        >
+          Editions
+        </a>
+        <div
+          class="item logo"
+        >
+          sample
+        </div>
+        <div
+          class="item location"
+        >
+          Mars
+        </div>
+      </div>
+      <div
+        class="upcomingEditionInfo"
+      >
+        <div
+          class="summary"
+        >
+          UPCOMING | EDITION 10000 | Friday
+        </div>
+        <div
+          class="title"
+        >
+          Event titile of 10000 - Upcoming workshop
+        </div>
+        <div
+          class="stats"
+        >
+          <div
+            class="item"
+          >
+            <div>
+              <p
+                class="value"
+              >
+                1
+              </p>
+              <p
+                class="text"
+              >
+                TALK
+              </p>
+            </div>
+          </div>
+          <div
+            class="item"
+          >
+            <div>
+              <p>
+                <span
+                  class="value"
+                >
+                  1
+                </span>
+                <span
+                  class="text"
+                >
+                  st
+                </span>
+              </p>
+              <p
+                class="text"
+              >
+                JAN
+              </p>
+            </div>
+          </div>
+          <div
+            class="item"
+          >
+            <div>
+              <p
+                class="value"
+              >
+                0 : 0
+              </p>
+              <p
+                class="text"
+              >
+                AM
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="rsvp"
+        >
+          <a
+            class="link"
+            href="https://reg.site/link/form"
+            rel="noreferrer"
+            target="_blank"
+          >
+            RSVP now
+          </a>
+        </div>
+        <div
+          class="talks"
+        >
+          <div
+            class="talk"
+            id="talk-0"
+          >
+            <div
+              class="talkInfo"
+            >
+              <div
+                class="talk-title"
+              >
+                Talk 1 of event 10000
+              </div>
+              <div
+                class="timeSlot"
+              >
+                12:00 AM - 12:30 AM
+              </div>
+              <div
+                class="description"
+              />
+            </div>
+            <div
+              class="speakerInfo"
+            >
+              <img
+                alt="person x"
+                class="pic"
+                loading="lazy"
+                src="profile/personx.png"
+              />
+              <div
+                class="info"
+              >
+                <div
+                  class="name"
+                >
+                  person x
+                </div>
+                <div
+                  class="desgination"
+                >
+                  Quality Analyst, ThoughtWorks
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Banner Section Banner with an active evening editon 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="banner active"
+      id="banner"
+    >
+      <div
+        class="topnav"
+      >
+        <a
+          class="item link"
+          href="#contactus"
+        >
+          Contact Us
+        </a>
+        <a
+          class="item link"
+          href="#aboutus"
+        >
+          About Us
+        </a>
+        <a
+          class="item link"
+          href="#collaborate"
+        >
+          Collaborate
+        </a>
+        <a
+          class="item link"
+          href="#editions"
+        >
+          Editions
+        </a>
+        <div
+          class="item logo"
+        >
+          sample
+        </div>
+        <div
+          class="item location"
+        >
+          Mars
+        </div>
+      </div>
+      <div
+        class="upcomingEditionInfo"
+      >
+        <div
+          class="summary"
+        >
+          UPCOMING | EDITION 10000 | Friday
+        </div>
+        <div
+          class="title"
+        >
+          Event titile of 10000 - Upcoming workshop
+        </div>
+        <div
+          class="stats"
+        >
+          <div
+            class="item"
+          >
+            <div>
+              <p
+                class="value"
+              >
+                2
+              </p>
+              <p
+                class="text"
+              >
+                TALKS
+              </p>
+            </div>
+          </div>
+          <div
+            class="item"
+          >
+            <div>
+              <p>
+                <span
+                  class="value"
+                >
+                  1
+                </span>
+                <span
+                  class="text"
+                >
+                  st
+                </span>
+              </p>
+              <p
+                class="text"
+              >
+                JAN
+              </p>
+            </div>
+          </div>
+          <div
+            class="item"
+          >
+            <div>
+              <p
+                class="value"
+              >
+                5 : 0
+              </p>
+              <p
+                class="text"
+              >
+                PM
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="rsvp"
+        >
+          <a
+            class="link"
+            href="https://reg.site/link/form"
+            rel="noreferrer"
+            target="_blank"
+          >
+            RSVP now
+          </a>
+        </div>
+        <div
+          class="talks"
+        >
+          <div
+            class="talk"
+            id="talk-0"
+          >
+            <div
+              class="talkInfo"
+            >
+              <div
+                class="talk-title"
+              >
+                Talk 1 of event 10000
+              </div>
+              <div
+                class="timeSlot"
+              >
+                5:00 PM - 5:30 PM
+              </div>
+              <div
+                class="description"
+              />
+            </div>
+            <div
+              class="speakerInfo"
+            >
+              <img
+                alt="person x"
+                class="pic"
+                loading="lazy"
+                src="profile/personx.png"
+              />
+              <div
+                class="info"
+              >
+                <div
+                  class="name"
+                >
+                  person x
+                </div>
+                <div
+                  class="desgination"
+                >
+                  Quality Analyst, ThoughtWorks
+                </div>
+              </div>
+            </div>
+            <div
+              class="actions"
+            >
+              <span>
+                <span
+                  class="bold"
+                >
+                  01 
+                </span>
+                <span
+                  class="light"
+                >
+                  / 02
+                </span>
+              </span>
+              <button
+                alt="Previous talk"
+                disabled=""
+                id="prev"
+              >
+                &lt;
+              </button>
+              <button
+                alt="Next talk"
+                id="next"
+              >
+                &gt;
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Banner Section Banner with only one editon 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="banner inactive"
+      id="banner"
+    >
+      <div
+        class="topnav"
+      >
+        <a
+          class="item link"
+          href="#contactus"
+        >
+          Contact Us
+        </a>
+        <a
+          class="item link"
+          href="#aboutus"
+        >
+          About Us
+        </a>
+        <a
+          class="item link"
+          href="#collaborate"
+        >
+          Collaborate
+        </a>
+        <a
+          class="item link"
+          href="#editions"
+        >
+          Editions
+        </a>
+        <div
+          class="item logo"
+        >
+          sample
+        </div>
+        <div
+          class="item location"
+        >
+          Mars
+        </div>
+      </div>
+      <div
+        class="eventInfo"
+      >
+        <p
+          class="tagLine"
+        >
+          Exclusive community for sample
+        </p>
+        <p
+          class="tagLine"
+        >
+          Not just for sample, but for all samples
+        </p>
+        <div
+          class="stats"
+        >
+          <div
+            class="item"
+          >
+            <div>
+              <p
+                class="value"
+              >
+                1
+              </p>
+              <p
+                class="text"
+              >
+                EDITION
+              </p>
+            </div>
+          </div>
+          <div
+            class="item"
+          >
+            <div>
+              <p
+                class="value"
+              >
+                1
+              </p>
+              <p
+                class="text"
+              >
+                TALK
+              </p>
+            </div>
+          </div>
+          <div
+            class="item"
+          >
+            <div>
+              <p
+                class="value"
+              >
+                1000+
+              </p>
+              <p
+                class="text"
+              >
+                MEMBERS
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Banner Section Banner with only past editon 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="banner inactive"
+      id="banner"
+    >
+      <div
+        class="topnav"
+      >
+        <a
+          class="item link"
+          href="#contactus"
+        >
+          Contact Us
+        </a>
+        <a
+          class="item link"
+          href="#aboutus"
+        >
+          About Us
+        </a>
+        <a
+          class="item link"
+          href="#collaborate"
+        >
+          Collaborate
+        </a>
+        <a
+          class="item link"
+          href="#editions"
+        >
+          Editions
+        </a>
+        <div
+          class="item logo"
+        >
+          sample
+        </div>
+        <div
+          class="item location"
+        >
+          Mars
+        </div>
+      </div>
+      <div
+        class="eventInfo"
+      >
+        <p
+          class="tagLine"
+        >
+          Exclusive community for sample
+        </p>
+        <p
+          class="tagLine"
+        >
+          Not just for sample, but for all samples
+        </p>
+        <div
+          class="stats"
+        >
+          <div
+            class="item"
+          >
+            <div>
+              <p
+                class="value"
+              >
+                5
+              </p>
+              <p
+                class="text"
+              >
+                EDITIONS
+              </p>
+            </div>
+          </div>
+          <div
+            class="item"
+          >
+            <div>
+              <p
+                class="value"
+              >
+                10
+              </p>
+              <p
+                class="text"
+              >
+                TALKS
+              </p>
+            </div>
+          </div>
+          <div
+            class="item"
+          >
+            <div>
+              <p
+                class="value"
+              >
+                1000+
+              </p>
+              <p
+                class="text"
+              >
+                MEMBERS
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

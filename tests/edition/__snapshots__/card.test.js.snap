@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cards Section edition card with mising details 1`] = `
+<DocumentFragment>
+  <div
+    class="editionCard event-bg"
+  >
+    <span
+      class="type"
+    >
+      TALK
+    </span>
+    <div
+      class="details"
+    >
+      <p
+        class="title"
+      >
+        EDITION undefined 
+      </p>
+      <p
+        class="date"
+      >
+        Edition  | Invalid Date
+      </p>
+      <div
+        class="info"
+      >
+        <div
+          class="item"
+        >
+          <p
+            class="value"
+          >
+            00
+          </p>
+          <p>
+            Talk
+          </p>
+        </div>
+        <div
+          class="item"
+        >
+          <p
+            class="separator"
+          />
+          <p
+            class="value"
+          >
+            00
+          </p>
+          <p>
+            Session
+          </p>
+        </div>
+        <div
+          class="item"
+        >
+          <p
+            class="separator"
+          />
+          <p
+            class="value"
+          >
+            NaN hr
+          </p>
+          <p>
+            Duration
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

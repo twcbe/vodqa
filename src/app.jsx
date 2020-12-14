@@ -33,7 +33,7 @@ function App() {
 
   return (
     <Suspense fallback={renderLoader()}>
-        <Home config={config} />
+      <Home config={config} />
     </Suspense>
   );
 }

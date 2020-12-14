@@ -13,6 +13,8 @@ export class Banner extends Component {
   render() {
     const event = this.props.event;
 
+    if (!event || !event.editions || event.editions <= 0) return <br />;
+
     const upcomingEditions = event.editions.filter(
       (edition) => edition.startTime > new Date().valueOf()
     );
@@ -66,18 +68,20 @@ export class Banner extends Component {
     };
 
     const renderEventStats = () => {
+      const editionsCount = getMaxEdition(pastEditions);
+      const talksCount = getTalksCount(pastEditions);
       return (
         <div className="stats">
           <div className="item">
             <div>
-              <p className="value">{getMaxEdition(pastEditions)}</p>
-              <p className="text">EDITIONS</p>
+              <p className="value">{editionsCount}</p>
+              <p className="text">{talksCount > 1 ? "EDITIONS" : "EDITION"}</p>
             </div>
           </div>
           <div className="item">
             <div>
-              <p className="value">{getTalksCount(pastEditions)}</p>
-              <p className="text">TALKS</p>
+              <p className="value">{talksCount}</p>
+              <p className="text">{talksCount > 1 ? "TALKS" : "TALK"}</p>
             </div>
           </div>
           <div className="item">

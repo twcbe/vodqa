@@ -36,12 +36,11 @@ export class Talks extends Component {
   }
 
   render() {
-    if (!this.state.talks) return <br />;
+    if (!this.state.talks || this.state.talksCount <= 0) return <br />;
 
     const { index, talksCount } = this.state;
     const talk = this.state.talks[index];
 
-    if (!talk) return <br />;
     const talkId = index + 1;
     const startTime = new Date(talk.startTime);
     const endTime = new Date(talk.endTime);
@@ -79,17 +78,18 @@ export class Talks extends Component {
         </>
       );
 
-      if (speakers.length == 1) {
+      if (speakers && speakers.length == 1) {
         return <div className="speakerInfo">{renderSpeaker(speakers[0])}</div>;
       }
 
       return (
         <div className="speakers">
-          {speakers.map((speaker, index) => (
-            <div key={index} className="speaker">
-              {renderSpeaker(speaker)}
-            </div>
-          ))}
+          {speakers &&
+            speakers.map((speaker, index) => (
+              <div key={index} className="speaker">
+                {renderSpeaker(speaker)}
+              </div>
+            ))}
         </div>
       );
     };
@@ -109,6 +109,7 @@ export class Talks extends Component {
               </span>
               <button
                 id="prev"
+                alt="Previous talk"
                 disabled={index == 0}
                 onClick={this.handlePrevious}
               >
@@ -116,6 +117,7 @@ export class Talks extends Component {
               </button>
               <button
                 id="next"
+                alt="Next talk"
                 disabled={index == talksCount - 1}
                 onClick={this.handleNext}
               >

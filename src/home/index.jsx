@@ -13,7 +13,7 @@ export class Home extends Component {
 
   componentDidMount() {
     const event = this.props.config;
-    if (event) document.title = `${event.name} ${event.location}`;
+    document.title = `${event.name} ${event.location}`;
   }
 
   render() {
