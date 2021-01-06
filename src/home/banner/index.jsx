@@ -173,11 +173,9 @@ export class Banner extends Component {
     };
 
     return (
-      <div>
-        <div id="banner" className={`banner ${bannerStatus}`}>
-          {renderMenuBar(event.name, event.location)}
-          {renderEventInfo()}
-        </div>
+      <div id="banner" className={`banner ${bannerStatus}`}>
+        {renderMenuBar(event.name, event.location)}
+        {renderEventInfo()}
       </div>
     );
   }

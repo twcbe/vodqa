@@ -114,38 +114,34 @@ export class Home extends Component {
 
     const renderFooter = () => {
       return (
-        <div>
-          <div id="footer">
-            {renderWave()}
-            <div className="item">
-              <p id="contactus" className="bold">
-                Contact us
-              </p>
-              <br />
-              <p>E-Mail us at:</p>
-              <a href={`mailto:${event.contact.email}`}>
-                {event.contact.email}
-              </a>
-            </div>
-            <div className="item social-links">
-              <p className="bold">Follow us</p>
-              <br />
-              {event.socialLinks &&
-                event.socialLinks.map((socialLink) => {
-                  return (
-                    <a
-                      title={socialLink.name}
-                      key={socialLink.name}
-                      className={socialLink.name}
-                      target="_blank"
-                      rel="noreferrer"
-                      href={socialLink.link}
-                    />
-                  );
-                })}
-            </div>
-            <p className="copyright">© 2020 ThoughtWorks, Inc.</p>
+        <div id="footer">
+          {renderWave()}
+          <div className="item">
+            <p id="contactus" className="bold">
+              Contact us
+            </p>
+            <br />
+            <p>E-Mail us at:</p>
+            <a href={`mailto:${event.contact.email}`}>{event.contact.email}</a>
           </div>
+          <div className="item social-links">
+            <p className="bold">Follow us</p>
+            <br />
+            {event.socialLinks &&
+              event.socialLinks.map((socialLink) => {
+                return (
+                  <a
+                    title={socialLink.name}
+                    key={socialLink.name}
+                    className={socialLink.name}
+                    target="_blank"
+                    rel="noreferrer"
+                    href={socialLink.link}
+                  />
+                );
+              })}
+          </div>
+          <p className="copyright">© 2020 ThoughtWorks, Inc.</p>
         </div>
       );
     };
