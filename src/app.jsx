@@ -1,13 +1,20 @@
-import React, { Suspense, useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import ReactDOM from "react-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from "react-router-dom";
+
 import "./app.scss";
-
 import { Home } from "./home/index.jsx";
+import { PastEditions } from "./edition/list.jsx";
 
-const renderLoader = () => <p>Loading</p>;
+// const renderLoader = () => <p>Loading</p>;
 const renderError = () => <p>Something went wrong</p>;
 
-function App() {
+const App = () => {
   const [error, setError] = useState(null);
   const [isLoaded, setIsLoaded] = useState(false);
   const [config, setConfig] = useState({});
@@ -32,10 +39,18 @@ function App() {
   }
 
   return (
-    <Suspense fallback={renderLoader()}>
-      <Home config={config} />
-    </Suspense>
+    <Router>
+      <Switch>
+        <Route exact path="/">
+          <Home config={config} />
+        </Route>
+        <Route exact path="/list">
+          <PastEditions config={config} />
+        </Route>
+        <Redirect to="/" />
+      </Switch>
+    </Router>
   );
-}
+};
 
 ReactDOM.render(<App />, document.getElementById("root"));

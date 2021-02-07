@@ -124,6 +124,12 @@ exports[`Home Page Verify home page renders peoperly with mock data 1`] = `
       >
         Recent Editions
       </span>
+      <a
+        class="view-all"
+        href="/list"
+      >
+        View All
+      </a>
       <div
         class="editions"
       >

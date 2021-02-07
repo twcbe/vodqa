@@ -71,6 +71,7 @@ module.exports = {
     runtimeChunk: "single",
   },
   devServer: {
+    historyApiFallback: true,
     contentBase: path.join(__dirname, "public"),
     hot: true,
     port: 8080,
