@@ -11,8 +11,9 @@ import "./app.scss";
 import { Home } from "./home/index.jsx";
 import { PastEditions } from "./edition/list.jsx";
 
-// const renderLoader = () => <p>Loading</p>;
+const renderLoader = () => <p>Loading</p>;
 const renderError = () => <p>Something went wrong</p>;
+const EVENT_NAME = "vodqa";
 
 const App = () => {
   const [error, setError] = useState(null);
@@ -34,20 +35,21 @@ const App = () => {
       );
   }, []);
 
-  if (error || !isLoaded || !config.name) {
+  if (!isLoaded) return renderLoader();
+  if (error || !config.name) {
     return renderError();
   }
 
   return (
     <Router>
       <Switch>
-        <Route exact path="/vodqa">
+        <Route exact path={`/${EVENT_NAME}`}>
           <Home config={config} />
         </Route>
-        <Route exact path="/vodqa/list">
+        <Route exact path={`/${EVENT_NAME}/list`}>
           <PastEditions config={config} />
         </Route>
-        <Redirect to="/vodqa" />
+        <Redirect to={`/${EVENT_NAME}`} />
       </Switch>
     </Router>
   );
