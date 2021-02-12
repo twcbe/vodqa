@@ -41,12 +41,13 @@ const App = () => {
   return (
     <Router>
       <Switch>
-        <Route path="./">
+        <Route exact path="/vodqa">
           <Home config={config} />
         </Route>
-        <Route path="./list">
+        <Route exact path="/vodqa/list">
           <PastEditions config={config} />
         </Route>
+        <Redirect to="/vodqa" />
       </Switch>
     </Router>
   );
