@@ -47,7 +47,6 @@ const App = () => {
         <Route exact path="/list">
           <PastEditions config={config} />
         </Route>
-        <Redirect to="/" />
       </Switch>
     </Router>
   );
