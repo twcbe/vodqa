@@ -21,7 +21,7 @@ export class RecentEditions extends Component {
     return (
       <div id="editions" className="recentEditions">
         <span className="banner">Recent Editions</span>
-        <Link className="view-all" to="/list">
+        <Link className="view-all" to="./list">
           View All
         </Link>
         <div className="editions">
