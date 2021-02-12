@@ -41,13 +41,12 @@ const App = () => {
   return (
     <Router>
       <Switch>
-        <Route exact path="/">
+        <Route path="./">
           <Home config={config} />
         </Route>
-        <Route exact path="/list">
+        <Route path="./list">
           <PastEditions config={config} />
         </Route>
-        <Redirect to="/" />
       </Switch>
     </Router>
   );
