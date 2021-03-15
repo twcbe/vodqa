@@ -5,7 +5,6 @@ const CompressionPlugin = require("compression-webpack-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const TerserPlugin = require("terser-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const WorkboxPlugin = require("workbox-webpack-plugin");
 
 const copyPluginConfig = new CopyPlugin({
   patterns: [{ from: "src/assets", to: "./" }],
@@ -18,13 +17,6 @@ const HTMLWebpackPluginConfig = new HtmlWebpackPlugin({
 });
 const terserPluginConfig = new TerserPlugin({
   parallel: true,
-});
-
-const workboxPluginConfig = new WorkboxPlugin.GenerateSW({
-  clientsClaim: true,
-  maximumFileSizeToCacheInBytes: 5000000,
-  skipWaiting: true,
-  runtimeCaching: [{ urlPattern: "index.html", handler: "CacheFirst" }],
 });
 
 module.exports = {
@@ -60,7 +52,6 @@ module.exports = {
     new webpack.HotModuleReplacementPlugin(),
     copyPluginConfig,
     HTMLWebpackPluginConfig,
-    workboxPluginConfig,
     new CompressionPlugin({ test: /\.js$|\.css$|\.html$/ }),
   ],
   optimization: {

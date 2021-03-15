@@ -21,4 +21,3 @@ Tools used
 - Babel
 - ESLint
 - Prettier
-- PWA (workbox)
