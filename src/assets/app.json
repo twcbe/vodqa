@@ -10,13 +10,14 @@
   "feedback": "https://docs.google.com/forms/d/e/1FAIpQLSfDft1fIMbuftL6cRQ1qsh4ouZ458zJfFhFR2gZy8f16lqiIg/viewform?usp=send_form",
   "members": "1000+",
   "socialLinks": [
-    { "name": "instagram", "link": "https://www.instagram.com/thoughtworks/" },
+    { "name": "meetup", "link": "https://www.meetup.com/vodqa-coimbatore/" },
     { "name": "twitter", "link": "http://twitter.com/thoughtworks" },
+    { "name": "youtube", "link": "https://www.youtube.com/c/vodQA" },
     {
       "name": "linkedin",
       "link": "http://www.linkedin.com/company/thoughtworks"
     },
-    { "name": "youtube", "link": "https://www.youtube.com/c/vodQA" }
+    { "name": "instagram", "link": "https://www.instagram.com/thoughtworks/" }
   ],
   "contact": {
     "email": "vodqacoimbatore@thoughtworks.com",
