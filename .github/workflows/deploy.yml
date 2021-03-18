@@ -12,18 +12,18 @@ jobs:
         with:
           persist-credentials: false
       - name: Use Node.js 🌱
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2
         with:
-          node-version: '15.x'
+          node-version: '15'
       - name: Install and Build 🔧
         run: |
           npm ci
           npm run build
 
       - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@3.7.1
+        uses: JamesIves/github-pages-deploy-action@4.1.0
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: public
-          CLEAN: true
+            token: ${{ secrets.GITHUB_TOKEN }}
+            branch: gh-pages 
+            folder: public
+            clean: true
