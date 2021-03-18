@@ -141,7 +141,7 @@ export class Home extends Component {
                 );
               })}
           </div>
-          <p className="copyright">© 2020 ThoughtWorks, Inc.</p>
+          <p className="copyright">© 2021 ThoughtWorks, Inc.</p>
         </div>
       );
     };

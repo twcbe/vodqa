@@ -2,8 +2,8 @@
   "name": "Node.js 15",
   "build": {
     "dockerfile": "Dockerfile",
-    // Update 'VARIANT' to pick a Node version: 10, 12, 14
-    "args": { "VARIANT": "14" }
+    // https://github.com/microsoft/vscode-dev-containers/tree/master/containers/javascript-node
+    "args": { "VARIANT": "latest" }
   },
 
   // Set *default* container specific settings.json values on container create.

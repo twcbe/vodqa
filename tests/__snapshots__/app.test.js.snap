@@ -635,7 +635,7 @@ exports[`Home Page Verify home page renders peoperly with mock data 1`] = `
       <p
         class="copyright"
       >
-        © 2020 ThoughtWorks, Inc.
+        © 2021 ThoughtWorks, Inc.
       </p>
     </div>
   </div>
