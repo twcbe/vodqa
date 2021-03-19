@@ -112,7 +112,7 @@ exports[`Banner Section Banner with an active editon 1`] = `
             <p
               class="value"
             >
-              0 : 0
+              0 : 00
             </p>
             <p
               class="text"
@@ -295,7 +295,7 @@ exports[`Banner Section Banner with an active evening editon 1`] = `
             <p
               class="value"
             >
-              5 : 0
+              5 : 00
             </p>
             <p
               class="text"

@@ -32,6 +32,69 @@
   },
   "editions": [
     {
+      "id": 12,
+      "title": "Containerising your test suites or application",
+      "type": "workshop",
+      "startTime": 1618029000000,
+      "endTime": 1617994800000,
+      "registration": {
+        "link": "https://www.meetup.com/vodqa-coimbatore/"
+      },
+      "sessions": [
+        {
+          "talks": [
+            {
+              "title": "Element identification with ML in Appium",
+              "description": "Talk and Demo on using Appium and how to use ML for element identification",
+              "speaker": "B Krishna Chaitanya - Quality Analyst, ThoughtWorks.",
+              "startTime": 1618029000000,
+              "endTime": 1618032600000,
+              "speakers": [
+                {
+                  "name": "B Krishna Chaitanya",
+                  "desgination": "Quality Analyst, ThoughtWorks",
+                  "profilePicture": "profile/krishna_chaitanya.png"
+                }
+              ]
+            },
+            {
+              "title": "A snapshot of testing flutter applications",
+              "description": "Talk on basics of Flutter apps and methods to test them.",
+              "speaker": "Vojaswwin A P & Shoban Manohar - Quality Analyst, ThoughtWorks.",
+              "startTime": 1618032600000,
+              "endTime": 1618034400000,
+              "speakers": [
+                {
+                  "name": "Vojaswwin A P",
+                  "desgination": "Quality Analyst, ThoughtWorks",
+                  "profilePicture": "profile/voj.png"
+                },
+                {
+                  "name": "Shoban Manohar",
+                  "desgination": "Quality Analyst, ThoughtWorks",
+                  "profilePicture": "profile/shoban.png"
+                }
+              ]
+            },
+            {
+              "title": "Highlights of Arium - XR Automation",
+              "description": "An idea about automating the 3d applications and highlights of Arium",
+              "speaker": "Jayachandran S - Quality Analyst, ThoughtWorks.",
+              "startTime": 1618034400000,
+              "endTime": 1617994800000,
+              "speakers": [
+                {
+                  "name": "Jayachandran S",
+                  "desgination": "Quality Analyst, ThoughtWorks",
+                  "profilePicture": "profile/jc.png"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": 11,
       "title": "Containerising your test suites or application",
       "type": "workshop",

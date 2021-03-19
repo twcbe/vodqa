@@ -1,4 +1,4 @@
-import { getOrdinalNum } from "../src/utils.js";
+import { getOrdinalNum, padZeros } from "../src/utils.js";
 
 describe("Utils", () => {
   test("check ordinal number for 1", () => {
@@ -17,5 +17,12 @@ describe("Utils", () => {
   });
   it("should always run in UTC timezone", () => {
     expect(new Date().getTimezoneOffset()).toBe(0);
+  });
+
+  it("should pad digits with zeros", () => {
+    expect(padZeros(5, 5)).toBe("00005");
+  });
+  it("should not pad digits with zeros", () => {
+    expect(padZeros(50000, 5)).toBe("50000");
   });
 });

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 
 import { Talks } from "./talks.jsx";
-import { getOrdinalNum } from "../../utils.js";
+import { getOrdinalNum, padZeros } from "../../utils.js";
 
 import "./index.scss";
 
@@ -124,7 +124,8 @@ export class Banner extends Component {
           <div className="item">
             <div>
               <p className="value">
-                {editionDate.getHours() % 12} : {editionDate.getMinutes()}
+                {editionDate.getHours() % 12} :{" "}
+                {padZeros(editionDate.getMinutes(), 2)}
               </p>
               <p className="text">
                 {editionDate.getHours() < 12 ? "AM" : "PM"}
