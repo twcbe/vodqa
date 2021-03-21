@@ -69,10 +69,22 @@
   }
 }
 
-.event-bg {
+.event-bg-0 {
   background-size: cover;
-  @media only screen and (min-width: 1441px) {
-    background-image: url("../imgs/event-bg-2x.png");
-  }
-  background-image: url("../imgs/event-bg.png");
+  background-image: url("../imgs/event-bg-0.png");
+}
+
+.event-bg-1 {
+  background-size: cover;
+  background-image: url("../imgs/event-bg-1.png");
+}
+
+.event-bg-2 {
+  background-size: cover;
+  background-image: url("../imgs/event-bg-2.png");
+}
+
+.event-bg-3 {
+  background-size: cover;
+  background-image: url("../imgs/event-bg-3.png");
 }

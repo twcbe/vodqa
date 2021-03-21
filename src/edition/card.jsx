@@ -28,9 +28,10 @@ export class EditionCard extends Component {
       return count;
     };
     const talksCount = getTalksCount(sessions) || 0;
+    const bannerId = isNaN(edition.id % 4) ? 0 : edition.id % 4;
 
     return (
-      <div className="editionCard event-bg">
+      <div className={`editionCard event-bg-${bannerId}`}>
         <span className="type">{type.toUpperCase()}</span>
         <div className="details">
           <p className="title">{title}</p>

@@ -134,7 +134,7 @@ exports[`Home Page Verify home page renders peoperly with mock data 1`] = `
         class="editions"
       >
         <div
-          class="editionCard event-bg"
+          class="editionCard event-bg-1"
         >
           <span
             class="type"
@@ -203,7 +203,7 @@ exports[`Home Page Verify home page renders peoperly with mock data 1`] = `
           </div>
         </div>
         <div
-          class="editionCard event-bg"
+          class="editionCard event-bg-0"
         >
           <span
             class="type"
@@ -272,7 +272,7 @@ exports[`Home Page Verify home page renders peoperly with mock data 1`] = `
           </div>
         </div>
         <div
-          class="editionCard event-bg"
+          class="editionCard event-bg-3"
         >
           <span
             class="type"
@@ -341,7 +341,7 @@ exports[`Home Page Verify home page renders peoperly with mock data 1`] = `
           </div>
         </div>
         <div
-          class="editionCard event-bg"
+          class="editionCard event-bg-2"
         >
           <span
             class="type"

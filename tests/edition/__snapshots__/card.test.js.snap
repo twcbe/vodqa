@@ -3,7 +3,7 @@
 exports[`Cards Section edition card with mising details 1`] = `
 <DocumentFragment>
   <div
-    class="editionCard event-bg"
+    class="editionCard event-bg-0"
   >
     <span
       class="type"
