@@ -145,6 +145,7 @@ export class EditionDetails extends ReactQueryParams {
           {renderEditionInfo()}
           {renderTalksInfo()}
         </div>
+        <p className="copyright">© 2021 ThoughtWorks, Inc.</p>
       </div>
     );
   }
