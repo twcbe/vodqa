@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 
 import { Talks } from "./talks.jsx";
@@ -47,12 +48,14 @@ export class Banner extends Component {
           {links.map((item) => {
             const link = `#${item.replace(/\s+/g, "").trim().toLowerCase()}`;
             return (
-              <a key={item} className="item link" href={link}>
+              <a key={item} className="item link" href={`./vodqa${link}`}>
                 {item}
               </a>
             );
           })}
-          <div className="item logo">{name}</div>
+          <Link className="item logo" to="./">
+            {name}
+          </Link>
           <div className="item location">{location}</div>
         </div>
       );

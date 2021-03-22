@@ -15,33 +15,34 @@ exports[`Home Page Verify home page renders peoperly with mock data 1`] = `
       >
         <a
           class="item link"
-          href="#contactus"
+          href="./vodqa#contactus"
         >
           Contact Us
         </a>
         <a
           class="item link"
-          href="#aboutus"
+          href="./vodqa#aboutus"
         >
           About Us
         </a>
         <a
           class="item link"
-          href="#collaborate"
+          href="./vodqa#collaborate"
         >
           Collaborate
         </a>
         <a
           class="item link"
-          href="#editions"
+          href="./vodqa#editions"
         >
           Editions
         </a>
-        <div
+        <a
           class="item logo"
+          href="/"
         >
           sample
-        </div>
+        </a>
         <div
           class="item location"
         >
