@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
 import { Banner } from "../home/banner/index.jsx";
 import { EditionCard } from "./card.jsx";
@@ -26,7 +27,15 @@ export class PastEditions extends Component {
           <span className="banner">{`All Editions (${pastEditions.length})`}</span>
           <div className="editions">
             {pastEditions.map((edition) => {
-              return <EditionCard key={edition.id} edition={edition} />;
+              return (
+                <Link
+                  key={edition.id}
+                  className="edition-link"
+                  to={`../edition?editionId=${edition.id}`}
+                >
+                  <EditionCard key={edition.id} edition={edition} />
+                </Link>
+              );
             })}
           </div>
         </div>

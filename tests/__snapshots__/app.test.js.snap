@@ -135,7 +135,7 @@ exports[`Home Page Verify home page renders peoperly with mock data 1`] = `
       >
         <a
           class="edition-link"
-          href="/editon?editionId=5"
+          href="/edition?editionId=5"
         >
           <div
             class="editionCard event-bg-1"
@@ -209,7 +209,7 @@ exports[`Home Page Verify home page renders peoperly with mock data 1`] = `
         </a>
         <a
           class="edition-link"
-          href="/editon?editionId=4"
+          href="/edition?editionId=4"
         >
           <div
             class="editionCard event-bg-0"
@@ -283,7 +283,7 @@ exports[`Home Page Verify home page renders peoperly with mock data 1`] = `
         </a>
         <a
           class="edition-link"
-          href="/editon?editionId=3"
+          href="/edition?editionId=3"
         >
           <div
             class="editionCard event-bg-3"
@@ -357,7 +357,7 @@ exports[`Home Page Verify home page renders peoperly with mock data 1`] = `
         </a>
         <a
           class="edition-link"
-          href="/editon?editionId=2"
+          href="/edition?editionId=2"
         >
           <div
             class="editionCard event-bg-2"

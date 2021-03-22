@@ -30,7 +30,7 @@ export class RecentEditions extends Component {
               <Link
                 key={edition.id}
                 className="edition-link"
-                to={`./editon?editionId=${edition.id}`}
+                to={`./edition?editionId=${edition.id}`}
               >
                 <EditionCard edition={edition} />
               </Link>
