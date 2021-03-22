@@ -7,7 +7,10 @@ const TerserPlugin = require("terser-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 const copyPluginConfig = new CopyPlugin({
-  patterns: [{ from: "src/assets", to: "./" }],
+  patterns: [
+    { from: "src/assets", to: "./" },
+    { from: "404.html", to: "./" },
+  ],
 });
 const HTMLWebpackPluginConfig = new HtmlWebpackPlugin({
   template: path.join(__dirname, "/index.html"),
