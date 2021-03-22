@@ -48,7 +48,7 @@ export class Banner extends Component {
           {links.map((item) => {
             const link = `#${item.replace(/\s+/g, "").trim().toLowerCase()}`;
             return (
-              <a key={item} className="item link" href={`./vodqa${link}`}>
+              <a key={item} className="item link" href={link}>
                 {item}
               </a>
             );
