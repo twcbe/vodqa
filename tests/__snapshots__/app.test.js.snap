@@ -133,282 +133,302 @@ exports[`Home Page Verify home page renders peoperly with mock data 1`] = `
       <div
         class="editions"
       >
-        <div
-          class="editionCard event-bg-1"
+        <a
+          class="edition-link"
+          href="/editon?editionId=5"
         >
-          <span
-            class="type"
-          >
-            WORKSHOP
-          </span>
           <div
-            class="details"
+            class="editionCard event-bg-1"
           >
-            <p
-              class="title"
+            <span
+              class="type"
             >
-              Event titile of 5 - Single workshop
-            </p>
-            <p
-              class="date"
-            >
-              Edition 5 | 21 Nov 2020
-            </p>
+              WORKSHOP
+            </span>
             <div
-              class="info"
+              class="details"
             >
-              <div
-                class="item"
+              <p
+                class="title"
               >
-                <p
-                  class="value"
-                >
-                  01
-                </p>
-                <p>
-                  Talk
-                </p>
-              </div>
-              <div
-                class="item"
+                Event titile of 5 - Single workshop
+              </p>
+              <p
+                class="date"
               >
-                <p
-                  class="separator"
-                />
-                <p
-                  class="value"
-                >
-                  01
-                </p>
-                <p>
-                  Session
-                </p>
-              </div>
+                Edition 5 | 21 Nov 2020
+              </p>
               <div
-                class="item"
+                class="info"
               >
-                <p
-                  class="separator"
-                />
-                <p
-                  class="value"
+                <div
+                  class="item"
                 >
-                  03 hr
-                </p>
-                <p>
-                  Duration
-                </p>
+                  <p
+                    class="value"
+                  >
+                    01
+                  </p>
+                  <p>
+                    Talk
+                  </p>
+                </div>
+                <div
+                  class="item"
+                >
+                  <p
+                    class="separator"
+                  />
+                  <p
+                    class="value"
+                  >
+                    01
+                  </p>
+                  <p>
+                    Session
+                  </p>
+                </div>
+                <div
+                  class="item"
+                >
+                  <p
+                    class="separator"
+                  />
+                  <p
+                    class="value"
+                  >
+                    03 hr
+                  </p>
+                  <p>
+                    Duration
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div
-          class="editionCard event-bg-0"
+        </a>
+        <a
+          class="edition-link"
+          href="/editon?editionId=4"
         >
-          <span
-            class="type"
-          >
-            TALK
-          </span>
           <div
-            class="details"
+            class="editionCard event-bg-0"
           >
-            <p
-              class="title"
+            <span
+              class="type"
             >
-              Event titile of 4 - multiple talks
-            </p>
-            <p
-              class="date"
-            >
-              Edition 4 | 10 Oct 2020
-            </p>
+              TALK
+            </span>
             <div
-              class="info"
+              class="details"
             >
-              <div
-                class="item"
+              <p
+                class="title"
               >
-                <p
-                  class="value"
-                >
-                  02
-                </p>
-                <p>
-                  Talks
-                </p>
-              </div>
-              <div
-                class="item"
+                Event titile of 4 - multiple talks
+              </p>
+              <p
+                class="date"
               >
-                <p
-                  class="separator"
-                />
-                <p
-                  class="value"
-                >
-                  01
-                </p>
-                <p>
-                  Session
-                </p>
-              </div>
+                Edition 4 | 10 Oct 2020
+              </p>
               <div
-                class="item"
+                class="info"
               >
-                <p
-                  class="separator"
-                />
-                <p
-                  class="value"
+                <div
+                  class="item"
                 >
-                  8.25 hr
-                </p>
-                <p>
-                  Duration
-                </p>
+                  <p
+                    class="value"
+                  >
+                    02
+                  </p>
+                  <p>
+                    Talks
+                  </p>
+                </div>
+                <div
+                  class="item"
+                >
+                  <p
+                    class="separator"
+                  />
+                  <p
+                    class="value"
+                  >
+                    01
+                  </p>
+                  <p>
+                    Session
+                  </p>
+                </div>
+                <div
+                  class="item"
+                >
+                  <p
+                    class="separator"
+                  />
+                  <p
+                    class="value"
+                  >
+                    8.25 hr
+                  </p>
+                  <p>
+                    Duration
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div
-          class="editionCard event-bg-3"
+        </a>
+        <a
+          class="edition-link"
+          href="/editon?editionId=3"
         >
-          <span
-            class="type"
-          >
-            TALK | DEMO
-          </span>
           <div
-            class="details"
+            class="editionCard event-bg-3"
           >
-            <p
-              class="title"
+            <span
+              class="type"
             >
-              Event titile of 3 - multiple tracks/sessions
-            </p>
-            <p
-              class="date"
-            >
-              Edition 3 | 29 Aug 2020
-            </p>
+              TALK | DEMO
+            </span>
             <div
-              class="info"
+              class="details"
             >
-              <div
-                class="item"
+              <p
+                class="title"
               >
-                <p
-                  class="value"
-                >
-                  05
-                </p>
-                <p>
-                  Talks
-                </p>
-              </div>
-              <div
-                class="item"
+                Event titile of 3 - multiple tracks/sessions
+              </p>
+              <p
+                class="date"
               >
-                <p
-                  class="separator"
-                />
-                <p
-                  class="value"
-                >
-                  02
-                </p>
-                <p>
-                  Sessions
-                </p>
-              </div>
+                Edition 3 | 29 Aug 2020
+              </p>
               <div
-                class="item"
+                class="info"
               >
-                <p
-                  class="separator"
-                />
-                <p
-                  class="value"
+                <div
+                  class="item"
                 >
-                  1.75 hr
-                </p>
-                <p>
-                  Duration
-                </p>
+                  <p
+                    class="value"
+                  >
+                    05
+                  </p>
+                  <p>
+                    Talks
+                  </p>
+                </div>
+                <div
+                  class="item"
+                >
+                  <p
+                    class="separator"
+                  />
+                  <p
+                    class="value"
+                  >
+                    02
+                  </p>
+                  <p>
+                    Sessions
+                  </p>
+                </div>
+                <div
+                  class="item"
+                >
+                  <p
+                    class="separator"
+                  />
+                  <p
+                    class="value"
+                  >
+                    1.75 hr
+                  </p>
+                  <p>
+                    Duration
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div
-          class="editionCard event-bg-2"
+        </a>
+        <a
+          class="edition-link"
+          href="/editon?editionId=2"
         >
-          <span
-            class="type"
-          >
-            TALK | DEMO
-          </span>
           <div
-            class="details"
+            class="editionCard event-bg-2"
           >
-            <p
-              class="title"
+            <span
+              class="type"
             >
-              Event titile of 2
-            </p>
-            <p
-              class="date"
-            >
-              Edition 2 | 7 Dec 2019
-            </p>
+              TALK | DEMO
+            </span>
             <div
-              class="info"
+              class="details"
             >
-              <div
-                class="item"
+              <p
+                class="title"
               >
-                <p
-                  class="value"
-                >
-                  01
-                </p>
-                <p>
-                  Talk
-                </p>
-              </div>
-              <div
-                class="item"
+                Event titile of 2
+              </p>
+              <p
+                class="date"
               >
-                <p
-                  class="separator"
-                />
-                <p
-                  class="value"
-                >
-                  01
-                </p>
-                <p>
-                  Session
-                </p>
-              </div>
+                Edition 2 | 7 Dec 2019
+              </p>
               <div
-                class="item"
+                class="info"
               >
-                <p
-                  class="separator"
-                />
-                <p
-                  class="value"
+                <div
+                  class="item"
                 >
-                  03 hr
-                </p>
-                <p>
-                  Duration
-                </p>
+                  <p
+                    class="value"
+                  >
+                    01
+                  </p>
+                  <p>
+                    Talk
+                  </p>
+                </div>
+                <div
+                  class="item"
+                >
+                  <p
+                    class="separator"
+                  />
+                  <p
+                    class="value"
+                  >
+                    01
+                  </p>
+                  <p>
+                    Session
+                  </p>
+                </div>
+                <div
+                  class="item"
+                >
+                  <p
+                    class="separator"
+                  />
+                  <p
+                    class="value"
+                  >
+                    03 hr
+                  </p>
+                  <p>
+                    Duration
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
+        </a>
       </div>
     </div>
     <div

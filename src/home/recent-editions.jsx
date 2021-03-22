@@ -26,7 +26,15 @@ export class RecentEditions extends Component {
         </Link>
         <div className="editions">
           {recentEditions.map((edition) => {
-            return <EditionCard key={edition.id} edition={edition} />;
+            return (
+              <Link
+                key={edition.id}
+                className="edition-link"
+                to={`./editon?editionId=${edition.id}`}
+              >
+                <EditionCard edition={edition} />
+              </Link>
+            );
           })}
         </div>
       </div>
