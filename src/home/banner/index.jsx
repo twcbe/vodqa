@@ -10,6 +10,7 @@ export class Banner extends Component {
   constructor(props) {
     super(props);
   }
+
   render() {
     const event = this.props.event;
 

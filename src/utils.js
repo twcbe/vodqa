@@ -5,3 +5,17 @@ export const getOrdinalNum = (n) =>
 
 export const padZeros = (number, maxLength) =>
   String(number).padStart(maxLength, "0");
+
+export const getLocalTime = (date) =>
+  date.toLocaleString("en-US", {
+    hour: "numeric",
+    minute: "numeric",
+    hour12: true,
+  });
+
+export const getFormattedDate = (date) =>
+  date.toLocaleDateString("en-IN", {
+    day: "numeric",
+    month: "short",
+    year: "numeric",
+  });

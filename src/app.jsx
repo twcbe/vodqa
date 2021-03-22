@@ -10,6 +10,7 @@ import {
 import "./app.scss";
 import { Home } from "./home/index.jsx";
 import { PastEditions } from "./edition/list.jsx";
+import { EditionDetails } from "./edition/index.jsx";
 
 const renderLoader = () => <p>Loading</p>;
 const renderError = () => <p>Something went wrong</p>;
@@ -45,6 +46,9 @@ const App = () => {
       <Switch>
         <Route exact path={`/${EVENT_NAME}`}>
           <Home config={config} />
+        </Route>
+        <Route exact path={`/${EVENT_NAME}/edition`}>
+          <EditionDetails config={config} />
         </Route>
         <Route exact path={`/${EVENT_NAME}/list`}>
           <PastEditions config={config} />

@@ -88,3 +88,169 @@
   background-size: cover;
   background-image: url("../imgs/event-bg-3.png");
 }
+
+.editionDetails {
+  margin: 1.5vmax;
+  .basicInfo {
+    .item {
+      display: inline-block;
+      width: 75%;
+
+      .title {
+        font-size: 2.5vmax;
+      }
+    }
+
+    .stats {
+      float: right;
+      .item {
+        float: right;
+        text-align: center;
+        color: white;
+        background-color: black;
+        opacity: 0.4;
+        padding: 8px;
+        width: fit-content;
+        .value {
+          font-weight: 600;
+        }
+      }
+
+      .item + .item {
+        margin-right: 12px;
+      }
+    }
+  }
+
+  .talks {
+    margin-right: 1vmax;
+    margin-top: 2vmax;
+
+    .talk {
+      color: black;
+      background-color: #e1e2e3;
+      padding: 1vmax;
+      padding-left: 2vmax;
+      padding-right: 2vmax;
+      margin-bottom: 1vmax;
+      border-radius: 6px;
+      min-height: 320px;
+
+      .talkInfo {
+        display: inline-block;
+        vertical-align: top;
+        width: 60%;
+        @media only screen and (min-width: 1025px) {
+          width: calc(95% - 560px);
+        }
+
+        @media only screen and (min-width: 481px) and (max-width: 1024px) {
+          width: 90%;
+        }
+
+        @media only screen and (max-width: 480px) {
+          width: 90%;
+        }
+
+        .bold {
+          font-weight: 600;
+          font-size: 1.5vmax;
+        }
+
+        .light {
+          font-weight: 200;
+          font-size: 1vmax;
+        }
+
+        .description {
+          margin-top: 1vmax;
+          margin-bottom: 0.5vmax;
+        }
+
+        .speakerInfo {
+          padding-left: 1vmax;
+          display: inline-block;
+
+          .pic {
+            @media only screen and (max-width: 1024px) {
+              display: inline-block;
+            }
+            height: 6vmax;
+            width: 6vmax;
+            border-radius: 50%;
+          }
+
+          .info {
+            text-align: left;
+            @media only screen and (max-width: 1024px) {
+              padding-left: 1vmax;
+              padding-top: 1vmax;
+              vertical-align: top;
+              display: inline-block;
+            }
+          }
+        }
+
+        .speakers {
+          padding-left: 1vmax;
+          display: inline-block;
+
+          .speaker + .speaker {
+            padding-top: 1vmax;
+          }
+
+          .pic {
+            display: inline-block;
+            height: 4vmax;
+            width: 4vmax;
+            border-radius: 50%;
+          }
+
+          .info {
+            padding-top: 0.5vmax;
+            padding-left: 1vmax;
+            vertical-align: top;
+            display: inline-block;
+          }
+        }
+
+        .slides {
+          margin-top: 1vmax;
+          padding: 1vmax;
+          font-size: 1vmax;
+          display: inline-block;
+          color: white;
+          background-color: #11aa58;
+          border-radius: 4px;
+          text-decoration: none;
+          border: none;
+        }
+      }
+
+      iframe {
+        display: inline;
+        float: right;
+
+        @media only screen and (min-width: 1025px) {
+          display: inline;
+          width: 560px;
+          height: 315px;
+        }
+
+        @media only screen and (min-width: 481px) and (max-width: 1024px) {
+          float: none;
+          margin-top: 1vmax;
+          width: 560px;
+          height: 315px;
+        }
+
+        @media only screen and (max-width: 480px) {
+          float: none;
+          margin-top: 1vmax;
+          width: 320px;
+          height: 230px;
+        }
+      }
+    }
+  }
+}
