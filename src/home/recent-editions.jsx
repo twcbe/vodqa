@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-
 import PropTypes from "prop-types";
 
 import { EditionCard } from "../edition/card.jsx";
@@ -26,15 +25,7 @@ export class RecentEditions extends Component {
         </Link>
         <div className="editions">
           {recentEditions.map((edition) => {
-            return (
-              <Link
-                key={edition.id}
-                className="edition-link"
-                to={`./edition?editionId=${edition.id}`}
-              >
-                <EditionCard edition={edition} />
-              </Link>
-            );
+            return <EditionCard key={edition.id} edition={edition} />;
           })}
         </div>
       </div>

@@ -31,7 +31,7 @@ export class PastEditions extends Component {
                 <Link
                   key={edition.id}
                   className="edition-link"
-                  to={`../edition?editionId=${edition.id}`}
+                  to={`./edition?editionId=${edition.id}`}
                 >
                   <EditionCard key={edition.id} edition={edition} />
                 </Link>

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 
 import "./index.scss";
@@ -31,7 +32,11 @@ export class EditionCard extends Component {
     const bannerId = isNaN(edition.id % 4) ? 0 : edition.id % 4;
 
     return (
-      <div className={`editionCard event-bg-${bannerId}`}>
+      <Link
+        key={edition.id}
+        className={`editionCard event-bg-${bannerId}`}
+        to={`./edition?editionId=${edition.id}`}
+      >
         <span className="type">{type.toUpperCase()}</span>
         <div className="details">
           <p className="title">{title}</p>
@@ -55,7 +60,7 @@ export class EditionCard extends Component {
             </div>
           </div>
         </div>
-      </div>
+      </Link>
     );
   }
 }
