@@ -1,7 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
 import ReactQueryParams from "react-query-params";
+import { Link } from "react-router-dom";
 
+import { Banner } from "../home/banner/index.jsx";
 import { padZeros, getLocalTime, getFormattedDate } from "../utils.js";
 
 import "./index.scss";
@@ -134,9 +136,15 @@ export class EditionDetails extends ReactQueryParams {
     };
 
     return (
-      <div className="editionDetails">
-        {renderEditionInfo()}
-        {renderTalksInfo()}
+      <div id="event-home" className="event-home">
+        <Banner event={this.config}></Banner>
+        <Link className="view-all" to="./list">
+          &#60; Back to all editions
+        </Link>
+        <div className="editionDetails">
+          {renderEditionInfo()}
+          {renderTalksInfo()}
+        </div>
       </div>
     );
   }
