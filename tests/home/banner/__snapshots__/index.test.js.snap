@@ -41,7 +41,7 @@ exports[`Banner Section Banner with an active editon 1`] = `
       </a>
       <a
         class="item logo"
-        href="/"
+        href="#/"
       >
         sample
       </a>
@@ -229,7 +229,7 @@ exports[`Banner Section Banner with an active evening editon 1`] = `
       </a>
       <a
         class="item logo"
-        href="/"
+        href="#/"
       >
         sample
       </a>
@@ -442,7 +442,7 @@ exports[`Banner Section Banner with only one editon 1`] = `
       </a>
       <a
         class="item logo"
-        href="/"
+        href="#/"
       >
         sample
       </a>
@@ -557,7 +557,7 @@ exports[`Banner Section Banner with only past editon 1`] = `
       </a>
       <a
         class="item logo"
-        href="/"
+        href="#/"
       >
         sample
       </a>

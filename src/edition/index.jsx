@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import ReactQueryParams from "react-query-params";
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { HashRouter as Router, Link } from "react-router-dom";
 
 import { Banner } from "../home/banner/index.jsx";
 import { padZeros, getLocalTime, getFormattedDate } from "../utils.js";

@@ -4,7 +4,7 @@ exports[`Cards Section edition card with mising details 1`] = `
 <DocumentFragment>
   <a
     class="editionCard event-bg-0"
-    href="/edition?editionId=undefined"
+    href="#/edition?editionId=undefined"
   >
     <span
       class="type"
