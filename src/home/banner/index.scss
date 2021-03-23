@@ -126,14 +126,18 @@
     margin-top: 2vmax;
     margin-left: 4vmax;
 
-    .summary {
-      font-weight: 600;
-    }
+    .basicInfo {
+      display: inline-block;
+      width: 75%;
+      .summary {
+        font-weight: 600;
+      }
 
-    .title {
-      margin-top: 0.5vmax;
-      font-size: 2.5vmax;
-      font-weight: 600;
+      .title {
+        margin-top: 0.5vmax;
+        font-size: 2.5vmax;
+        font-weight: 600;
+      }
     }
 
     .stats {
@@ -168,8 +172,10 @@
     }
 
     .rsvp {
-      margin-top: 2vmax;
-      margin-bottom: 4vmax;
+      padding-top: 2vmax;
+      vertical-align: top;
+      display: inline-block;
+
       .link {
         color: #008731;
         font-weight: 600;

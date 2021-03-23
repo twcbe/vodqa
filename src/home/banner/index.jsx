@@ -14,6 +14,7 @@ export class Banner extends Component {
 
   render() {
     const event = this.props.event;
+    const smallBanner = this.props.small;
 
     if (!event || !event.editions || event.editions <= 0) return <br />;
 
@@ -147,7 +148,7 @@ export class Banner extends Component {
         return (
           <div className="eventInfo">
             {event.tagLines && renderTaglines(event.tagLines)}
-            {renderEventStats()}
+            {!smallBanner && renderEventStats()}
           </div>
         );
       }
@@ -156,12 +157,13 @@ export class Banner extends Component {
       const upcomingEditionDate = new Date(upcomingEdition.startTime);
       return (
         <div className="upcomingEditionInfo">
-          <div className="summary">
-            UPCOMING | EDITION {upcomingEdition.id} |{" "}
-            {upcomingEditionDate.toLocaleString("en-IN", { weekday: "long" })}
+          <div className="basicInfo">
+            <div className="summary">
+              UPCOMING | EDITION {upcomingEdition.id} |{" "}
+              {upcomingEditionDate.toLocaleString("en-IN", { weekday: "long" })}
+            </div>
+            <div className="title">{upcomingEdition.title}</div>
           </div>
-          <div className="title">{upcomingEdition.title}</div>
-          {renderEditionStats(upcomingEdition)}
           {upcomingEdition.registration && (
             <div className="rsvp">
               <a
@@ -174,7 +176,9 @@ export class Banner extends Component {
               </a>
             </div>
           )}
-          <Talks sessions={upcomingEdition.sessions} />
+          {!smallBanner && renderEditionStats(upcomingEdition)}
+
+          {!smallBanner && <Talks sessions={upcomingEdition.sessions} />}
         </div>
       );
     };
@@ -188,6 +192,11 @@ export class Banner extends Component {
   }
 }
 
+Banner.defaultProps = {
+  small: false,
+};
+
 Banner.propTypes = {
   event: PropTypes.object.isRequired,
+  small: PropTypes.bool,
 };

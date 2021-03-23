@@ -35,7 +35,7 @@ export class PastEditions extends Component {
 
     return (
       <div id="event-home" className="event-home">
-        <Banner event={event}></Banner>
+        <Banner event={event} small></Banner>
         {renderEditions()}
         <p className="copyright">© 2021 ThoughtWorks, Inc.</p>
       </div>

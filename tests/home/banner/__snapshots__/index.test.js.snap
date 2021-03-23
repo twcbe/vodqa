@@ -55,14 +55,30 @@ exports[`Banner Section Banner with an active editon 1`] = `
       class="upcomingEditionInfo"
     >
       <div
-        class="summary"
+        class="basicInfo"
       >
-        UPCOMING | EDITION 10000 | Friday
+        <div
+          class="summary"
+        >
+          UPCOMING | EDITION 10000 | Friday
+        </div>
+        <div
+          class="title"
+        >
+          Event titile of 10000 - Upcoming workshop
+        </div>
       </div>
       <div
-        class="title"
+        class="rsvp"
       >
-        Event titile of 10000 - Upcoming workshop
+        <a
+          class="link"
+          href="https://reg.site/link/form"
+          rel="noreferrer"
+          target="_blank"
+        >
+          RSVP now
+        </a>
       </div>
       <div
         class="stats"
@@ -122,18 +138,6 @@ exports[`Banner Section Banner with an active editon 1`] = `
             </p>
           </div>
         </div>
-      </div>
-      <div
-        class="rsvp"
-      >
-        <a
-          class="link"
-          href="https://reg.site/link/form"
-          rel="noreferrer"
-          target="_blank"
-        >
-          RSVP now
-        </a>
       </div>
       <div
         class="talks"
@@ -239,14 +243,30 @@ exports[`Banner Section Banner with an active evening editon 1`] = `
       class="upcomingEditionInfo"
     >
       <div
-        class="summary"
+        class="basicInfo"
       >
-        UPCOMING | EDITION 10000 | Friday
+        <div
+          class="summary"
+        >
+          UPCOMING | EDITION 10000 | Friday
+        </div>
+        <div
+          class="title"
+        >
+          Event titile of 10000 - Upcoming workshop
+        </div>
       </div>
       <div
-        class="title"
+        class="rsvp"
       >
-        Event titile of 10000 - Upcoming workshop
+        <a
+          class="link"
+          href="https://reg.site/link/form"
+          rel="noreferrer"
+          target="_blank"
+        >
+          RSVP now
+        </a>
       </div>
       <div
         class="stats"
@@ -306,18 +326,6 @@ exports[`Banner Section Banner with an active evening editon 1`] = `
             </p>
           </div>
         </div>
-      </div>
-      <div
-        class="rsvp"
-      >
-        <a
-          class="link"
-          href="https://reg.site/link/form"
-          rel="noreferrer"
-          target="_blank"
-        >
-          RSVP now
-        </a>
       </div>
       <div
         class="talks"

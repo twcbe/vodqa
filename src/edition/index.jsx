@@ -14,8 +14,9 @@ export class EditionDetails extends ReactQueryParams {
   }
 
   render() {
+    const event = this.props.config;
     const editionId = this.queryParams?.editionId || 1;
-    const editions = this.props.config.editions;
+    const editions = event.editions;
     const edition = editions.find((e) => e.id === Number(editionId));
     if (!edition) return <p>Edition not found</p>;
     const title = edition.title || `EDITION ${edition.id} `;
@@ -137,7 +138,7 @@ export class EditionDetails extends ReactQueryParams {
 
     return (
       <div id="event-home" className="event-home">
-        <Banner event={this.config}></Banner>
+        <Banner event={event}></Banner>
         <Router>
           <Link className="view-all" to="./list">
             &#60; Back to all editions
