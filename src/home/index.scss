@@ -197,17 +197,22 @@
   }
 
   .instagram {
-    background-image: url("../imgs/instagram.png");
+    background-image: url("../imgs/instagram.svg");
   }
   .twitter {
-    background-image: url("../imgs/twitter.png");
+    background-image: url("../imgs/twitter.svg");
   }
   .linkedin {
-    background-image: url("../imgs/linkedin.png");
+    background-image: url("../imgs/linkedin.svg");
   }
   .youtube {
     margin-left: 2px;
-    background-image: url("../imgs/youtube.png");
+    background-image: url("../imgs/youtube.svg");
+  }
+  .meetup {
+    width: 3.5vmax !important;
+    height: 3.5vmax !important;
+    background-image: url("../imgs/meetup.png");
   }
 
   .copyright {
