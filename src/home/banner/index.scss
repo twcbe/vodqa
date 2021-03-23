@@ -1,6 +1,7 @@
 #banner {
   color: white;
-  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
 
   .topnav {
     padding-top: 1em;
@@ -42,22 +43,18 @@
 #banner.inactive {
   @media only screen and (min-width: 1441px) {
     background-image: url("../../imgs/table-discussion-bg-desktop-2x.png");
-    min-height: 40vh;
   }
 
   @media only screen and (min-width: 1025px) and (max-width: 1440px) {
     background-image: url("../../imgs/table-discussion-bg-desktop.png");
-    min-height: 40vh;
   }
 
   @media only screen and (min-width: 481px) and (max-width: 1024px) {
     background-image: url("../../imgs/table-discussion-bg-tablet.png");
-    min-height: 30vh;
   }
 
   @media only screen and (max-width: 480px) {
     background-image: url("../../imgs/table-discussion-bg-mobile.png");
-    min-height: 20vh;
   }
 
   .eventInfo {
@@ -104,22 +101,18 @@
   padding-bottom: 1vmax;
   @media only screen and (min-width: 1441px) {
     background-image: url("../../imgs/abstract-bg-desktop-2x.png");
-    min-height: 40vh;
   }
 
   @media only screen and (min-width: 1025px) and (max-width: 1440px) {
     background-image: url("../../imgs/abstract-bg-desktop.png");
-    min-height: 40vh;
   }
 
   @media only screen and (min-width: 481px) and (max-width: 1024px) {
     background-image: url("../../imgs/abstract-bg-tablet.png");
-    min-height: 30vh;
   }
 
   @media only screen and (max-width: 480px) {
     background-image: url("../../imgs/abstract-bg-mobile.png");
-    min-height: 20vh;
   }
 
   .upcomingEditionInfo {
