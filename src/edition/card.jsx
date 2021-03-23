@@ -29,7 +29,7 @@ export class EditionCard extends Component {
       return count;
     };
     const talksCount = getTalksCount(sessions) || 0;
-    const bannerId = isNaN(edition.id % 4) ? 0 : edition.id % 4;
+    const bannerId = isNaN(edition.id % 5) ? 0 : edition.id % 5;
 
     return (
       <Link
