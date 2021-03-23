@@ -1,11 +1,6 @@
 import React, { useState, useEffect } from "react";
 import ReactDOM from "react-dom";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Redirect,
-} from "react-router-dom";
+import { HashRouter, Route, Switch, Redirect } from "react-router-dom";
 
 import "./app.scss";
 import { Home } from "./home/index.jsx";
@@ -14,7 +9,6 @@ import { EditionDetails } from "./edition/index.jsx";
 
 const renderLoader = () => <p>Loading</p>;
 const renderError = () => <p>Something went wrong</p>;
-const EVENT_NAME = "vodqa";
 
 const App = () => {
   const [error, setError] = useState(null);
@@ -42,20 +36,20 @@ const App = () => {
   }
 
   return (
-    <Router>
+    <HashRouter>
       <Switch>
-        <Route exact path={`/${EVENT_NAME}`}>
+        <Route exact path="/">
           <Home config={config} />
         </Route>
-        <Route exact path={`/${EVENT_NAME}/edition`}>
+        <Route exact path="/edition">
           <EditionDetails config={config} />
         </Route>
-        <Route exact path={`/${EVENT_NAME}/list`}>
+        <Route exact path="/list">
           <PastEditions config={config} />
         </Route>
-        <Redirect to={`/${EVENT_NAME}`} />
+        <Redirect to="/" />
       </Switch>
-    </Router>
+    </HashRouter>
   );
 };
 
