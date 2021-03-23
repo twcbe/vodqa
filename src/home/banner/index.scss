@@ -274,16 +274,25 @@
 
       button:disabled {
         cursor: default;
-        color: darkgray;
+        opacity: 0.5;
       }
 
       button + button {
         margin-left: 2px;
       }
 
-      .prev {
-        width: 45px;
-        height: 45px;
+      #prev {
+        background-image: url("../../imgs/previous.svg");
+        background-repeat: no-repeat;
+        width: 19px;
+        height: 19px;
+      }
+
+      #next {
+        background-image: url("../../imgs/next.svg");
+        background-repeat: no-repeat;
+        width: 19px;
+        height: 19px;
       }
 
       .bold {

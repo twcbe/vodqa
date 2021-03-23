@@ -112,17 +112,13 @@ export class Talks extends Component {
                 alt="Previous talk"
                 disabled={index == 0}
                 onClick={this.handlePrevious}
-              >
-                {"<"}
-              </button>
+              />
               <button
                 id="next"
                 alt="Next talk"
                 disabled={index == talksCount - 1}
                 onClick={this.handleNext}
-              >
-                {">"}
-              </button>
+              />
             </div>
           )}
         </div>
