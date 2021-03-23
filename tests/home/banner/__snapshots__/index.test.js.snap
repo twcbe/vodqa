@@ -52,7 +52,7 @@ exports[`Banner Section Banner with an active editon 1`] = `
       </div>
     </div>
     <div
-      class="upcomingEditionInfo"
+      class="upcomingEditionInfo "
     >
       <div
         class="basicInfo"
@@ -240,7 +240,7 @@ exports[`Banner Section Banner with an active evening editon 1`] = `
       </div>
     </div>
     <div
-      class="upcomingEditionInfo"
+      class="upcomingEditionInfo "
     >
       <div
         class="basicInfo"

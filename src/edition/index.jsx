@@ -139,11 +139,11 @@ export class EditionDetails extends ReactQueryParams {
     return (
       <div id="event-home" className="event-home">
         <Banner event={event} small></Banner>
-        <Router>
-          <Link className="view-all" to="./list">
-            &#60; Back to all editions
-          </Link>
-        </Router>
+        <div className="view-all">
+          <Router>
+            <Link to="./list">&#60; Back to all editions</Link>
+          </Router>
+        </div>
         <div className="editionDetails">
           {renderEditionInfo()}
           {renderTalksInfo()}

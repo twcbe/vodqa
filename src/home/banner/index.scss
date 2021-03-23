@@ -115,6 +115,22 @@
     background-image: url("../../imgs/abstract-bg-mobile.png");
   }
 
+  .upcomingEditionInfo.small {
+    margin-top: 1vmax;
+    margin-left: 0;
+    padding-left: 10px;
+    .basicInfo {
+      .title {
+        margin-top: 0;
+        font-size: 1.5vmax;
+      }
+    }
+
+    .rsvp {
+      padding-top: 1vmax;
+    }
+  }
+
   .upcomingEditionInfo {
     margin-top: 2vmax;
     margin-left: 4vmax;

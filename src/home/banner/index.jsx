@@ -147,7 +147,7 @@ export class Banner extends Component {
       if (bannerStatus === "inactive") {
         return (
           <div className="eventInfo">
-            {event.tagLines && renderTaglines(event.tagLines)}
+            {!smallBanner && event.tagLines && renderTaglines(event.tagLines)}
             {!smallBanner && renderEventStats()}
           </div>
         );
@@ -156,7 +156,7 @@ export class Banner extends Component {
       const upcomingEdition = upcomingEditions[0];
       const upcomingEditionDate = new Date(upcomingEdition.startTime);
       return (
-        <div className="upcomingEditionInfo">
+        <div className={`upcomingEditionInfo ${smallBanner ? "small" : ""}`}>
           <div className="basicInfo">
             <div className="summary">
               UPCOMING | EDITION {upcomingEdition.id} |{" "}
