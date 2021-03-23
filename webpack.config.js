@@ -56,6 +56,9 @@ module.exports = {
     copyPluginConfig,
     HTMLWebpackPluginConfig,
     new CompressionPlugin({ test: /\.js$|\.css$|\.html$/ }),
+    new webpack.DefinePlugin({
+      "process.env.PUBLIC_URL": JSON.stringify(process.env.PUBLIC_URL),
+    }),
   ],
   optimization: {
     minimizer: [terserPluginConfig],

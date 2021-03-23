@@ -39,7 +39,7 @@ exports[`Home Page Verify home page renders peoperly with mock data 1`] = `
         </a>
         <a
           class="item logo"
-          href="#/"
+          href="/"
         >
           sample
         </a>
@@ -127,7 +127,7 @@ exports[`Home Page Verify home page renders peoperly with mock data 1`] = `
       </span>
       <a
         class="view-all"
-        href="#/list"
+        href="/list"
       >
         View All
       </a>
@@ -136,7 +136,7 @@ exports[`Home Page Verify home page renders peoperly with mock data 1`] = `
       >
         <a
           class="editionCard event-bg-0"
-          href="#/edition?editionId=5"
+          href="/edition?editionId=5"
         >
           <span
             class="type"
@@ -206,7 +206,7 @@ exports[`Home Page Verify home page renders peoperly with mock data 1`] = `
         </a>
         <a
           class="editionCard event-bg-4"
-          href="#/edition?editionId=4"
+          href="/edition?editionId=4"
         >
           <span
             class="type"
@@ -276,7 +276,7 @@ exports[`Home Page Verify home page renders peoperly with mock data 1`] = `
         </a>
         <a
           class="editionCard event-bg-3"
-          href="#/edition?editionId=3"
+          href="/edition?editionId=3"
         >
           <span
             class="type"
@@ -346,7 +346,7 @@ exports[`Home Page Verify home page renders peoperly with mock data 1`] = `
         </a>
         <a
           class="editionCard event-bg-2"
-          href="#/edition?editionId=2"
+          href="/edition?editionId=2"
         >
           <span
             class="type"

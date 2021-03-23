@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ReactDOM from "react-dom";
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Route,
   Switch,
   Redirect,
@@ -41,7 +41,7 @@ const App = () => {
   }
 
   return (
-    <Router>
+    <Router basename={`/${process.env.PUBLIC_URL}`}>
       <Switch>
         <Route exact path="/">
           <Home config={config} />
