@@ -94,6 +94,10 @@
   background-image: url("../imgs/event-bg-4.png");
 }
 
+.view-all {
+  margin: 1.5vmax;
+}
+
 .editionDetails {
   margin: 1.5vmax;
   .basicInfo {
@@ -128,7 +132,6 @@
   }
 
   .talks {
-    margin-right: 1vmax;
     margin-top: 2vmax;
 
     .talk {
@@ -169,11 +172,10 @@
 
         .description {
           margin-top: 1vmax;
-          margin-bottom: 0.5vmax;
+          margin-bottom: 1.5vmax;
         }
 
         .speakerInfo {
-          padding-left: 1vmax;
           display: inline-block;
 
           .pic {
@@ -197,7 +199,6 @@
         }
 
         .speakers {
-          padding-left: 1vmax;
           display: inline-block;
 
           .speaker + .speaker {
