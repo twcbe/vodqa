@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { HashRouter as Router, Link } from "react-router-dom";
 import PropTypes from "prop-types";
 
 import { Talks } from "./talks.jsx";
@@ -53,9 +53,11 @@ export class Banner extends Component {
               </a>
             );
           })}
-          <Link className="item logo" to="./">
-            {name}
-          </Link>
+          <Router>
+            <Link className="item logo" to="./">
+              {name}
+            </Link>
+          </Router>
           <div className="item location">{location}</div>
         </div>
       );

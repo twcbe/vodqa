@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { HashRouter as Router, Link } from "react-router-dom";
 import PropTypes from "prop-types";
 
 import { EditionCard } from "../edition/card.jsx";
@@ -20,9 +20,11 @@ export class RecentEditions extends Component {
     return (
       <div id="editions" className="recentEditions">
         <span className="banner">Recent Editions</span>
-        <Link className="view-all" to="./list">
-          View All
-        </Link>
+        <Router>
+          <Link className="view-all" to="./list">
+            View All
+          </Link>
+        </Router>
         <div className="editions">
           {recentEditions.map((edition) => {
             return <EditionCard key={edition.id} edition={edition} />;

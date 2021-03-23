@@ -1,6 +1,11 @@
 import React, { useState, useEffect } from "react";
 import ReactDOM from "react-dom";
-import { HashRouter, Route, Switch, Redirect } from "react-router-dom";
+import {
+  HashRouter as Router,
+  Route,
+  Switch,
+  Redirect,
+} from "react-router-dom";
 
 import "./app.scss";
 import { Home } from "./home/index.jsx";
@@ -36,7 +41,7 @@ const App = () => {
   }
 
   return (
-    <HashRouter>
+    <Router>
       <Switch>
         <Route exact path="/">
           <Home config={config} />
@@ -49,7 +54,7 @@ const App = () => {
         </Route>
         <Redirect to="/" />
       </Switch>
-    </HashRouter>
+    </Router>
   );
 };
 

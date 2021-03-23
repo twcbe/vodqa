@@ -39,11 +39,12 @@ exports[`Banner Section Banner with an active editon 1`] = `
       >
         Editions
       </a>
-      <div
+      <a
         class="item logo"
+        href="#/"
       >
         sample
-      </div>
+      </a>
       <div
         class="item location"
       >
@@ -222,11 +223,12 @@ exports[`Banner Section Banner with an active evening editon 1`] = `
       >
         Editions
       </a>
-      <div
+      <a
         class="item logo"
+        href="#/"
       >
         sample
-      </div>
+      </a>
       <div
         class="item location"
       >
@@ -384,15 +386,11 @@ exports[`Banner Section Banner with an active evening editon 1`] = `
               alt="Previous talk"
               disabled=""
               id="prev"
-            >
-              &lt;
-            </button>
+            />
             <button
               alt="Next talk"
               id="next"
-            >
-              &gt;
-            </button>
+            />
           </div>
         </div>
       </div>
@@ -434,11 +432,12 @@ exports[`Banner Section Banner with only one editon 1`] = `
       >
         Editions
       </a>
-      <div
+      <a
         class="item logo"
+        href="#/"
       >
         sample
-      </div>
+      </a>
       <div
         class="item location"
       >
@@ -548,11 +547,12 @@ exports[`Banner Section Banner with only past editon 1`] = `
       >
         Editions
       </a>
-      <div
+      <a
         class="item logo"
+        href="#/"
       >
         sample
-      </div>
+      </a>
       <div
         class="item location"
       >

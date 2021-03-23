@@ -2,8 +2,9 @@
 
 exports[`Cards Section edition card with mising details 1`] = `
 <DocumentFragment>
-  <div
+  <a
     class="editionCard event-bg-0"
+    href="#/edition?editionId=undefined"
   >
     <span
       class="type"
@@ -70,6 +71,6 @@ exports[`Cards Section edition card with mising details 1`] = `
         </div>
       </div>
     </div>
-  </div>
+  </a>
 </DocumentFragment>
 `;

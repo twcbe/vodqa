@@ -70,15 +70,11 @@ exports[`Talks Section Display talks - move to next talk 1`] = `
         <button
           alt="Previous talk"
           id="prev"
-        >
-          &lt;
-        </button>
+        />
         <button
           alt="Next talk"
           id="next"
-        >
-          &gt;
-        </button>
+        />
       </div>
     </div>
   </div>
@@ -184,15 +180,11 @@ exports[`Talks Section Display talks - move to prev talk 1`] = `
           alt="Previous talk"
           disabled=""
           id="prev"
-        >
-          &lt;
-        </button>
+        />
         <button
           alt="Next talk"
           id="next"
-        >
-          &gt;
-        </button>
+        />
       </div>
     </div>
   </div>
@@ -298,15 +290,11 @@ exports[`Talks Section Display talks from more than one session 1`] = `
           alt="Previous talk"
           disabled=""
           id="prev"
-        >
-          &lt;
-        </button>
+        />
         <button
           alt="Next talk"
           id="next"
-        >
-          &gt;
-        </button>
+        />
       </div>
     </div>
   </div>
