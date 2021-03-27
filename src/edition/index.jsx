@@ -1,21 +1,25 @@
-import React from "react";
-import PropTypes from "prop-types";
-import ReactQueryParams from "react-query-params";
+import React, { Component } from "react";
 import { HashRouter as Router, Link } from "react-router-dom";
+import PropTypes from "prop-types";
 
 import { Banner } from "../home/banner/index.jsx";
-import { padZeros, getLocalTime, getFormattedDate } from "../utils.js";
+import {
+  padZeros,
+  getLocalTime,
+  getFormattedDate,
+  getParamValueFromURL,
+} from "../utils.js";
 
 import "./index.scss";
 
-export class EditionDetails extends ReactQueryParams {
+export class EditionDetails extends Component {
   constructor(props) {
     super(props);
   }
 
   render() {
     const event = this.props.config;
-    const editionId = this.queryParams?.editionId || 1;
+    const editionId = getParamValueFromURL("editionId") || 1;
     const editions = event.editions;
     const edition = editions.find((e) => e.id === Number(editionId));
     if (!edition) return <p>Edition not found</p>;

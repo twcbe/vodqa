@@ -1,4 +1,10 @@
-import { getOrdinalNum, padZeros } from "../src/utils.js";
+import {
+  getOrdinalNum,
+  padZeros,
+  getParamValueFromURL,
+  getFormattedDate,
+  getLocalTime,
+} from "../src/utils.js";
 
 describe("Utils", () => {
   test("check ordinal number for 1", () => {
@@ -24,5 +30,26 @@ describe("Utils", () => {
   });
   it("should not pad digits with zeros", () => {
     expect(padZeros(50000, 5)).toBe("50000");
+  });
+
+  it("should return local time", () => {
+    const input = new Date(1616852706000);
+    expect(getLocalTime(input)).toBe("1:45 PM");
+  });
+
+  it("should return local time - AM", () => {
+    const input = new Date(1616809506000);
+    expect(getLocalTime(input)).toBe("1:45 AM");
+  });
+
+  it("should retrun the formateed date", () => {
+    const input = new Date(1616809506000);
+    expect(getFormattedDate(input)).toBe("27 Mar 2021");
+  });
+
+  it("should parse the url and retrun params", () => {
+    expect(
+      getParamValueFromURL("key", "https://myorg.github.io/event/#/test?key=7")
+    ).toBe("7");
   });
 });
