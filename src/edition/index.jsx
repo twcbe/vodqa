@@ -17,6 +17,11 @@ export class EditionDetails extends Component {
     super(props);
   }
 
+  componentDidMount() {
+    const event = this.props.config;
+    document.title = `${event.name} ${event.location}`;
+  }
+
   render() {
     const event = this.props.config;
     const editionId = getParamValueFromURL("editionId") || 1;
