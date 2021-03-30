@@ -119,10 +119,6 @@
       display: inline-block;
       width: 75%;
 
-      @media only screen and (min-width: 1024px) {
-        width: calc(90% - 50px);
-      }
-
       .summary {
         font-weight: 600;
       }
