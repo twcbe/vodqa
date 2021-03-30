@@ -56,7 +56,10 @@ export class EditionCard extends Component {
               </div>
               <div className="item">
                 <p className="separator" />
-                <p className="value">{String(duration).padStart(2, "0")} hr</p>
+                <p className="value">
+                  {String(duration).padStart(2, "0")}{" "}
+                  {duration > 1 ? "hrs" : "hr"}
+                </p>
                 <p>Duration</p>
               </div>
             </div>

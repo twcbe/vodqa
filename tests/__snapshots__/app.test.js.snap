@@ -195,7 +195,7 @@ exports[`Home Page Verify home page renders peoperly with mock data 1`] = `
                 <p
                   class="value"
                 >
-                  03 hr
+                  03 hrs
                 </p>
                 <p>
                   Duration
@@ -265,7 +265,7 @@ exports[`Home Page Verify home page renders peoperly with mock data 1`] = `
                 <p
                   class="value"
                 >
-                  8.25 hr
+                  8.25 hrs
                 </p>
                 <p>
                   Duration
@@ -335,7 +335,7 @@ exports[`Home Page Verify home page renders peoperly with mock data 1`] = `
                 <p
                   class="value"
                 >
-                  1.75 hr
+                  1.75 hrs
                 </p>
                 <p>
                   Duration
@@ -405,7 +405,7 @@ exports[`Home Page Verify home page renders peoperly with mock data 1`] = `
                 <p
                   class="value"
                 >
-                  03 hr
+                  03 hrs
                 </p>
                 <p>
                   Duration
