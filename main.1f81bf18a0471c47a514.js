@@ -10,12 +10,13 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/esm/react-router.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/esm/react-router.js");
 /* harmony import */ var _app_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app.scss */ "./src/app.scss");
-/* harmony import */ var _home_index_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./home/index.jsx */ "./src/home/index.jsx");
-/* harmony import */ var _edition_list_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./edition/list.jsx */ "./src/edition/list.jsx");
-/* harmony import */ var _edition_index_jsx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./edition/index.jsx */ "./src/edition/index.jsx");
+/* harmony import */ var _imgs_spinner_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./imgs/spinner.svg */ "./src/imgs/spinner.svg");
+/* harmony import */ var _home_index_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./home/index.jsx */ "./src/home/index.jsx");
+/* harmony import */ var _edition_list_jsx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./edition/list.jsx */ "./src/edition/list.jsx");
+/* harmony import */ var _edition_index_jsx__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./edition/index.jsx */ "./src/edition/index.jsx");
 
 
 
@@ -24,7 +25,11 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const renderLoader = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Loading");
+
+const renderLoader = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+  src: _imgs_spinner_svg__WEBPACK_IMPORTED_MODULE_3__.default,
+  alt: "Loading"
+});
 
 const renderError = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Something went wrong");
 
@@ -47,22 +52,22 @@ const App = () => {
     return renderError();
   }
 
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.HashRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Switch, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Route, {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.HashRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Switch, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Route, {
     exact: true,
     path: "/"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_home_index_jsx__WEBPACK_IMPORTED_MODULE_3__.Home, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_home_index_jsx__WEBPACK_IMPORTED_MODULE_4__.Home, {
     config: config
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Route, {
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Route, {
     exact: true,
     path: "/edition"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_edition_index_jsx__WEBPACK_IMPORTED_MODULE_5__.EditionDetails, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_edition_index_jsx__WEBPACK_IMPORTED_MODULE_6__.EditionDetails, {
     config: config
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Route, {
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Route, {
     exact: true,
     path: "/list"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_edition_list_jsx__WEBPACK_IMPORTED_MODULE_4__.PastEditions, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_edition_list_jsx__WEBPACK_IMPORTED_MODULE_5__.PastEditions, {
     config: config
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Redirect, {
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Redirect, {
     to: "/"
   })));
 };
@@ -1045,7 +1050,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _imgs_twitter_svg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../imgs/twitter.svg */ "./src/imgs/twitter.svg");
 /* harmony import */ var _imgs_linkedin_svg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../imgs/linkedin.svg */ "./src/imgs/linkedin.svg");
 /* harmony import */ var _imgs_youtube_svg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../imgs/youtube.svg */ "./src/imgs/youtube.svg");
-/* harmony import */ var _imgs_meetup_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../imgs/meetup.png */ "./src/imgs/meetup.png");
+/* harmony import */ var _imgs_meetup_svg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../imgs/meetup.svg */ "./src/imgs/meetup.svg");
 // Imports
 
 
@@ -1069,9 +1074,9 @@ var ___CSS_LOADER_URL_REPLACEMENT_5___ = _node_modules_css_loader_dist_runtime_g
 var ___CSS_LOADER_URL_REPLACEMENT_6___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_imgs_twitter_svg__WEBPACK_IMPORTED_MODULE_8__.default);
 var ___CSS_LOADER_URL_REPLACEMENT_7___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_imgs_linkedin_svg__WEBPACK_IMPORTED_MODULE_9__.default);
 var ___CSS_LOADER_URL_REPLACEMENT_8___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_imgs_youtube_svg__WEBPACK_IMPORTED_MODULE_10__.default);
-var ___CSS_LOADER_URL_REPLACEMENT_9___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_imgs_meetup_png__WEBPACK_IMPORTED_MODULE_11__.default);
+var ___CSS_LOADER_URL_REPLACEMENT_9___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_imgs_meetup_svg__WEBPACK_IMPORTED_MODULE_11__.default);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".recentEditions {\n  margin: 1em;\n}\n.recentEditions .banner {\n  font-size: 1.2vmax;\n}\n.recentEditions .view-all {\n  margin-left: 8px;\n  text-decoration: none;\n}\n.recentEditions .editions {\n  margin-top: 2vmax;\n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n  justify-content: center;\n}\n.recentEditions .editions .title {\n  font-size: 1.2vmax;\n}\n\n#collaborate {\n  background-color: #f4f4f4;\n}\n#collaborate .item.submit {\n  display: inline-block;\n  margin-left: 12vmax;\n  width: 35%;\n}\n@media only screen and (max-width: 480px) {\n  #collaborate .item.submit {\n    width: 65%;\n  }\n}\n#collaborate .title {\n  font-size: 2vmax;\n  font-weight: 600;\n}\n@media only screen and (min-width: 481px) {\n  #collaborate .title {\n    margin-bottom: 3vmax;\n  }\n}\n@media only screen and (max-width: 480px) {\n  #collaborate .button-wrapper {\n    display: none;\n  }\n}\n#collaborate .submit-talk-button {\n  margin-top: 2vmax;\n  padding: 1vmax;\n  font-size: 1vmax;\n  display: inline-block;\n  color: white;\n  background-color: #008731;\n  border-radius: 4px;\n  text-decoration: none;\n  border: none;\n}\n#collaborate .item.steps {\n  display: inline-block;\n  margin-left: 2vmax;\n  width: 40%;\n}\n@media only screen and (max-width: 480px) {\n  #collaborate .item.steps {\n    margin-left: 12vmax;\n    margin-top: 4vmax;\n    width: 80%;\n  }\n}\n#collaborate .steps .img.pen {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n}\n#collaborate .steps .img.file {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n}\n#collaborate .steps .img.contact-us {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\n}\n#collaborate .step {\n  padding-bottom: 1vmax;\n}\n#collaborate .step .img {\n  width: 3.5vmax;\n  height: 3.5vmax;\n  display: inline-block;\n  background-size: cover;\n}\n#collaborate .step .text {\n  vertical-align: top;\n  margin-left: 2vmax;\n  display: inline-block;\n  width: 40%;\n}\n@media only screen and (max-width: 480px) {\n  #collaborate .step .text {\n    width: 60%;\n    font-size: 1.5vmax;\n  }\n}\n\n#collaborate > .button-wrapper {\n  display: none;\n}\n@media only screen and (max-width: 480px) {\n  #collaborate > .button-wrapper {\n    display: block;\n    text-align: center;\n  }\n}\n\n#aboutus {\n  margin-left: 4vmax;\n}\n#aboutus .title {\n  font-size: 1.5vmax;\n  font-weight: 600;\n}\n#aboutus .item {\n  display: inline-block;\n  width: 40%;\n}\n@media only screen and (max-width: 480px) {\n  #aboutus .item {\n    font-size: 1.5vmax;\n    width: 90%;\n  }\n}\n#aboutus .background {\n  display: inline-block;\n  height: auto;\n  min-height: 27vmax;\n  width: 40%;\n  margin-top: -5vmax;\n  margin-bottom: -5vmax;\n  margin-left: 10%;\n  background-repeat: no-repeat;\n  background-size: cover;\n  z-index: 1;\n  position: relative;\n}\n@media only screen and (min-width: 1025px) {\n  #aboutus .background {\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_3___ + ");\n  }\n}\n@media only screen and (min-width: 481px) and (max-width: 1024px) {\n  #aboutus .background {\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_4___ + ");\n    width: 60%;\n    margin-left: 0px;\n    min-height: 30vmax;\n  }\n}\n@media only screen and (max-width: 480px) {\n  #aboutus .background {\n    display: none;\n  }\n}\n#aboutus .feedback-link {\n  font-weight: 600;\n  color: #2680eb;\n  text-decoration: none;\n}\n\n#footer {\n  background-color: #f4f4f4;\n  width: 100%;\n  overflow: hidden;\n}\n#footer .item {\n  margin-top: 2vmax;\n  margin-left: 5vmax;\n  display: inline-block;\n  width: 40%;\n}\n#footer .bold {\n  font-weight: 600;\n}\n#footer .social-links a {\n  display: inline-block;\n  width: 3vmax;\n  height: 3vmax;\n  background-size: cover;\n  margin-right: 2px;\n}\n#footer .instagram {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_5___ + ");\n}\n#footer .twitter {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_6___ + ");\n}\n#footer .linkedin {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_7___ + ");\n}\n#footer .youtube {\n  margin-left: 2px;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_8___ + ");\n}\n#footer .meetup {\n  width: 3.5vmax !important;\n  height: 3.5vmax !important;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_9___ + ");\n}\n#footer .copyright {\n  color: black;\n  text-align: center;\n  margin-top: 2vmax;\n  margin-bottom: 1vmax;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".recentEditions {\n  margin: 1em;\n}\n.recentEditions .banner {\n  font-size: 1.2vmax;\n}\n.recentEditions .view-all {\n  margin-left: 8px;\n  text-decoration: none;\n}\n.recentEditions .editions {\n  margin-top: 2vmax;\n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n  justify-content: center;\n}\n.recentEditions .editions .title {\n  font-size: 1.2vmax;\n}\n\n#collaborate {\n  background-color: #f4f4f4;\n}\n#collaborate .item.submit {\n  display: inline-block;\n  margin-left: 12vmax;\n  width: 35%;\n}\n@media only screen and (max-width: 480px) {\n  #collaborate .item.submit {\n    width: 65%;\n  }\n}\n#collaborate .title {\n  font-size: 2vmax;\n  font-weight: 600;\n}\n@media only screen and (min-width: 481px) {\n  #collaborate .title {\n    margin-bottom: 3vmax;\n  }\n}\n@media only screen and (max-width: 480px) {\n  #collaborate .button-wrapper {\n    display: none;\n  }\n}\n#collaborate .submit-talk-button {\n  margin-top: 2vmax;\n  padding: 1vmax;\n  font-size: 1vmax;\n  display: inline-block;\n  color: white;\n  background-color: #008731;\n  border-radius: 4px;\n  text-decoration: none;\n  border: none;\n}\n#collaborate .item.steps {\n  display: inline-block;\n  margin-left: 2vmax;\n  width: 40%;\n}\n@media only screen and (max-width: 480px) {\n  #collaborate .item.steps {\n    margin-left: 12vmax;\n    margin-top: 4vmax;\n    width: 80%;\n  }\n}\n#collaborate .steps .img.pen {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n}\n#collaborate .steps .img.file {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n}\n#collaborate .steps .img.contact-us {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\n}\n#collaborate .step {\n  padding-bottom: 1vmax;\n}\n#collaborate .step .img {\n  width: 3.5vmax;\n  height: 3.5vmax;\n  display: inline-block;\n  background-size: cover;\n}\n#collaborate .step .text {\n  vertical-align: top;\n  margin-left: 2vmax;\n  display: inline-block;\n  width: 40%;\n}\n@media only screen and (max-width: 480px) {\n  #collaborate .step .text {\n    width: 60%;\n    font-size: 1.5vmax;\n  }\n}\n\n#collaborate > .button-wrapper {\n  display: none;\n}\n@media only screen and (max-width: 480px) {\n  #collaborate > .button-wrapper {\n    display: block;\n    text-align: center;\n  }\n}\n\n#aboutus {\n  margin-left: 4vmax;\n}\n#aboutus .title {\n  font-size: 1.5vmax;\n  font-weight: 600;\n}\n#aboutus .item {\n  display: inline-block;\n  width: 40%;\n}\n@media only screen and (max-width: 480px) {\n  #aboutus .item {\n    font-size: 1.5vmax;\n    width: 90%;\n  }\n}\n#aboutus .background {\n  display: inline-block;\n  height: auto;\n  min-height: 27vmax;\n  width: 40%;\n  margin-top: -5vmax;\n  margin-bottom: -5vmax;\n  margin-left: 10%;\n  background-repeat: no-repeat;\n  background-size: cover;\n  z-index: 1;\n  position: relative;\n}\n@media only screen and (min-width: 1025px) {\n  #aboutus .background {\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_3___ + ");\n  }\n}\n@media only screen and (min-width: 481px) and (max-width: 1024px) {\n  #aboutus .background {\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_4___ + ");\n    width: 60%;\n    margin-left: 0px;\n    min-height: 30vmax;\n  }\n}\n@media only screen and (max-width: 480px) {\n  #aboutus .background {\n    display: none;\n  }\n}\n#aboutus .feedback-link {\n  font-weight: 600;\n  color: #2680eb;\n  text-decoration: none;\n}\n\n#footer {\n  background-color: #f4f4f4;\n  width: 100%;\n  overflow: hidden;\n}\n#footer .item {\n  margin-top: 2vmax;\n  margin-left: 5vmax;\n  display: inline-block;\n  width: 40%;\n}\n#footer .bold {\n  font-weight: 600;\n}\n#footer .social-links a {\n  display: inline-block;\n  width: 3vmax;\n  height: 3vmax;\n  background-size: cover;\n  margin-right: 2px;\n}\n#footer .instagram {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_5___ + ");\n}\n#footer .twitter {\n  margin-left: 2px;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_6___ + ");\n}\n#footer .linkedin {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_7___ + ");\n}\n#footer .youtube {\n  margin-left: 2px;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_8___ + ");\n}\n#footer .meetup {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_9___ + ");\n}\n#footer .copyright {\n  color: black;\n  text-align: center;\n  margin-top: 2vmax;\n  margin-bottom: 1vmax;\n}", ""]);
 // Exports
 /* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
@@ -1234,15 +1239,15 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/imgs/meetup.png":
+/***/ "./src/imgs/meetup.svg":
 /*!*****************************!*\
-  !*** ./src/imgs/meetup.png ***!
+  !*** ./src/imgs/meetup.svg ***!
   \*****************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "6acfed965e3e8e37b9008e2da60a8745.png");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "d0e2b9a31ea5b9820317911f804fc5bd.svg");
 
 /***/ }),
 
@@ -1279,6 +1284,18 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "fac2c2552fdc606a95e55f4a6092e92e.svg");
+
+/***/ }),
+
+/***/ "./src/imgs/spinner.svg":
+/*!******************************!*\
+  !*** ./src/imgs/spinner.svg ***!
+  \******************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "2374f7babc17a5ae0802827428fc5171.svg");
 
 /***/ }),
 
@@ -1720,4 +1737,4 @@ const getParamValueFromURL = (name, url = window.location.href) => {
 /******/ var __webpack_exports__ = __webpack_require__.O();
 /******/ }
 ]);
-//# sourceMappingURL=main.5c81292c09c14b68fd3e.js.map
+//# sourceMappingURL=main.1f81bf18a0471c47a514.js.map
