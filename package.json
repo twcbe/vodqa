@@ -35,11 +35,11 @@
     "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.13.13",
+    "@babel/core": "^7.13.14",
     "@babel/preset-env": "^7.13.12",
     "@babel/preset-react": "^7.13.13",
     "@testing-library/jest-dom": "^5.11.10",
-    "@testing-library/react": "^11.2.5",
+    "@testing-library/react": "^11.2.6",
     "@types/jest": "^26.0.22",
     "babel-jest": "^26.6.3",
     "babel-loader": "^8.2.2",
@@ -67,7 +67,7 @@
     "style-loader": "^2.0.0",
     "terser-webpack-plugin": "^5.1.1",
     "webpack": "^5.28.0",
-    "webpack-cli": "^4.5.0",
+    "webpack-cli": "^4.6.0",
     "webpack-dev-server": "^3.11.2"
   }
 }

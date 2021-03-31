@@ -8,11 +8,12 @@ import {
 } from "react-router-dom";
 
 import "./app.scss";
+import Spinner from "./imgs/spinner.svg";
 import { Home } from "./home/index.jsx";
 import { PastEditions } from "./edition/list.jsx";
 import { EditionDetails } from "./edition/index.jsx";
 
-const renderLoader = () => <p>Loading</p>;
+const renderLoader = () => <img src={Spinner} alt="Loading" />;
 const renderError = () => <p>Something went wrong</p>;
 
 const App = () => {
