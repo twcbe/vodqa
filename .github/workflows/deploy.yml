@@ -36,7 +36,7 @@ jobs:
           npm run lint
           npm run test
       - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@4.1.0
+        uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
             token: ${{ secrets.GITHUB_TOKEN }}
             branch: gh-pages 
