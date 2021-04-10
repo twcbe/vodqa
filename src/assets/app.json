@@ -105,9 +105,11 @@
           "talks": [
             {
               "title": "Docker : Hands-on Workshop",
+              "description" : "This session is on getting our hands dirty with docker",
               "speaker": "U Ravi Prasanth and Sathya Subramani - Quality Analyst, ThoughtWorks.",
               "startTime": 1605932100000,
               "recording": "https://www.youtube.com/embed/Azm-xvmDQmk",
+              "slides" : "https://docs.google.com/presentation/d/1g1CZ2tqAJpZkM_PCBj-vPVeqDj2Hp1tAXX8MOHFYzRA/edit#slide=id.ga2b41215a7_0_27",
               "speakers": [
                 {
                   "name": "U Ravi Prasanth",
@@ -136,7 +138,7 @@
           "talks": [
             {
               "title": "Puppeteer : Hands-on Workshop",
-              "description": "Test Automation has come a long way starting more than 25 years before. In this session, We will be doing a hans on excersie on automating a web application and see how Puppeteer can automate things which other tools can't do.",
+              "description": "Test Automation has come a long way starting more than 25 years before. In this session, We will be doing a hands on excersie on automating a web application and see how Puppeteer can automate things which other tools can't do.",
               "speaker": "Ramakrishnan Kandasamy and Shoban Manohar - Quality Analyst, ThoughtWorks.",
               "startTime": 1602304200000,
               "recording": "https://www.youtube.com/embed/IE_fRrPUYAk?start=16",
@@ -239,6 +241,7 @@
             },
             {
               "title": "Dockerising Performance Test Suite",
+              "description" : "Containers are creating a new trend in the IT industry . In this session , we will be covering how to containerise your test suite and run",
               "speaker": "U Ravi Prasanth and Sathya Subramani - Quality Analyst, ThoughtWorks.",
               "startTime": 1599283800000,
               "recording": "https://www.youtube.com/embed/Azm-xvmDQmk",
@@ -271,6 +274,7 @@
           "talks": [
             {
               "title": "Taiko & Gauge : What & Why every QA should know",
+              "description" : "Taiko has paved a way of automating the UI in an easy manner . This session covers about Taiko and how we can integrate with Gauge framework",
               "speaker": "U Ravi Prasanth and Sathya Subramani - Quality Analyst, ThoughtWorks.",
               "startTime": 1575691200000,
               "slides": "https://docs.google.com/presentation/d/e/2PACX-1vQyNtLJp6IP2SgjnLPpTIT7IKLGcjmw6RazizwxRHmUbgHp1wO8eTXL6O4Ss05iApivHhdV3JTDUW0Y/embed?start=true&loop=true&delayms=3000",
