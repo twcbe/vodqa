@@ -11,11 +11,11 @@
   "members": "1000+",
   "socialLinks": [
     { "name": "meetup", "link": "https://www.meetup.com/vodqa-coimbatore/" },
-    { "name": "twitter", "link": "http://twitter.com/thoughtworks" },
+    { "name": "twitter", "link": "https://twitter.com/thoughtworks" },
     { "name": "youtube", "link": "https://www.youtube.com/c/vodQA" },
     {
       "name": "linkedin",
-      "link": "http://www.linkedin.com/company/thoughtworks"
+      "link": "https://www.linkedin.com/company/thoughtworks"
     },
     { "name": "instagram", "link": "https://www.instagram.com/thoughtworks/" }
   ],
@@ -49,6 +49,8 @@
               "speaker": "B Krishna Chaitanya - Quality Analyst, ThoughtWorks.",
               "startTime": 1618029000000,
               "endTime": 1618032600000,
+              "slides": "https://docs.google.com/presentation/d/e/2PACX-1vT48imq2JMtfoB4DgcDfhW9SuiDSo2L1EjHPdJwGAPTq7ck7_83T1MWjNZ0HIuPqv2jf3FvvK8I4IWF/embed?start=false&loop=false&delayms=3000",
+              "recording": "https://www.youtube.com/embed/urn7fq75vdA",
               "speakers": [
                 {
                   "name": "B Krishna Chaitanya",
@@ -64,6 +66,7 @@
               "startTime": 1618032600000,
               "endTime": 1618034400000,
               "slides": "https://docs.google.com/presentation/d/e/2PACX-1vSdpeevS6W-ETZz5vazWC_4B9kusIKqE_kDExPbSnZGQTrbQAvga1ZDp63THSWgh2gHEMPuQ-rl4VTT/embed?start=false&loop=false&delayms=3000",
+              "recording": "https://www.youtube.com/embed/zRZYd-0bcaw",
               "speakers": [
                 {
                   "name": "Vojaswwin A P",
@@ -83,6 +86,7 @@
               "speaker": "Jayachandran S - Quality Analyst, ThoughtWorks.",
               "startTime": 1618034400000,
               "endTime": 1618038000000,
+              "recording": "https://www.youtube.com/embed/g-yy4p8x2u0",
               "speakers": [
                 {
                   "name": "Jayachandran S",
