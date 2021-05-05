@@ -118,7 +118,7 @@
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	!function() {
-/******/ 		__webpack_require__.h = function() { return "391e827b574e6aa09d10"; }
+/******/ 		__webpack_require__.h = function() { return "830b553f3c4645a9245d"; }
 /******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
@@ -1108,7 +1108,7 @@
 /******/ 					__webpack_require__.m[moduleId] = moreModules[moduleId];
 /******/ 				}
 /******/ 			}
-/******/ 			if(runtime) runtime(__webpack_require__);
+/******/ 			if(runtime) var result = runtime(__webpack_require__);
 /******/ 			if(parentChunkLoadingFunction) parentChunkLoadingFunction(data);
 /******/ 			for(;i < chunkIds.length; i++) {
 /******/ 				chunkId = chunkIds[i];
@@ -1117,7 +1117,7 @@
 /******/ 				}
 /******/ 				installedChunks[chunkIds[i]] = 0;
 /******/ 			}
-/******/ 			__webpack_require__.O();
+/******/ 			return __webpack_require__.O(result);
 /******/ 		}
 /******/ 		
 /******/ 		var chunkLoadingGlobal = self["webpackChunktw_events"] = self["webpackChunktw_events"] || [];
@@ -1131,4 +1131,4 @@
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=runtime.a97e633d628f900cb640.js.map
+//# sourceMappingURL=runtime.9bf44254576d2e21dfbe.js.map
