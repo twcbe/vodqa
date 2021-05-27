@@ -10,6 +10,25 @@ import "./index.scss";
 export class Banner extends Component {
   constructor(props) {
     super(props);
+    this.state = {
+      isPageScrolled: false,
+      scrollY: 0,
+    };
+  }
+
+  handleScroll(current) {
+    current.setState({
+      isPageScrolled: window.pageYOffset > 10,
+      scrollY: window.pageYOffset,
+    });
+  }
+
+  componentDidMount() {
+    window.addEventListener("scroll", () => this.handleScroll(this));
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("scroll", () => this.handleScroll(this));
   }
 
   render() {
@@ -143,7 +162,7 @@ export class Banner extends Component {
       );
     };
 
-    const renderEventInfo = () => {
+    const renderEventHeading = () => {
       if (bannerStatus === "inactive") {
         return (
           <div className="eventInfo">
@@ -176,6 +195,17 @@ export class Banner extends Component {
               </a>
             </div>
           )}
+        </div>
+      );
+    };
+
+    const renderEventInfo = () => {
+      if (bannerStatus === "inactive") {
+        return;
+      }
+      const upcomingEdition = upcomingEditions[0];
+      return (
+        <div className={`upcomingEditionInfo ${smallBanner ? "small" : ""}`}>
           {!smallBanner && renderEditionStats(upcomingEdition)}
 
           {!smallBanner && <Talks sessions={upcomingEdition.sessions} />}
@@ -184,10 +214,26 @@ export class Banner extends Component {
     };
 
     return (
-      <div id="banner" className={`banner ${bannerStatus}`}>
-        {renderMenuBar(event.name, event.location)}
-        {renderEventInfo()}
-      </div>
+      <>
+        <div
+          id="banner-menu"
+          className={`banner-fixed ${bannerStatus} ${
+            this.state.isPageScrolled ? "shrinked" : ""
+          }`}
+        >
+          {renderMenuBar(event.name, event.location)}
+          {renderEventHeading()}
+        </div>
+        <div
+          id="banner"
+          className={`banner ${bannerStatus} ${
+            this.state.isPageScrolled ? "shrinked" : ""
+          }`}
+        >
+          <div className="spacer"></div>
+          {renderEventInfo()}
+        </div>
+      </>
     );
   }
 }

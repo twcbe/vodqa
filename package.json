@@ -7,7 +7,7 @@
   "scripts": {
     "build": "webpack",
     "start": "webpack serve",
-    "start:dev": "webpack-dev-server",
+    "start:dev": "webpack serve",
     "watch": "webpack --watch",
     "lint": "eslint \"**/*.{jsx,js}\"",
     "lint:fix": "eslint --fix \"**/*.{jsx,js}\"",
