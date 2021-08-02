@@ -3,7 +3,7 @@ export const singleSession = [
     talks: [
       {
         title: "Talk 1 of event 1",
-        speaker: "Anonymous 1, ThoughtWorks.",
+        speaker: "Anonymous 1, Thoughtworks.",
         startTime: 1549080000000,
       },
     ],
@@ -21,12 +21,12 @@ export const multipleSessions = [
         speakers: [
           {
             name: "Person 1",
-            desgination: "Quality Analyst, ThoughtWorks",
+            desgination: "Quality Analyst, Thoughtworks",
             profilePicture: "profile/person1.png",
           },
           {
             name: "person 2",
-            desgination: "Quality Analyst, ThoughtWorks",
+            desgination: "Quality Analyst, Thoughtworks",
             profilePicture: "profile/person2.png",
           },
         ],
@@ -39,7 +39,7 @@ export const multipleSessions = [
         speakers: [
           {
             name: "person 3",
-            desgination: "Quality Analyst, ThoughtWorks",
+            desgination: "Quality Analyst, Thoughtworks",
             profilePicture: "profile/person3.png",
           },
         ],
@@ -50,7 +50,7 @@ export const multipleSessions = [
     talks: [
       {
         title: "Talk 2 of session 2",
-        speaker: "Anonymous 1, ThoughtWorks.",
+        speaker: "Anonymous 1, Thoughtworks.",
         startTime: 1549080000000,
       },
     ],
@@ -69,7 +69,7 @@ export const pastEditions = [
         talks: [
           {
             title: "Talk 1 of event 5",
-            speaker: "Anonymous 1, ThoughtWorks.",
+            speaker: "Anonymous 1, Thoughtworks.",
             startTime: 1605932100000,
           },
         ],
@@ -87,12 +87,12 @@ export const pastEditions = [
         talks: [
           {
             title: "Talk 1 of event 4",
-            speaker: "Anonymous 1, ThoughtWorks.",
+            speaker: "Anonymous 1, Thoughtworks.",
             startTime: 1605932100000,
           },
           {
             title: "Talk 2 of event 4",
-            speaker: "Anonymous 2, ThoughtWorks.",
+            speaker: "Anonymous 2, Thoughtworks.",
             startTime: 1602329400000,
           },
         ],
@@ -110,17 +110,17 @@ export const pastEditions = [
         talks: [
           {
             title: "Talk 1 of event 3",
-            speaker: "Anonymous 1, ThoughtWorks.",
+            speaker: "Anonymous 1, Thoughtworks.",
             startTime: 1598675400000,
           },
           {
             title: "Talk 2 of event 3",
-            speaker: "Anonymous 1, ThoughtWorks.",
+            speaker: "Anonymous 1, Thoughtworks.",
             startTime: 1598679000000,
           },
           {
             title: "Talk 3 of event 3",
-            speaker: "Anonymous 1, ThoughtWorks.",
+            speaker: "Anonymous 1, Thoughtworks.",
             startTime: 1598679900000,
           },
         ],
@@ -129,12 +129,12 @@ export const pastEditions = [
         talks: [
           {
             title: "Talk 4 of event 3",
-            speaker: "Anonymous 1, ThoughtWorks.",
+            speaker: "Anonymous 1, Thoughtworks.",
             startTime: 1599280200000,
           },
           {
             title: "Talk 5 of event 3",
-            speaker: "Anonymous 1, ThoughtWorks.",
+            speaker: "Anonymous 1, Thoughtworks.",
             startTime: 1599283800000,
           },
         ],
@@ -152,7 +152,7 @@ export const pastEditions = [
         talks: [
           {
             title: "Talk 1 of event 2",
-            speaker: "Anonymous 1, ThoughtWorks.",
+            speaker: "Anonymous 1, Thoughtworks.",
             startTime: 1575691200000,
           },
         ],
@@ -170,7 +170,7 @@ export const pastEditions = [
         talks: [
           {
             title: "Talk 1 of event 1",
-            speaker: "Anonymous 1, ThoughtWorks.",
+            speaker: "Anonymous 1, Thoughtworks.",
             startTime: 1549080000000,
           },
         ],
@@ -198,7 +198,7 @@ export const activeEdition = {
           speakers: [
             {
               name: "person x",
-              desgination: "Quality Analyst, ThoughtWorks",
+              desgination: "Quality Analyst, Thoughtworks",
               profilePicture: "profile/personx.png",
             },
           ],
@@ -227,7 +227,7 @@ export const activeEditionEvening = {
           speakers: [
             {
               name: "person x",
-              desgination: "Quality Analyst, ThoughtWorks",
+              desgination: "Quality Analyst, Thoughtworks",
               profilePicture: "profile/personx.png",
             },
           ],
@@ -239,7 +239,7 @@ export const activeEditionEvening = {
           speakers: [
             {
               name: "person y",
-              desgination: "Quality Analyst, ThoughtWorks",
+              desgination: "Quality Analyst, Thoughtworks",
               profilePicture: "profile/persony.png",
             },
           ],
@@ -269,7 +269,7 @@ export const mockEvent = {
   contact: {
     email: "no-reply@thoughtworks.com",
     address: {
-      name: "ThoughtWorks Technologies (India) Pvt Ltd",
+      name: "Thoughtworks Technologies (India) Pvt Ltd",
       addressLine1: "1st Floor, KCT Tech Park",
       addressLine2: "Thudiyalur Rd, Saravanampatti",
       City: "Coimbatore",

@@ -48,7 +48,7 @@ exports[`Talks Section Display talks - move to next talk 1`] = `
           <div
             class="desgination"
           >
-            Quality Analyst, ThoughtWorks
+            Quality Analyst, Thoughtworks
           </div>
         </div>
       </div>
@@ -132,7 +132,7 @@ exports[`Talks Section Display talks - move to prev talk 1`] = `
             <div
               class="desgination"
             >
-              Quality Analyst, ThoughtWorks
+              Quality Analyst, Thoughtworks
             </div>
           </div>
         </div>
@@ -156,7 +156,7 @@ exports[`Talks Section Display talks - move to prev talk 1`] = `
             <div
               class="desgination"
             >
-              Quality Analyst, ThoughtWorks
+              Quality Analyst, Thoughtworks
             </div>
           </div>
         </div>
@@ -242,7 +242,7 @@ exports[`Talks Section Display talks from more than one session 1`] = `
             <div
               class="desgination"
             >
-              Quality Analyst, ThoughtWorks
+              Quality Analyst, Thoughtworks
             </div>
           </div>
         </div>
@@ -266,7 +266,7 @@ exports[`Talks Section Display talks from more than one session 1`] = `
             <div
               class="desgination"
             >
-              Quality Analyst, ThoughtWorks
+              Quality Analyst, Thoughtworks
             </div>
           </div>
         </div>

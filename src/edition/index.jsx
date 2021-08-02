@@ -157,7 +157,7 @@ export class EditionDetails extends Component {
           {renderEditionInfo()}
           {renderTalksInfo()}
         </div>
-        <p className="copyright">© 2021 ThoughtWorks, Inc.</p>
+        <p className="copyright">© 2021 Thoughtworks, Inc.</p>
       </div>
     );
   }

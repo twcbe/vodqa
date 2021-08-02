@@ -1,7 +1,7 @@
 {
   "name": "tw-events",
   "version": "1.0.0",
-  "description": "Application to list events at ThoughtWorks",
+  "description": "Application to list events at Thoughtworks",
   "main": "index.js",
   "private": true,
   "scripts": {

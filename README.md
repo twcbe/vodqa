@@ -1,4 +1,4 @@
-# ThoughtWorks Events Page
+# Thoughtworks Events Page
 
 ## Designed for vodQA
 
