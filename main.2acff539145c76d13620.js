@@ -312,7 +312,7 @@ class EditionDetails extends react__WEBPACK_IMPORTED_MODULE_0__.Component {
       className: "editionDetails"
     }, renderEditionInfo(), renderTalksInfo()), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
       className: "copyright"
-    }, "\xA9 2021 ThoughtWorks, Inc."));
+    }, "\xA9 2021 Thoughtworks, Inc."));
   }
 
 }
@@ -384,7 +384,7 @@ class PastEditions extends react__WEBPACK_IMPORTED_MODULE_0__.Component {
       small: true
     }), renderEditions(), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
       className: "copyright"
-    }, "\xA9 2021 ThoughtWorks, Inc."));
+    }, "\xA9 2021 Thoughtworks, Inc."));
   }
 
 }
@@ -853,7 +853,7 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_0__.Component {
         });
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
         className: "copyright"
-      }, "\xA9 2021 ThoughtWorks, Inc."));
+      }, "\xA9 2021 Thoughtworks, Inc."));
     };
 
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
@@ -1737,4 +1737,4 @@ const getParamValueFromURL = (name, url = window.location.href) => {
 /******/ var __webpack_exports__ = __webpack_require__.O();
 /******/ }
 ]);
-//# sourceMappingURL=main.fc9902008c74444d9c67.js.map
+//# sourceMappingURL=main.2acff539145c76d13620.js.map
