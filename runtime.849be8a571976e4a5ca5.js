@@ -71,8 +71,7 @@
 /******/ 				}
 /******/ 				if(fulfilled) {
 /******/ 					deferred.splice(i--, 1)
-/******/ 					var r = fn();
-/******/ 					if (r !== undefined) result = r;
+/******/ 					result = fn();
 /******/ 				}
 /******/ 			}
 /******/ 			return result;
@@ -119,7 +118,7 @@
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	!function() {
-/******/ 		__webpack_require__.h = function() { return "90a39c5922b3fbfe0641"; }
+/******/ 		__webpack_require__.h = function() { return "b3729b6a2e42174e90e4"; }
 /******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
@@ -392,12 +391,8 @@
 /******/ 		
 /******/ 		function setStatus(newStatus) {
 /******/ 			currentStatus = newStatus;
-/******/ 			var results = [];
-/******/ 		
 /******/ 			for (var i = 0; i < registeredStatusHandlers.length; i++)
-/******/ 				results[i] = registeredStatusHandlers[i].call(null, newStatus);
-/******/ 		
-/******/ 			return Promise.all(results);
+/******/ 				registeredStatusHandlers[i].call(null, newStatus);
 /******/ 		}
 /******/ 		
 /******/ 		function trackBlockingPromise(promise) {
@@ -406,7 +401,7 @@
 /******/ 					setStatus("prepare");
 /******/ 					blockingPromises.push(promise);
 /******/ 					waitForBlockingPromises(function () {
-/******/ 						return setStatus("ready");
+/******/ 						setStatus("ready");
 /******/ 					});
 /******/ 					return promise;
 /******/ 				case "prepare":
@@ -430,47 +425,47 @@
 /******/ 			if (currentStatus !== "idle") {
 /******/ 				throw new Error("check() is only allowed in idle status");
 /******/ 			}
-/******/ 			return setStatus("check")
-/******/ 				.then(__webpack_require__.hmrM)
-/******/ 				.then(function (update) {
-/******/ 					if (!update) {
-/******/ 						return setStatus(applyInvalidatedModules() ? "ready" : "idle");
-/******/ 					}
+/******/ 			setStatus("check");
+/******/ 			return __webpack_require__.hmrM().then(function (update) {
+/******/ 				if (!update) {
+/******/ 					setStatus(applyInvalidatedModules() ? "ready" : "idle");
+/******/ 					return null;
+/******/ 				}
 /******/ 		
-/******/ 					return setStatus("prepare").then(function () {
-/******/ 						var updatedModules = [];
-/******/ 						blockingPromises = [];
-/******/ 						currentUpdateApplyHandlers = [];
+/******/ 				setStatus("prepare");
 /******/ 		
-/******/ 						return Promise.all(
-/******/ 							Object.keys(__webpack_require__.hmrC).reduce(function (
-/******/ 								promises,
-/******/ 								key
-/******/ 							) {
-/******/ 								__webpack_require__.hmrC[key](
-/******/ 									update.c,
-/******/ 									update.r,
-/******/ 									update.m,
-/******/ 									promises,
-/******/ 									currentUpdateApplyHandlers,
-/******/ 									updatedModules
-/******/ 								);
-/******/ 								return promises;
-/******/ 							},
-/******/ 							[])
-/******/ 						).then(function () {
-/******/ 							return waitForBlockingPromises(function () {
-/******/ 								if (applyOnUpdate) {
-/******/ 									return internalApply(applyOnUpdate);
-/******/ 								} else {
-/******/ 									return setStatus("ready").then(function () {
-/******/ 										return updatedModules;
-/******/ 									});
-/******/ 								}
-/******/ 							});
-/******/ 						});
+/******/ 				var updatedModules = [];
+/******/ 				blockingPromises = [];
+/******/ 				currentUpdateApplyHandlers = [];
+/******/ 		
+/******/ 				return Promise.all(
+/******/ 					Object.keys(__webpack_require__.hmrC).reduce(function (
+/******/ 						promises,
+/******/ 						key
+/******/ 					) {
+/******/ 						__webpack_require__.hmrC[key](
+/******/ 							update.c,
+/******/ 							update.r,
+/******/ 							update.m,
+/******/ 							promises,
+/******/ 							currentUpdateApplyHandlers,
+/******/ 							updatedModules
+/******/ 						);
+/******/ 						return promises;
+/******/ 					},
+/******/ 					[])
+/******/ 				).then(function () {
+/******/ 					return waitForBlockingPromises(function () {
+/******/ 						if (applyOnUpdate) {
+/******/ 							return internalApply(applyOnUpdate);
+/******/ 						} else {
+/******/ 							setStatus("ready");
+/******/ 		
+/******/ 							return updatedModules;
+/******/ 						}
 /******/ 					});
 /******/ 				});
+/******/ 			});
 /******/ 		}
 /******/ 		
 /******/ 		function hotApply(options) {
@@ -499,20 +494,21 @@
 /******/ 				.filter(Boolean);
 /******/ 		
 /******/ 			if (errors.length > 0) {
-/******/ 				return setStatus("abort").then(function () {
+/******/ 				setStatus("abort");
+/******/ 				return Promise.resolve().then(function () {
 /******/ 					throw errors[0];
 /******/ 				});
 /******/ 			}
 /******/ 		
 /******/ 			// Now in "dispose" phase
-/******/ 			var disposePromise = setStatus("dispose");
+/******/ 			setStatus("dispose");
 /******/ 		
 /******/ 			results.forEach(function (result) {
 /******/ 				if (result.dispose) result.dispose();
 /******/ 			});
 /******/ 		
 /******/ 			// Now in "apply" phase
-/******/ 			var applyPromise = setStatus("apply");
+/******/ 			setStatus("apply");
 /******/ 		
 /******/ 			var error;
 /******/ 			var reportError = function (err) {
@@ -531,27 +527,25 @@
 /******/ 				}
 /******/ 			});
 /******/ 		
-/******/ 			return Promise.all([disposePromise, applyPromise]).then(function () {
-/******/ 				// handle errors in accept handlers and self accepted module load
-/******/ 				if (error) {
-/******/ 					return setStatus("fail").then(function () {
-/******/ 						throw error;
-/******/ 					});
-/******/ 				}
-/******/ 		
-/******/ 				if (queuedInvalidatedModules) {
-/******/ 					return internalApply(options).then(function (list) {
-/******/ 						outdatedModules.forEach(function (moduleId) {
-/******/ 							if (list.indexOf(moduleId) < 0) list.push(moduleId);
-/******/ 						});
-/******/ 						return list;
-/******/ 					});
-/******/ 				}
-/******/ 		
-/******/ 				return setStatus("idle").then(function () {
-/******/ 					return outdatedModules;
+/******/ 			// handle errors in accept handlers and self accepted module load
+/******/ 			if (error) {
+/******/ 				setStatus("fail");
+/******/ 				return Promise.resolve().then(function () {
+/******/ 					throw error;
 /******/ 				});
-/******/ 			});
+/******/ 			}
+/******/ 		
+/******/ 			if (queuedInvalidatedModules) {
+/******/ 				return internalApply(options).then(function (list) {
+/******/ 					outdatedModules.forEach(function (moduleId) {
+/******/ 						if (list.indexOf(moduleId) < 0) list.push(moduleId);
+/******/ 					});
+/******/ 					return list;
+/******/ 				});
+/******/ 			}
+/******/ 		
+/******/ 			setStatus("idle");
+/******/ 			return Promise.resolve(outdatedModules);
 /******/ 		}
 /******/ 		
 /******/ 		function applyInvalidatedModules() {
@@ -593,7 +587,7 @@
 /******/ 	
 /******/ 	/* webpack/runtime/jsonp chunk loading */
 /******/ 	!function() {
-/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
+/******/ 		// no baseURI
 /******/ 		
 /******/ 		// object to store loaded and loading chunks
 /******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
@@ -1137,4 +1131,4 @@
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=runtime.211d0866fa5c277ec610.js.map
+//# sourceMappingURL=runtime.849be8a571976e4a5ca5.js.map
