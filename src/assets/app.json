@@ -32,6 +32,88 @@
   },
   "editions": [
     {
+      "id": 13,
+      "title": "vodQA Shots November 2021",
+      "type": "Talk | Demo",
+      "startTime": 1636777800000,
+      "endTime": 1636786800000,
+      "registration": {
+        "link": "https://www.meetup.com/vodqa-coimbatore/"
+      },
+      "sessions": [
+        {
+          "talks": [
+            {
+              "title": "K6 Performance Testing",
+              "description": "Getting Started with k6 - an introduction to k6 tool and how to use basic k6 concepts with demo",
+              "speaker": "Kowcik R - Quality Analyst, Thoughtworks.",
+              "startTime": 1636777800000,
+              "endTime": 1636780800000,
+              "slides": "https://docs.google.com/presentation/d/e/2PACX-1vT48imq2JMtfoB4DgcDfhW9SuiDSo2L1EjHPdJwGAPTq7ck7_83T1MWjNZ0HIuPqv2jf3FvvK8I4IWF/embed?start=false&loop=false&delayms=3000",
+              "recording": "https://www.youtube.com/embed/urn7fq75vdA",
+              "speakers": [
+                {
+                  "name": "Kowcik R",
+                  "desgination": "Quality Analyst, Thoughtworks",
+                  "profilePicture": "profile/Kowcik.png"
+                },
+                {
+                  "name": "Balajiprabu Kannan",
+                  "desgination": "Quality Analyst, Thoughtworks",
+                  "profilePicture": "profile/Balaji.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "talks": [
+            {
+              "title": "Testing GraphQL Based Applications",
+              "description": "Talk on different levels of testing graphQL applications and how it is different from traditional rest api testing.",
+              "speaker": "Soundarrajan T - Quality Analyst, Thoughtworks.",
+              "startTime": 1636780800000,
+              "endTime": 1636784400000,
+              "slides": "https://docs.google.com/presentation/d/e/2PACX-1vT48imq2JMtfoB4DgcDfhW9SuiDSo2L1EjHPdJwGAPTq7ck7_83T1MWjNZ0HIuPqv2jf3FvvK8I4IWF/embed?start=false&loop=false&delayms=3000",
+              "recording": "https://www.youtube.com/embed/urn7fq75vdA",
+              "speakers": [
+                {
+                  "name": "Soundarrajan T,",
+                  "desgination": "Quality Analyst, Thoughtworks",
+                  "profilePicture": "profile/Soundar.png"
+                },
+                {
+                  "name": "Aman Kumar Ayush",
+                  "desgination": "Quality Analyst, Thoughtworks",
+                  "profilePicture": "profile/Aman.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "talks": [
+            {
+              "title": "Visual Regression Testing",
+              "description": "What and how to perform visual regression testing using Python needle and tricks/best practices in visual automation testing",
+              "speaker": "Suresh Kumar Duraisamy - Quality Analyst, Thoughtworks.",
+              "startTime": 1636784400000,
+              "endTime": 1636786800000,
+              "slides": "https://docs.google.com/presentation/d/e/2PACX-1vT48imq2JMtfoB4DgcDfhW9SuiDSo2L1EjHPdJwGAPTq7ck7_83T1MWjNZ0HIuPqv2jf3FvvK8I4IWF/embed?start=false&loop=false&delayms=3000",
+              "recording": "https://www.youtube.com/embed/urn7fq75vdA",
+              "speakers": [
+                {
+                  "name": "Suresh Kumar Duraisamy,",
+                  "desgination": "Quality Analyst, Thoughtworks",
+                  "profilePicture": "profile/Suresh.png"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": 12,
       "title": "vodQA Shots - New Trends in Mobile Testing",
       "type": "Talk | Demo",
@@ -110,11 +192,11 @@
           "talks": [
             {
               "title": "Docker : Hands-on Workshop",
-              "description" : "This session is on getting our hands dirty with docker",
+              "description": "This session is on getting our hands dirty with docker",
               "speaker": "U Ravi Prasanth and Sathya Subramani - Quality Analyst, Thoughtworks.",
               "startTime": 1605932100000,
               "recording": "https://www.youtube.com/embed/Azm-xvmDQmk",
-              "slides" : "https://docs.google.com/presentation/d/e/2PACX-1vRQ0enyrxu20Is69Rnpt7oE9NaMKA9xdauFE4kn0vEjLAlYjQXPTbTwvWWmK8MO878ChRCLRh46QbRo/embed?start=false&loop=false&delayms=3000",
+              "slides": "https://docs.google.com/presentation/d/e/2PACX-1vRQ0enyrxu20Is69Rnpt7oE9NaMKA9xdauFE4kn0vEjLAlYjQXPTbTwvWWmK8MO878ChRCLRh46QbRo/embed?start=false&loop=false&delayms=3000",
               "speakers": [
                 {
                   "name": "U Ravi Prasanth",
@@ -246,7 +328,7 @@
             },
             {
               "title": "Dockerising Performance Test Suite",
-              "description" : "Containers are creating a new trend in the IT industry . In this session , we will be covering how to containerise your test suite and run",
+              "description": "Containers are creating a new trend in the IT industry . In this session , we will be covering how to containerise your test suite and run",
               "speaker": "U Ravi Prasanth and Sathya Subramani - Quality Analyst, Thoughtworks.",
               "startTime": 1599283800000,
               "recording": "https://www.youtube.com/embed/Azm-xvmDQmk",
@@ -279,7 +361,7 @@
           "talks": [
             {
               "title": "Taiko & Gauge : What & Why every QA should know",
-              "description" : "Taiko has paved a way of automating the UI in an easy manner . This session covers about Taiko and how we can integrate with Gauge framework",
+              "description": "Taiko has paved a way of automating the UI in an easy manner . This session covers about Taiko and how we can integrate with Gauge framework",
               "speaker": "U Ravi Prasanth and Sathya Subramani - Quality Analyst, Thoughtworks.",
               "startTime": 1575691200000,
               "slides": "https://docs.google.com/presentation/d/e/2PACX-1vQyNtLJp6IP2SgjnLPpTIT7IKLGcjmw6RazizwxRHmUbgHp1wO8eTXL6O4Ss05iApivHhdV3JTDUW0Y/embed?start=true&loop=true&delayms=3000",
