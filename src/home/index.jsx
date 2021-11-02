@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 
 import { Banner } from "./banner/index.jsx";
-import { RecentEditions } from "./recent-editions.jsx";
+//import { RecentEditions } from "./recent-editions.jsx"; Commented due not follwed by new branding
 
 import "./index.scss";
 
