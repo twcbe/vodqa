@@ -89,10 +89,10 @@
 
 #banner.active {
   padding-bottom: 1vmax;
-  background-image: url("../../imgs/new banner.png");
+  background-image: url("../../imgs/abstract-bg.png");
 
   @media only screen and (min-width: 1440px) {
-    background-image: url("../../imgs/new banner.png");
+    background-image: url("../../imgs/abstract-bg-2x.png");
   }
 
   .upcomingEditionInfo.small {
@@ -171,7 +171,7 @@
       display: inline-block;
 
       .link {
-        color: #6b9e78;
+        color: #008731;
         font-weight: 600;
         background-color: white;
         border-radius: 0.3vmax;
@@ -182,7 +182,7 @@
 
     .talks {
       width: 60%;
-      background: rgb(237, 241, 243);
+      background: rgba(17, 170, 88, 0.5) 0% 0% no-repeat padding-box;
       border-radius: 6px;
       padding: 1vmax;
       margin-top: 2vmax;
@@ -195,7 +195,6 @@
         display: inline-block;
         vertical-align: top;
         width: 60%;
-        color: #000000;
 
         @media only screen and (max-width: 1024px) {
           width: 85%;
@@ -221,7 +220,6 @@
       .speakerInfo {
         padding-left: 1vmax;
         display: inline-block;
-        color: #000000;
 
         .pic {
           @media only screen and (max-width: 1024px) {
@@ -263,7 +261,6 @@
           padding-left: 1vmax;
           vertical-align: top;
           display: inline-block;
-          color: #000000;
         }
       }
 
@@ -300,12 +297,10 @@
 
       .bold {
         font-weight: 600;
-        color: #000000;
       }
 
       .light {
         font-weight: 100;
-        color: #000000;
       }
     }
   }

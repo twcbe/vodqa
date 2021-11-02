@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 
 import { Banner } from "./banner/index.jsx";
-//import { RecentEditions } from "./recent-editions.jsx"; Commented due not follwed by new branding
+import { RecentEditions } from "./recent-editions.jsx";
 
 import "./index.scss";
 
@@ -149,7 +149,7 @@ export class Home extends Component {
     return (
       <div id="event-home" className="event-home">
         <Banner event={event}></Banner>
-        {/* <RecentEditions editions={event.editions} /> Commented due not follwed by new branding */}
+        <RecentEditions editions={event.editions} />
         {renderCollaborate()}
         {renderAboutUs()}
         {renderFooter()}
