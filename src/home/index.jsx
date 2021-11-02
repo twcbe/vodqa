@@ -149,7 +149,7 @@ export class Home extends Component {
     return (
       <div id="event-home" className="event-home">
         <Banner event={event}></Banner>
-        <RecentEditions editions={event.editions} />
+        {/* <RecentEditions editions={event.editions} /> Commented due not follwed by new branding */}
         {renderCollaborate()}
         {renderAboutUs()}
         {renderFooter()}
