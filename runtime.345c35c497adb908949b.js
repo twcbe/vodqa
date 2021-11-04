@@ -138,7 +138,7 @@
 /******/ 	
 /******/ 	/* webpack/runtime/jsonp chunk loading */
 /******/ 	!function() {
-/******/ 		// no baseURI
+/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
 /******/ 		
 /******/ 		// object to store loaded and loading chunks
 /******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
@@ -196,4 +196,4 @@
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=runtime.7605be33a5d983611e3b.js.map
+//# sourceMappingURL=runtime.345c35c497adb908949b.js.map
