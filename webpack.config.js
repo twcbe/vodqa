@@ -52,7 +52,6 @@ module.exports = {
   },
   plugins: [
     new CleanWebpackPlugin(),
-    new webpack.HotModuleReplacementPlugin(),
     copyPluginConfig,
     HTMLWebpackPluginConfig,
     new CompressionPlugin({ test: /\.js$|\.css$|\.html$/ }),
@@ -66,9 +65,13 @@ module.exports = {
   },
   devServer: {
     historyApiFallback: true,
-    contentBase: path.join(__dirname, "public"),
-    hot: true,
+    hot: "only",
     port: 8080,
+    static: {
+      directory: path.resolve(__dirname, "public"),
+      serveIndex: true,
+      watch: true,
+    },
   },
   devtool: "cheap-source-map",
 };
