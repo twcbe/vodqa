@@ -122,7 +122,9 @@ export class Home extends Component {
             </p>
             <br />
             <p>E-Mail us at:</p>
-            <a href={`mailto:${event.contact.email}`}>{event.contact.email}</a>
+            <a className="email" href={`mailto:${event.contact.email}`}>
+              {event.contact.email}
+            </a>
           </div>
           <div className="item social-links">
             <p className="bold">Follow us</p>

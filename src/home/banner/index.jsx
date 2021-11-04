@@ -43,9 +43,15 @@ export class Banner extends Component {
     };
 
     const renderMenuBar = (name, location) => {
-      const links = ["Contact Us", "About Us", "Collaborate", "Editions"];
+      const links = ["Editions", "Collaborate", "About Us", "Contact Us"];
       return (
         <div className="topnav">
+          <Router>
+            <Link className="item logo" to="./">
+              {name}
+            </Link>
+          </Router>
+          <div className="item location">{location}</div>
           {links.map((item) => {
             const link = `#${item.replace(/\s+/g, "").trim().toLowerCase()}`;
             return (
@@ -54,12 +60,6 @@ export class Banner extends Component {
               </a>
             );
           })}
-          <Router>
-            <Link className="item logo" to="./">
-              {name}
-            </Link>
-          </Router>
-          <div className="item location">{location}</div>
         </div>
       );
     };

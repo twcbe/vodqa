@@ -13,6 +13,7 @@
     padding-right: 0.6em;
     background-color: black;
     font-size: 0.85vmax;
+    margin-left: -0.5em;
   }
 
   .details {
@@ -69,33 +70,15 @@
   }
 }
 
-.event-bg-0 {
-  background-size: cover;
-  background-image: url("../imgs/event-bg-0.png");
-}
-
-.event-bg-1 {
-  background-size: cover;
-  background-image: url("../imgs/event-bg-1.png");
-}
-
-.event-bg-2 {
-  background-size: cover;
-  background-image: url("../imgs/event-bg-2.png");
-}
-
-.event-bg-3 {
-  background-size: cover;
-  background-image: url("../imgs/event-bg-3.png");
-}
-
-.event-bg-4 {
-  background-size: cover;
-  background-image: url("../imgs/event-bg-4.png");
+.event-bg {
+  background-color: #47a1ad;
 }
 
 .view-all {
   margin: 1.5vmax;
+  a {
+    color: #bd4257 !important;
+  }
 }
 
 .editionDetails {
@@ -115,9 +98,8 @@
       .item {
         float: right;
         text-align: center;
-        color: white;
-        background-color: black;
-        opacity: 0.4;
+        color: black;
+        background: rgba(71, 161, 173, 0.4) 0% 0% no-repeat padding-box;
         padding: 8px;
         width: fit-content;
         .value {
@@ -226,7 +208,7 @@
           font-size: 1vmax;
           display: inline-block;
           color: white;
-          background-color: #008731;
+          background-color: #db4257;
           border-radius: 4px;
           text-decoration: none;
           border: none;

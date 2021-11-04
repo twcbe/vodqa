@@ -3,7 +3,7 @@
 exports[`Cards Section edition card with mising details 1`] = `
 <DocumentFragment>
   <a
-    class="editionCard event-bg-0"
+    class="editionCard event-bg"
     href="#/edition?editionId=undefined"
   >
     <span

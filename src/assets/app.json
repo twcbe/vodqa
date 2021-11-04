@@ -1,5 +1,5 @@
 {
-  "name": "vodQA",
+  "name": "vodQA®",
   "location": "Coimbatore",
   "tagLines": [
     "Exclusive community for Quality Analysts",
@@ -38,7 +38,7 @@
       "startTime": 1636777800000,
       "endTime": 1636786800000,
       "registration": {
-        "link": "https://www.meetup.com/vodqa-coimbatore/"
+        "link": "https://www.meetup.com/vodqa-coimbatore/events/281521796/"
       },
       "sessions": [
         {
@@ -53,12 +53,12 @@
                 {
                   "name": "Kowcik R",
                   "desgination": "Quality Analyst, Thoughtworks",
-                  "profilePicture": "profile/Kowcik.png"
+                  "profilePicture": "profile/kowcik.png"
                 },
                 {
                   "name": "Balajiprabu Kannan",
                   "desgination": "Quality Analyst, Thoughtworks",
-                  "profilePicture": "profile/Balaji.png"
+                  "profilePicture": "profile/balaji.png"
                 }
               ]
             }
@@ -76,12 +76,12 @@
                 {
                   "name": "Soundarrajan T,",
                   "desgination": "Quality Analyst, Thoughtworks",
-                  "profilePicture": "profile/Soundar.png"
+                  "profilePicture": "profile/soundar.png"
                 },
                 {
                   "name": "Aman Kumar Ayush",
                   "desgination": "Quality Analyst, Thoughtworks",
-                  "profilePicture": "profile/Aman.png"
+                  "profilePicture": "profile/aman.png"
                 }
               ]
             }
@@ -99,7 +99,7 @@
                 {
                   "name": "Suresh Kumar Duraisamy,",
                   "desgination": "Quality Analyst, Thoughtworks",
-                  "profilePicture": "profile/Suresh.png"
+                  "profilePicture": "profile/suresh.png"
                 }
               ]
             }

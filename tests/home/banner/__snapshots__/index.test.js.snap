@@ -16,30 +16,6 @@ exports[`Banner Section Banner with an active editon 1`] = `
       class="topnav"
     >
       <a
-        class="item link"
-        href="#contactus"
-      >
-        Contact Us
-      </a>
-      <a
-        class="item link"
-        href="#aboutus"
-      >
-        About Us
-      </a>
-      <a
-        class="item link"
-        href="#collaborate"
-      >
-        Collaborate
-      </a>
-      <a
-        class="item link"
-        href="#editions"
-      >
-        Editions
-      </a>
-      <a
         class="item logo"
         href="#/"
       >
@@ -50,6 +26,30 @@ exports[`Banner Section Banner with an active editon 1`] = `
       >
         Mars
       </div>
+      <a
+        class="item link"
+        href="#editions"
+      >
+        Editions
+      </a>
+      <a
+        class="item link"
+        href="#collaborate"
+      >
+        Collaborate
+      </a>
+      <a
+        class="item link"
+        href="#aboutus"
+      >
+        About Us
+      </a>
+      <a
+        class="item link"
+        href="#contactus"
+      >
+        Contact Us
+      </a>
     </div>
     <div
       class="upcomingEditionInfo "
@@ -204,30 +204,6 @@ exports[`Banner Section Banner with an active evening editon 1`] = `
       class="topnav"
     >
       <a
-        class="item link"
-        href="#contactus"
-      >
-        Contact Us
-      </a>
-      <a
-        class="item link"
-        href="#aboutus"
-      >
-        About Us
-      </a>
-      <a
-        class="item link"
-        href="#collaborate"
-      >
-        Collaborate
-      </a>
-      <a
-        class="item link"
-        href="#editions"
-      >
-        Editions
-      </a>
-      <a
         class="item logo"
         href="#/"
       >
@@ -238,6 +214,30 @@ exports[`Banner Section Banner with an active evening editon 1`] = `
       >
         Mars
       </div>
+      <a
+        class="item link"
+        href="#editions"
+      >
+        Editions
+      </a>
+      <a
+        class="item link"
+        href="#collaborate"
+      >
+        Collaborate
+      </a>
+      <a
+        class="item link"
+        href="#aboutus"
+      >
+        About Us
+      </a>
+      <a
+        class="item link"
+        href="#contactus"
+      >
+        Contact Us
+      </a>
     </div>
     <div
       class="upcomingEditionInfo "
@@ -417,30 +417,6 @@ exports[`Banner Section Banner with only one editon 1`] = `
       class="topnav"
     >
       <a
-        class="item link"
-        href="#contactus"
-      >
-        Contact Us
-      </a>
-      <a
-        class="item link"
-        href="#aboutus"
-      >
-        About Us
-      </a>
-      <a
-        class="item link"
-        href="#collaborate"
-      >
-        Collaborate
-      </a>
-      <a
-        class="item link"
-        href="#editions"
-      >
-        Editions
-      </a>
-      <a
         class="item logo"
         href="#/"
       >
@@ -451,6 +427,30 @@ exports[`Banner Section Banner with only one editon 1`] = `
       >
         Mars
       </div>
+      <a
+        class="item link"
+        href="#editions"
+      >
+        Editions
+      </a>
+      <a
+        class="item link"
+        href="#collaborate"
+      >
+        Collaborate
+      </a>
+      <a
+        class="item link"
+        href="#aboutus"
+      >
+        About Us
+      </a>
+      <a
+        class="item link"
+        href="#contactus"
+      >
+        Contact Us
+      </a>
     </div>
     <div
       class="eventInfo"
@@ -532,30 +532,6 @@ exports[`Banner Section Banner with only past editon 1`] = `
       class="topnav"
     >
       <a
-        class="item link"
-        href="#contactus"
-      >
-        Contact Us
-      </a>
-      <a
-        class="item link"
-        href="#aboutus"
-      >
-        About Us
-      </a>
-      <a
-        class="item link"
-        href="#collaborate"
-      >
-        Collaborate
-      </a>
-      <a
-        class="item link"
-        href="#editions"
-      >
-        Editions
-      </a>
-      <a
         class="item logo"
         href="#/"
       >
@@ -566,6 +542,30 @@ exports[`Banner Section Banner with only past editon 1`] = `
       >
         Mars
       </div>
+      <a
+        class="item link"
+        href="#editions"
+      >
+        Editions
+      </a>
+      <a
+        class="item link"
+        href="#collaborate"
+      >
+        Collaborate
+      </a>
+      <a
+        class="item link"
+        href="#aboutus"
+      >
+        About Us
+      </a>
+      <a
+        class="item link"
+        href="#contactus"
+      >
+        Contact Us
+      </a>
     </div>
     <div
       class="eventInfo"

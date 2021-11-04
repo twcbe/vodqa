@@ -14,30 +14,6 @@ exports[`Home Page Verify home page renders peoperly with mock data 1`] = `
         class="topnav"
       >
         <a
-          class="item link"
-          href="#contactus"
-        >
-          Contact Us
-        </a>
-        <a
-          class="item link"
-          href="#aboutus"
-        >
-          About Us
-        </a>
-        <a
-          class="item link"
-          href="#collaborate"
-        >
-          Collaborate
-        </a>
-        <a
-          class="item link"
-          href="#editions"
-        >
-          Editions
-        </a>
-        <a
           class="item logo"
           href="#/"
         >
@@ -48,6 +24,30 @@ exports[`Home Page Verify home page renders peoperly with mock data 1`] = `
         >
           Mars
         </div>
+        <a
+          class="item link"
+          href="#editions"
+        >
+          Editions
+        </a>
+        <a
+          class="item link"
+          href="#collaborate"
+        >
+          Collaborate
+        </a>
+        <a
+          class="item link"
+          href="#aboutus"
+        >
+          About Us
+        </a>
+        <a
+          class="item link"
+          href="#contactus"
+        >
+          Contact Us
+        </a>
       </div>
       <div
         class="eventInfo"
@@ -135,7 +135,7 @@ exports[`Home Page Verify home page renders peoperly with mock data 1`] = `
         class="editions"
       >
         <a
-          class="editionCard event-bg-0"
+          class="editionCard event-bg"
           href="#/edition?editionId=5"
         >
           <span
@@ -205,7 +205,7 @@ exports[`Home Page Verify home page renders peoperly with mock data 1`] = `
           </div>
         </a>
         <a
-          class="editionCard event-bg-4"
+          class="editionCard event-bg"
           href="#/edition?editionId=4"
         >
           <span
@@ -275,7 +275,7 @@ exports[`Home Page Verify home page renders peoperly with mock data 1`] = `
           </div>
         </a>
         <a
-          class="editionCard event-bg-3"
+          class="editionCard event-bg"
           href="#/edition?editionId=3"
         >
           <span
@@ -345,7 +345,7 @@ exports[`Home Page Verify home page renders peoperly with mock data 1`] = `
           </div>
         </a>
         <a
-          class="editionCard event-bg-2"
+          class="editionCard event-bg"
           href="#/edition?editionId=2"
         >
           <span
@@ -594,6 +594,7 @@ exports[`Home Page Verify home page renders peoperly with mock data 1`] = `
           E-Mail us at:
         </p>
         <a
+          class="email"
           href="mailto:no-reply@thoughtworks.com"
         >
           no-reply@thoughtworks.com

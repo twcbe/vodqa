@@ -6,6 +6,7 @@
   }
 
   .view-all {
+    color: #bd4257;
     margin-left: 8px;
     text-decoration: none;
   }
@@ -57,7 +58,7 @@
     font-size: 1vmax;
     display: inline-block;
     color: white;
-    background-color: #008731;
+    background-color: #bd4257;
     border-radius: 4px;
     text-decoration: none;
     border: none;
@@ -167,7 +168,7 @@
 
   .feedback-link {
     font-weight: 600;
-    color: #2680eb;
+    color: #bd4257;
     text-decoration: none;
   }
 }
@@ -186,6 +187,10 @@
 
   .bold {
     font-weight: 600;
+  }
+
+  .email {
+    color: #bd4257;
   }
 
   .social-links a {

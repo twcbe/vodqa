@@ -29,13 +29,12 @@ export class EditionCard extends Component {
       return count;
     };
     const talksCount = getTalksCount(sessions) || 0;
-    const bannerId = isNaN(edition.id % 5) ? 0 : edition.id % 5;
 
     return (
       <Router>
         <Link
           key={edition.id}
-          className={`editionCard event-bg-${bannerId}`}
+          className="editionCard event-bg"
           to={`./edition?editionId=${edition.id}`}
         >
           <span className="type">{type.toUpperCase()}</span>
