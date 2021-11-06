@@ -4,7 +4,7 @@
 
 ## Build
 
-- Install Node.js 15.x
+- Install Node.js 16.x
 - Clone th repo
 - Run the commands
 
