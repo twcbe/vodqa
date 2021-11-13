@@ -44,11 +44,8 @@
 }
 
 #banner.inactive {
-  background-image: url("../../imgs/table-discussion-bg.png");
-
-  @media only screen and (min-width: 1440px) {
-    background-image: url("../../imgs/table-discussion-bg-2x.png");
-  }
+  background-image: url("../../imgs/abstract-bg.jpg");
+  background-size: cover;
 
   .eventInfo {
     display: flex;
