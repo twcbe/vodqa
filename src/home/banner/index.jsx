@@ -25,7 +25,7 @@ export class Banner extends Component {
     const bannerStatus = upcomingEditions.length > 0 ? "active" : "inactive";
 
     const pastEditions = event.editions.filter(
-      (edition) => edition.endTime < new Date().valueOf()
+      (edition) => edition.startTime < new Date().valueOf()
     );
 
     const getMaxEdition = (editions) => {

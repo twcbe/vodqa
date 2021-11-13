@@ -13,7 +13,7 @@ export class RecentEditions extends Component {
     const editions = this.props.editions;
 
     const pastEditions = editions.filter(
-      (edition) => edition.endTime < new Date().valueOf()
+      (edition) => edition.startTime < new Date().valueOf()
     );
     const recentEditions = pastEditions.slice(0, 4);
 
