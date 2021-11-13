@@ -424,7 +424,7 @@ class Banner extends react__WEBPACK_IMPORTED_MODULE_0__.Component {
     if (!event || !event.editions || event.editions <= 0) return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null);
     const upcomingEditions = event.editions.filter(edition => edition.startTime > new Date().valueOf());
     const bannerStatus = upcomingEditions.length > 0 ? "active" : "inactive";
-    const pastEditions = event.editions.filter(edition => edition.endTime < new Date().valueOf());
+    const pastEditions = event.editions.filter(edition => edition.startTime < new Date().valueOf());
 
     const getMaxEdition = editions => {
       return Math.max(...editions.map(edition => edition.id));
@@ -894,7 +894,7 @@ class RecentEditions extends react__WEBPACK_IMPORTED_MODULE_0__.Component {
 
   render() {
     const editions = this.props.editions;
-    const pastEditions = editions.filter(edition => edition.endTime < new Date().valueOf());
+    const pastEditions = editions.filter(edition => edition.startTime < new Date().valueOf());
     const recentEditions = pastEditions.slice(0, 4);
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
       id: "editions",
@@ -1444,4 +1444,4 @@ module.exports = __webpack_require__.p + "1685b0c4fe16d1774c56.svg";
 /******/ var __webpack_exports__ = __webpack_require__.O();
 /******/ }
 ]);
-//# sourceMappingURL=main.07da9803eac4b34a0cab.js.map
+//# sourceMappingURL=main.a51d31f1a8d2504f8d3e.js.map
