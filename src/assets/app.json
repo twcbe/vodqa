@@ -38,7 +38,7 @@
       "startTime": 1651836600000,
       "endTime": 1651839300000,
       "registration": {
-        "link": "https://www.meetup.com/vodqa-coimbatore/events/285434879/"
+        "link": "https://www.meetup.com/vodqa-coimbatore/events/281521796/"
       },
       "sessions": [
         {
@@ -66,7 +66,7 @@
               "description": "Understanding individual responsibilities and the competencies people need to upskill for a project needs",
               "speaker": "Abinandan - Quality Analyst, Thoughtworks.",
               "startTime": 1651839300000,
-              "endTime": 1651840200000,
+              "endTime": 1651841100000,
               "slides": "https://docs.google.com/presentation/d/e/2PACX-1vRMFZ4n_O6MGoKyK8XqwCzYZ05oB8Yn_xAK-omYWcGHe1NIr3VAQiOCNTdt1UDPIA/embed?start=false&loop=false&delayms=3000",
               "speakers": [
                 {
@@ -83,18 +83,13 @@
             {
               "title": "Contract testing using PACT",
               "description": "What and How to test contracts using PACT in microservices based application",
-              "speaker": "Anil Soni and Lovish Pahwa, Thoughtworks.",
-              "startTime": 1651840200000,
-              "endTime": 1651842900000,
+              "speaker": "Anil Soni - Quality Analyst, Thoughtworks.",
+              "startTime": 1651841100000,
+              "endTime": 1651843800000,
               "speakers": [
                 {
                   "name": "Anil Soni",
                   "desgination": "Quality Analyst, Thoughtworks",
-                  "profilePicture": "profile/anil.png"
-                },
-                {
-                  "name": "Lovish Pahwa",
-                  "desgination": "Developer, Thoughtworks",
                   "profilePicture": "profile/anil.png"
                 }
               ]
@@ -107,8 +102,8 @@
               "title": "Pac it and Mock it - Strategy to mock the functional UI Journey",
               "description": "Demonstrate an application behaviour controlled to switch to mock Journey or actual Journey",
               "speaker": "Shivaling Sannalli - Quality Analyst, Thoughtworks.",
-              "startTime": 1651842900000,
-              "endTime": 1651844700000,
+              "startTime": 1651843800000,
+              "endTime": 1651845600000,
               "speakers": [
                 {
                   "name": "Shivaling Sannalli",
