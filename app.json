@@ -32,6 +32,96 @@
   },
   "editions": [
     {
+      "id": 14,
+      "title": "vodQA May 2022",
+      "type": "Talk | Demo",
+      "startTime": 1651836600000,
+      "endTime": 1651839300000,
+      "registration": {
+        "link": "https://www.meetup.com/vodqa-coimbatore/events/285434879/"
+      },
+      "sessions": [
+        {
+          "talks": [
+            {
+              "title": "Automation for XR apps",
+              "description": "Introduction about AltUnity Tester and demo on XR app automation",
+              "speaker": "Jayachandran S - Quality Analyst, Thoughtworks.",
+              "startTime": 1651836600000,
+              "endTime": 1651839300000,
+              "speakers": [
+                {
+                  "name": "Jayachandran S",
+                  "desgination": "Quality Analyst, Thoughtworks",
+                  "profilePicture": "profile/jc.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "talks": [
+            {
+              "title": "Understanding Team Roles and Responsibilities",
+              "description": "Understanding individual responsibilities and the competencies people need to upskill for a project needs",
+              "speaker": "Abinandan - Quality Analyst, Thoughtworks.",
+              "startTime": 1651839300000,
+              "endTime": 1651840200000,
+              "slides": "https://docs.google.com/presentation/d/e/2PACX-1vRMFZ4n_O6MGoKyK8XqwCzYZ05oB8Yn_xAK-omYWcGHe1NIr3VAQiOCNTdt1UDPIA/embed?start=false&loop=false&delayms=3000",
+              "speakers": [
+                {
+                  "name": "Abinandan",
+                  "desgination": "Quality Analyst, Thoughtworks",
+                  "profilePicture": "profile/abinandan.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "talks": [
+            {
+              "title": "Contract testing using PACT",
+              "description": "What and How to test contracts using PACT in microservices based application",
+              "speaker": "Anil Soni and Lovish Pahwa, Thoughtworks.",
+              "startTime": 1651840200000,
+              "endTime": 1651842900000,
+              "speakers": [
+                {
+                  "name": "Anil Soni",
+                  "desgination": "Quality Analyst, Thoughtworks",
+                  "profilePicture": "profile/anil.png"
+                },
+                {
+                  "name": "Lovish Pahwa",
+                  "desgination": "Developer, Thoughtworks",
+                  "profilePicture": "profile/lovish.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "talks": [
+            {
+              "title": "Pac it and Mock it - Strategy to mock the functional UI Journey",
+              "description": "Demonstrate an application behaviour controlled to switch to mock Journey or actual Journey",
+              "speaker": "Shivaling Sannalli - Quality Analyst, Thoughtworks.",
+              "startTime": 1651842900000,
+              "endTime": 1651844700000,
+              "speakers": [
+                {
+                  "name": "Shivaling Sannalli",
+                  "desgination": "Quality Analyst, Thoughtworks",
+                  "profilePicture": "profile/shivaling.png"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": 13,
       "title": "vodQA Shots November 2021",
       "type": "Talk | Demo",
