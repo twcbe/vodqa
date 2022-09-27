@@ -32,6 +32,77 @@
   },
   "editions": [
     {
+      "id": 15,
+      "title": "vodQA Shots October 2022",
+      "type": "Talk | Demo",
+      "startTime": 1665054000000,
+      "endTime": 1665060300000,
+      "registration": {
+        "link": "https://www.meetup.com/vodqa-coimbatore/events/285434879/"
+      },
+      "sessions": [
+        {
+          "talks": [
+            {
+              "title": "API Test Automation using Karate Framework by BDD approach",
+              "description": "Talk and Demo on basics of API Automation using Karate Framework by BDD approach ",
+              "speaker": "Manoj Karthick & Vishwaja Tambakhe, Quality Analyst, Thoughtworks.",
+              "startTime": 1665054600000,
+              "endTime": 1665056400000,
+              "speakers": [
+                {
+                  "name": "Manoj Karthick",
+                  "desgination": "Quality Analyst, Thoughtworks",
+                  "profilePicture": "profile/manoj.png"
+                },
+                {
+                  "name": "Vishwaja Tambakhe",
+                  "desgination": "Quality Analyst, Thoughtworks",
+                  "profilePicture": "profile/vishwaja.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "talks": [
+            {
+              "title": "Test strategy for Chatbot",
+              "description": "A lightning talk about the views, testing levels and libraries to consider on testing a chatbot",
+              "speaker": "Monika Sharma - Quality Analyst, Thoughtworks.",
+              "startTime": 1665056400000,
+              "endTime": 1665057300000,
+              "speakers": [
+                {
+                  "name": "Monika Sharma",
+                  "desgination": "Quality Analyst, Thoughtworks",
+                  "profilePicture": "profile/monika.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "talks": [
+            {
+              "title": "Testing Could Native Applications",
+              "description": "A talk on how Kubernetes help in Testing Cloud Native Apps and what Software testing is all about in Cloud Native Applications",
+              "speaker": "Lipika Jaskaran Dugar - Quality Analyst, Thoughtworks.",
+              "startTime": 1665057300000,
+              "endTime": 1665060000000,
+              "speakers": [
+                {
+                  "name": "Lipika Jaskaran Dugar",
+                  "desgination": "Quality Analyst, Thoughtworks",
+                  "profilePicture": "profile/lipika.png"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": 14,
       "title": "vodQA May 2022",
       "type": "Talk | Demo",

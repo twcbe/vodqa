@@ -87,10 +87,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "EditionCard": function() { return /* binding */ EditionCard; }
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./index.scss */ "./src/edition/index.scss");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.scss */ "./src/edition/index.scss");
 
 
 
@@ -122,7 +122,7 @@ class EditionCard extends react__WEBPACK_IMPORTED_MODULE_0__.Component {
     };
 
     const talksCount = getTalksCount(sessions) || 0;
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.HashRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.Link, {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.HashRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {
       key: edition.id,
       className: "editionCard event-bg",
       to: "./edition?editionId=".concat(edition.id)
@@ -157,7 +157,7 @@ class EditionCard extends react__WEBPACK_IMPORTED_MODULE_0__.Component {
 
 }
 EditionCard.propTypes = {
-  edition: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().object.isRequired)
+  edition: (prop_types__WEBPACK_IMPORTED_MODULE_3___default().object.isRequired)
 };
 
 /***/ }),
@@ -173,12 +173,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "EditionDetails": function() { return /* binding */ EditionDetails; }
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _home_banner_index_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../home/banner/index.jsx */ "./src/home/banner/index.jsx");
-/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../utils.js */ "./src/utils.js");
-/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./index.scss */ "./src/edition/index.scss");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _home_banner_index_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../home/banner/index.jsx */ "./src/home/banner/index.jsx");
+/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../utils.js */ "./src/utils.js");
+/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./index.scss */ "./src/edition/index.scss");
 
 
 
@@ -197,7 +197,7 @@ class EditionDetails extends react__WEBPACK_IMPORTED_MODULE_0__.Component {
 
   render() {
     const event = this.props.config;
-    const editionId = (0,_utils_js__WEBPACK_IMPORTED_MODULE_3__.getParamValueFromURL)("editionId") || 1;
+    const editionId = (0,_utils_js__WEBPACK_IMPORTED_MODULE_2__.getParamValueFromURL)("editionId") || 1;
     const editions = event.editions;
     const edition = editions.find(e => e.id === Number(editionId));
     if (!edition) return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Edition not found");
@@ -213,7 +213,7 @@ class EditionDetails extends react__WEBPACK_IMPORTED_MODULE_0__.Component {
         className: "item"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
         className: "date"
-      }, "Edition ", edition.id, " | ", (0,_utils_js__WEBPACK_IMPORTED_MODULE_3__.getFormattedDate)(startTime)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+      }, "Edition ", edition.id, " | ", (0,_utils_js__WEBPACK_IMPORTED_MODULE_2__.getFormattedDate)(startTime)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
         className: "title"
       }, title)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
         className: "stats"
@@ -268,13 +268,13 @@ class EditionDetails extends react__WEBPACK_IMPORTED_MODULE_0__.Component {
         className: "talk-title"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
         className: "bold"
-      }, (0,_utils_js__WEBPACK_IMPORTED_MODULE_3__.padZeros)(index + 1, 2)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+      }, (0,_utils_js__WEBPACK_IMPORTED_MODULE_2__.padZeros)(index + 1, 2)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
         className: "light"
-      }, "/", (0,_utils_js__WEBPACK_IMPORTED_MODULE_3__.padZeros)(talks.length, 2), " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+      }, "/", (0,_utils_js__WEBPACK_IMPORTED_MODULE_2__.padZeros)(talks.length, 2), " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
         className: "bold"
       }, talk.title)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
         className: "timeSlot light"
-      }, talk.startTime && (0,_utils_js__WEBPACK_IMPORTED_MODULE_3__.getLocalTime)(new Date(talk.startTime)), talk.startTime && talk.endTime && " - ".concat((0,_utils_js__WEBPACK_IMPORTED_MODULE_3__.getLocalTime)(new Date(talk.endTime)))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+      }, talk.startTime && (0,_utils_js__WEBPACK_IMPORTED_MODULE_2__.getLocalTime)(new Date(talk.startTime)), talk.startTime && talk.endTime && " - ".concat((0,_utils_js__WEBPACK_IMPORTED_MODULE_2__.getLocalTime)(new Date(talk.endTime)))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
         className: "description"
       }, talk.description), talk.speakers && renderSpeakerInfo(talk.speakers), talk.recording && talk.slides && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
         className: "button-wrapper"
@@ -298,12 +298,12 @@ class EditionDetails extends react__WEBPACK_IMPORTED_MODULE_0__.Component {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
       id: "event-home",
       className: "event-home"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_home_banner_index_jsx__WEBPACK_IMPORTED_MODULE_2__.Banner, {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_home_banner_index_jsx__WEBPACK_IMPORTED_MODULE_1__.Banner, {
       event: event,
       small: true
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
       className: "view-all"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.HashRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.Link, {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.HashRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.Link, {
       to: "./list"
     }, "< Back to all editions"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
       className: "editionDetails"
@@ -314,8 +314,8 @@ class EditionDetails extends react__WEBPACK_IMPORTED_MODULE_0__.Component {
 
 }
 EditionDetails.propTypes = {
-  config: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().object.isRequired),
-  location: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().object)
+  config: (prop_types__WEBPACK_IMPORTED_MODULE_5___default().object.isRequired),
+  location: (prop_types__WEBPACK_IMPORTED_MODULE_5___default().object)
 };
 
 /***/ }),
@@ -331,11 +331,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "PastEditions": function() { return /* binding */ PastEditions; }
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _home_banner_index_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../home/banner/index.jsx */ "./src/home/banner/index.jsx");
-/* harmony import */ var _card_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./card.jsx */ "./src/edition/card.jsx");
-/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./index.scss */ "./src/edition/index.scss");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _home_banner_index_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../home/banner/index.jsx */ "./src/home/banner/index.jsx");
+/* harmony import */ var _card_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./card.jsx */ "./src/edition/card.jsx");
+/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./index.scss */ "./src/edition/index.scss");
 
 
 
@@ -365,7 +365,7 @@ class PastEditions extends react__WEBPACK_IMPORTED_MODULE_0__.Component {
       }, "All Editions (".concat(pastEditions.length, ")")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
         className: "editions"
       }, pastEditions.map(edition => {
-        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_card_jsx__WEBPACK_IMPORTED_MODULE_3__.EditionCard, {
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_card_jsx__WEBPACK_IMPORTED_MODULE_2__.EditionCard, {
           key: edition.id,
           edition: edition
         });
@@ -375,7 +375,7 @@ class PastEditions extends react__WEBPACK_IMPORTED_MODULE_0__.Component {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
       id: "event-home",
       className: "event-home"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_home_banner_index_jsx__WEBPACK_IMPORTED_MODULE_2__.Banner, {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_home_banner_index_jsx__WEBPACK_IMPORTED_MODULE_1__.Banner, {
       event: event,
       small: true
     }), renderEditions(), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
@@ -385,7 +385,7 @@ class PastEditions extends react__WEBPACK_IMPORTED_MODULE_0__.Component {
 
 }
 PastEditions.propTypes = {
-  config: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().object.isRequired)
+  config: (prop_types__WEBPACK_IMPORTED_MODULE_4___default().object.isRequired)
 };
 
 /***/ }),
@@ -401,12 +401,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "Banner": function() { return /* binding */ Banner; }
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _talks_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./talks.jsx */ "./src/home/banner/talks.jsx");
-/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../utils.js */ "./src/utils.js");
-/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./index.scss */ "./src/home/banner/index.scss");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _talks_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./talks.jsx */ "./src/home/banner/talks.jsx");
+/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../utils.js */ "./src/utils.js");
+/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./index.scss */ "./src/home/banner/index.scss");
 
 
 
@@ -444,7 +444,7 @@ class Banner extends react__WEBPACK_IMPORTED_MODULE_0__.Component {
       const links = ["Editions", "Collaborate", "About Us", "Contact Us"];
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
         className: "topnav"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.HashRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.Link, {
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.HashRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.Link, {
         className: "item logo",
         to: "./"
       }, name)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
@@ -514,7 +514,7 @@ class Banner extends react__WEBPACK_IMPORTED_MODULE_0__.Component {
         className: "value"
       }, editionDay), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
         className: "text"
-      }, (0,_utils_js__WEBPACK_IMPORTED_MODULE_3__.getOrdinalNum)(editionDay))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+      }, (0,_utils_js__WEBPACK_IMPORTED_MODULE_2__.getOrdinalNum)(editionDay))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
         className: "text"
       }, editionDate.toLocaleString("en-IN", {
         month: "short"
@@ -522,7 +522,7 @@ class Banner extends react__WEBPACK_IMPORTED_MODULE_0__.Component {
         className: "item"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
         className: "value"
-      }, editionDate.getHours() % 12, " :", " ", (0,_utils_js__WEBPACK_IMPORTED_MODULE_3__.padZeros)(editionDate.getMinutes(), 2)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+      }, editionDate.getHours() % 12, " :", " ", (0,_utils_js__WEBPACK_IMPORTED_MODULE_2__.padZeros)(editionDate.getMinutes(), 2)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
         className: "text"
       }, editionDate.getHours() < 12 ? "AM" : "PM"))));
     };
@@ -553,7 +553,7 @@ class Banner extends react__WEBPACK_IMPORTED_MODULE_0__.Component {
         href: upcomingEdition.registration.link,
         target: "_blank",
         rel: "noreferrer"
-      }, "RSVP now")), !smallBanner && renderEditionStats(upcomingEdition), !smallBanner && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_talks_jsx__WEBPACK_IMPORTED_MODULE_2__.Talks, {
+      }, "RSVP now")), !smallBanner && renderEditionStats(upcomingEdition), !smallBanner && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_talks_jsx__WEBPACK_IMPORTED_MODULE_1__.Talks, {
         sessions: upcomingEdition.sessions
       }));
     };
@@ -569,8 +569,8 @@ Banner.defaultProps = {
   small: false
 };
 Banner.propTypes = {
-  event: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().object.isRequired),
-  small: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().bool)
+  event: (prop_types__WEBPACK_IMPORTED_MODULE_5___default().object.isRequired),
+  small: (prop_types__WEBPACK_IMPORTED_MODULE_5___default().bool)
 };
 
 /***/ }),
@@ -724,11 +724,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "Home": function() { return /* binding */ Home; }
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _banner_index_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./banner/index.jsx */ "./src/home/banner/index.jsx");
-/* harmony import */ var _recent_editions_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./recent-editions.jsx */ "./src/home/recent-editions.jsx");
-/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./index.scss */ "./src/home/index.scss");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _banner_index_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./banner/index.jsx */ "./src/home/banner/index.jsx");
+/* harmony import */ var _recent_editions_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./recent-editions.jsx */ "./src/home/recent-editions.jsx");
+/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./index.scss */ "./src/home/index.scss");
 
 
 
@@ -854,16 +854,16 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_0__.Component {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
       id: "event-home",
       className: "event-home"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_banner_index_jsx__WEBPACK_IMPORTED_MODULE_2__.Banner, {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_banner_index_jsx__WEBPACK_IMPORTED_MODULE_1__.Banner, {
       event: event
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_recent_editions_jsx__WEBPACK_IMPORTED_MODULE_3__.RecentEditions, {
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_recent_editions_jsx__WEBPACK_IMPORTED_MODULE_2__.RecentEditions, {
       editions: event.editions
     }), renderCollaborate(), renderAboutUs(), renderFooter());
   }
 
 }
 Home.propTypes = {
-  config: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().object.isRequired)
+  config: (prop_types__WEBPACK_IMPORTED_MODULE_4___default().object.isRequired)
 };
 
 /***/ }),
@@ -879,10 +879,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "RecentEditions": function() { return /* binding */ RecentEditions; }
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _edition_card_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../edition/card.jsx */ "./src/edition/card.jsx");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _edition_card_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../edition/card.jsx */ "./src/edition/card.jsx");
 
 
 
@@ -901,13 +901,13 @@ class RecentEditions extends react__WEBPACK_IMPORTED_MODULE_0__.Component {
       className: "recentEditions"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
       className: "banner"
-    }, "Recent Editions"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.HashRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.Link, {
+    }, "Recent Editions"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.HashRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {
       className: "view-all",
       to: "./list"
     }, "View All")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
       className: "editions"
     }, recentEditions.map(edition => {
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_edition_card_jsx__WEBPACK_IMPORTED_MODULE_2__.EditionCard, {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_edition_card_jsx__WEBPACK_IMPORTED_MODULE_1__.EditionCard, {
         key: edition.id,
         edition: edition
       });
@@ -916,7 +916,7 @@ class RecentEditions extends react__WEBPACK_IMPORTED_MODULE_0__.Component {
 
 }
 RecentEditions.propTypes = {
-  editions: prop_types__WEBPACK_IMPORTED_MODULE_1___default().arrayOf((prop_types__WEBPACK_IMPORTED_MODULE_1___default().object)).isRequired
+  editions: prop_types__WEBPACK_IMPORTED_MODULE_3___default().arrayOf((prop_types__WEBPACK_IMPORTED_MODULE_3___default().object)).isRequired
 };
 
 /***/ }),
