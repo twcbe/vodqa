@@ -32,6 +32,82 @@
   },
   "editions": [
     {
+      "id": 16,
+      "title": "vodQA Shots April 2023",
+      "type": "Talk | Demo",
+      "startTime": 1681988400000,
+      "endTime": 1681994700000,
+      "registration": {
+        "link": "https://www.meetup.com/vodqa-coimbatore/events/292425581"
+      },
+      "sessions": [
+        {
+          "talks": [
+            {
+              "title": "OAuth 2.0 workflow and validations",
+              "description": "A talk about OAuth 2.0 workflow and validations ",
+              "speaker": "Shubhashree Deshpande & Hari Gautam, Quality Analyst, Thoughtworks.",
+              "startTime": 1681988400000,
+              "endTime": 1681992000000,
+              "speakers": [
+                {
+                  "name": "Shubhashree Deshpande",
+                  "desgination": "Quality Analyst, Thoughtworks",
+                  "profilePicture": "profile/ShubhashreeDeshpande.png"
+                },
+                {
+                  "name": "Hari Gautam",
+                  "desgination": "Quality Analyst, Thoughtworks",
+                  "profilePicture": "profile/HariGautam.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "talks": [
+            {
+              "title": "Deep dive into iOS Testing",
+              "description": "A brief talk about iOS testing",
+              "speaker": "Monika Sharma - Quality Analyst, Thoughtworks.",
+              "startTime": 1681992000000,
+              "endTime": 1681992900000,
+              "speakers": [
+                {
+                  "name": "Rajeshkumar Ayyadurai",
+                  "desgination": "Quality Analyst, Thoughtworks",
+                  "profilePicture": "profile/RajeshkumarAyyadurai.png"
+                },
+                {
+                  "name": "Usha Sai Chintha",
+                  "desgination": "Quality Analyst, Thoughtworks",
+                  "profilePicture": "profile/UshaSaiChintha.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "talks": [
+            {
+              "title": "Performance test strategy in Unity project",
+              "description": "A lightning talk about the Performance test strategy for the Augmented and Virtual reality projects",
+              "speaker": "Usha R - Quality Analyst, Thoughtworks.",
+              "startTime": 1681992900000,
+              "endTime": 1681993800000,
+              "speakers": [
+                {
+                  "name": "Usha R",
+                  "desgination": "Quality Analyst, Thoughtworks",
+                  "profilePicture": "profile/UshaR.png"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": 15,
       "title": "vodQA Shots October 2022",
       "type": "Talk | Demo",
