@@ -36,7 +36,7 @@
       "title": "vodQA Shots April 2023",
       "type": "Talk | Demo",
       "startTime": 1681988400000,
-      "endTime": 1681994700000,
+      "endTime": 1681993800000,
       "registration": {
         "link": "https://www.meetup.com/vodqa-coimbatore/events/292425581"
       },
@@ -44,34 +44,11 @@
         {
           "talks": [
             {
-              "title": "OAuth 2.0 workflow and validations",
-              "description": "A talk about OAuth 2.0 workflow and validations ",
-              "speaker": "Shubhashree Deshpande & Hari Gautam, Quality Analyst, Thoughtworks.",
-              "startTime": 1681988400000,
-              "endTime": 1681992000000,
-              "speakers": [
-                {
-                  "name": "Shubhashree Deshpande",
-                  "desgination": "Quality Analyst, Thoughtworks",
-                  "profilePicture": "profile/ShubhashreeDeshpande.png"
-                },
-                {
-                  "name": "Hari Gautam",
-                  "desgination": "Quality Analyst, Thoughtworks",
-                  "profilePicture": "profile/HariGautam.png"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "talks": [
-            {
               "title": "Deep dive into iOS Testing",
-              "description": "A brief talk about iOS testing",
-              "speaker": "Monika Sharma - Quality Analyst, Thoughtworks.",
-              "startTime": 1681992000000,
-              "endTime": 1681992900000,
+              "description": "A quick comparison of most well-known iOS testing tools and a brief introduction to the iOS automation framework called XCUITest",
+              "speaker": "Rajeshkumar Ayyadurai and Usha Sai Chintha",
+              "startTime": 1681989300000,
+              "endTime": 1681992300000,
               "speakers": [
                 {
                   "name": "Rajeshkumar Ayyadurai",
@@ -91,9 +68,9 @@
           "talks": [
             {
               "title": "Performance test strategy in Unity project",
-              "description": "A lightning talk about the Performance test strategy for the Augmented and Virtual reality projects",
+              "description": "A lightning talk about the performance metrics and how to create benchmarks with the Unity tools which are widely used in gaming/AR/VR projects",
               "speaker": "Usha R - Quality Analyst, Thoughtworks.",
-              "startTime": 1681992900000,
+              "startTime": 1681992600000,
               "endTime": 1681993800000,
               "speakers": [
                 {
